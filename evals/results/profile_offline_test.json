@@ -1,0 +1,156 @@
+{
+ "metrics": {
+  "diagnoses": {
+   "precision": 0.818,
+   "recall": 0.9,
+   "f1": 0.857,
+   "support": 10
+  },
+  "medications": {
+   "precision": 0.5,
+   "recall": 0.273,
+   "f1": 0.353,
+   "support": 11
+  },
+  "absent": {
+   "precision": 1.0,
+   "recall": 0.4,
+   "f1": 0.571,
+   "support": 5
+  },
+  "labs_name_and_value": {
+   "precision": 1.0,
+   "recall": 0.923,
+   "f1": 0.96,
+   "support": 13
+  },
+  "age_accuracy": 0.875,
+  "sex_accuracy": 1.0,
+  "main_diagnosis_first_accuracy": 1.0,
+  "n_patients": 8
+ },
+ "errors": [
+  {
+   "id": "t01",
+   "field": "diagnoses",
+   "missed": [],
+   "invented": [
+    "myocardial infarction"
+   ]
+  },
+  {
+   "id": "t01",
+   "field": "medications",
+   "missed": [
+    "sacubitril/valsartan",
+    "carvedilol",
+    "spironolactone"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t01",
+   "field": "labs",
+   "missed": "lvef",
+   "got": null
+  },
+  {
+   "id": "t02",
+   "field": "medications",
+   "missed": [
+    "ocrelizumab"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t03",
+   "field": "medications",
+   "missed": [
+    "enzalutamide"
+   ],
+   "invented": [
+    "chemotherapy"
+   ]
+  },
+  {
+   "id": "t03",
+   "field": "absent",
+   "missed": [
+    "visceral metastases"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t04",
+   "field": "absent",
+   "missed": [
+    "deep brain stimulation"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t05",
+   "field": "medications",
+   "missed": [],
+   "invented": [
+    "biologic"
+   ]
+  },
+  {
+   "id": "t05",
+   "field": "absent",
+   "missed": [
+    "ostomy"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t06",
+   "field": "diagnoses",
+   "missed": [
+    "hypothyroidism"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t06",
+   "field": "medications",
+   "missed": [
+    "levothyroxine"
+   ],
+   "invented": [
+    "immunotherapy"
+   ]
+  },
+  {
+   "id": "t07",
+   "field": "diagnoses",
+   "missed": [],
+   "invented": [
+    "stroke"
+   ]
+  },
+  {
+   "id": "t07",
+   "field": "medications",
+   "missed": [
+    "estrogen-containing contraceptive"
+   ],
+   "invented": []
+  },
+  {
+   "id": "t08",
+   "field": "medications",
+   "missed": [
+    "tiotropium"
+   ],
+   "invented": []
+  }
+ ],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 0.0,
+ "date": "2026-11-16"
+}

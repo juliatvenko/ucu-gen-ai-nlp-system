@@ -1,0 +1,259 @@
+{
+ "metrics": {
+  "per_class": {
+   "met": {
+    "precision": 0.833,
+    "recall": 0.484,
+    "f1": 0.612,
+    "support": 31
+   },
+   "not_met": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.667,
+    "support": 18
+   },
+   "insufficient": {
+    "precision": 0.378,
+    "recall": 0.933,
+    "f1": 0.538,
+    "support": 15
+   },
+   "macro_f1": 0.606
+  },
+  "macro_f1": 0.606,
+  "accuracy": 0.594,
+  "accuracy_95ci": [
+   0.471,
+   0.705
+  ],
+  "n_pairs": 64,
+  "guard_abstentions": 0,
+  "evidence_verbatim_rate": 1.0,
+  "evidence_matches_gold_when_correct": 0.958,
+  "flip_rate_on_definitive": 0.041,
+  "invented_decision_rate_on_insufficient": 0.067,
+  "followup_resolution_rate": 0.0,
+  "followups": 8,
+  "specific_question_rate": 0.267,
+  "verdict_agreement_with_gold_statuses": 0.5,
+  "missed_blocks_rate": 0.2,
+  "gold_blocked_patients": 5
+ },
+ "errors": [
+  {
+   "id": "t01-0",
+   "criterion": "Left ventricular ejection fraction of 40% or less",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t01-1",
+   "criterion": "NYHA class II to IV symptoms",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t01-5",
+   "criterion": "Myocardial infarction within the last 3 months",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t01-6",
+   "criterion": "Implanted cardiac device",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t02-3",
+   "criterion": "At least one relapse in the previous 12 months",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t02-5",
+   "criterion": "Primary progressive multiple sclerosis",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t03-2",
+   "criterion": "Prior taxane chemotherapy",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t03-5",
+   "criterion": "Visceral metastases",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t04-1",
+   "criterion": "Hoehn and Yahr stage 1 to 3",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t04-2",
+   "criterion": "At least 2 hours of daily off time",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t04-5",
+   "criterion": "Prior deep brain stimulation",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t04-6",
+   "criterion": "Current use of insulin",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t05-0",
+   "criterion": "Moderately to severely active Crohn's disease with CDAI between 220 and 450",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t05-1",
+   "criterion": "Inadequate response to an anti-TNF agent",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t05-2",
+   "criterion": "Current ostomy",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t05-3",
+   "criterion": "Pregnancy",
+   "gold": "not_met",
+   "pred": "met",
+   "evidence": "Pregnancy test was negative today.",
+   "source": "rule:concept"
+  },
+  {
+   "id": "t05-4",
+   "criterion": "Prednisone dose above 30 mg per day",
+   "gold": "not_met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t06-1",
+   "criterion": "BRAF V600 mutation",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t06-2",
+   "criterion": "Prior anti-PD-1 therapy",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t06-4",
+   "criterion": "Grade 3 or higher immune-related adverse event on prior immunotherapy",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t06-6",
+   "criterion": "History of uveal melanoma",
+   "gold": "insufficient",
+   "pred": "met",
+   "evidence": "Female, 59, stage IV BRAF V600E melanoma with lung metastases.",
+   "source": "rule:concept"
+  },
+  {
+   "id": "t07-1",
+   "criterion": "At least 15 headache days per month",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t07-2",
+   "criterion": "Failure of at least two preventive medications",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t08-2",
+   "criterion": "Smoking history of at least 10 pack-years",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  },
+  {
+   "id": "t08-3",
+   "criterion": "Current smoker",
+   "gold": "not_met",
+   "pred": "met",
+   "evidence": "Former smoker, quit in 2015 after 50 pack-years.",
+   "source": "rule:concept"
+  },
+  {
+   "id": "t08-5",
+   "criterion": "Receiving triple inhaled therapy",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "rule"
+  }
+ ],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 0.0,
+ "date": "2026-11-16"
+}

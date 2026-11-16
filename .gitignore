@@ -1,0 +1,12 @@
+.venv/
+.env
+.cache/
+traces/
+data/raw/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+web/node_modules/
+genai-assignment-1.md
+GenAI. Assignment 1. Build an NLP System.pdf

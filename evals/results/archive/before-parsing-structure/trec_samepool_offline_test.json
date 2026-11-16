@@ -1,0 +1,37 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.552,
+   "recall": 0.974,
+   "f1": 0.705,
+   "support": 76
+  },
+  "excluded_trials_caught": 0.2,
+  "excluded_trials_caught_95ci": [
+   0.125,
+   0.304
+  ],
+  "precision_if_always_open": 0.503,
+  "ndcg_at_10_system": 0.811,
+  "ndcg_at_10_random": 0.754,
+  "verdicts_by_gold_label": {
+   "excluded": {
+    "insufficient_data": 60,
+    "not_eligible": 15
+   },
+   "eligible": {
+    "insufficient_data": 71,
+    "not_eligible": 2,
+    "needs_more_data": 2,
+    "likely_eligible": 1
+   },
+   "not_relevant": {
+    "not_eligible": 9,
+    "insufficient_data": 67
+   }
+  },
+  "topics": 38,
+  "per_label_sample": 2
+ },
+ "errors": []
+}

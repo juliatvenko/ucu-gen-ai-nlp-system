@@ -1,0 +1,90 @@
+{
+ "metrics": {
+  "diagnoses": {
+   "precision": 0.923,
+   "recall": 1.0,
+   "f1": 0.96,
+   "support": 12
+  },
+  "medications": {
+   "precision": 0.818,
+   "recall": 0.818,
+   "f1": 0.818,
+   "support": 11
+  },
+  "absent": {
+   "precision": 1.0,
+   "recall": 0.778,
+   "f1": 0.875,
+   "support": 9
+  },
+  "labs_name_and_value": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 19
+  },
+  "age_accuracy": 1.0,
+  "sex_accuracy": 1.0,
+  "main_diagnosis_first_accuracy": 1.0,
+  "n_patients": 8
+ },
+ "errors": [
+  {
+   "id": "d03",
+   "field": "medications",
+   "missed": [
+    "salmeterol"
+   ],
+   "invented": [
+    "corticosteroid"
+   ]
+  },
+  {
+   "id": "d04",
+   "field": "diagnoses",
+   "missed": [],
+   "invented": [
+    "myocardial infarction"
+   ]
+  },
+  {
+   "id": "d06",
+   "field": "absent",
+   "missed": [
+    "psychosis"
+   ],
+   "invented": []
+  },
+  {
+   "id": "d07",
+   "field": "medications",
+   "missed": [
+    "osimertinib"
+   ],
+   "invented": []
+  },
+  {
+   "id": "d08",
+   "field": "medications",
+   "missed": [],
+   "invented": [
+    "biologic"
+   ]
+  },
+  {
+   "id": "d08",
+   "field": "absent",
+   "missed": [
+    "cancer"
+   ],
+   "invented": []
+  }
+ ],
+ "mode": "offline",
+ "split": "dev",
+ "limit": null,
+ "model": null,
+ "seconds": 0.0,
+ "date": "2026-11-16"
+}

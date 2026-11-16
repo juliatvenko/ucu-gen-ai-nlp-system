@@ -1,0 +1,64 @@
+{
+ "metrics": {
+  "diagnoses": {
+   "precision": 0.833,
+   "recall": 1.0,
+   "f1": 0.909,
+   "support": 10
+  },
+  "medications": {
+   "precision": 0.917,
+   "recall": 1.0,
+   "f1": 0.957,
+   "support": 11
+  },
+  "absent": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 5
+  },
+  "labs_name_and_value": {
+   "precision": 0.867,
+   "recall": 1.0,
+   "f1": 0.929,
+   "support": 13
+  },
+  "age_accuracy": 1.0,
+  "sex_accuracy": 1.0,
+  "main_diagnosis_first_accuracy": 1.0,
+  "n_patients": 8
+ },
+ "errors": [
+  {
+   "id": "t01",
+   "field": "diagnoses",
+   "missed": [],
+   "invented": [
+    "ischemic cardiomyopathy"
+   ]
+  },
+  {
+   "id": "t03",
+   "field": "diagnoses",
+   "missed": [],
+   "invented": [
+    "bone lesions"
+   ]
+  },
+  {
+   "id": "t08",
+   "field": "medications",
+   "missed": [],
+   "invented": [
+    "home oxygen"
+   ]
+  }
+ ],
+ "mode": "llm",
+ "split": "test",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 31.1,
+ "date": "2026-11-04"
+}

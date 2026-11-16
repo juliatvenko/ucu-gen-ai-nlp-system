@@ -1,0 +1,46 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.688,
+   "recall": 0.724,
+   "f1": 0.705,
+   "support": 76
+  },
+  "excluded_trials_caught": 0.667,
+  "excluded_trials_caught_95ci": [
+   0.554,
+   0.763
+  ],
+  "precision_if_always_open": 0.503,
+  "ndcg_at_10_system": 0.841,
+  "ndcg_at_10_random": 0.723,
+  "verdicts_by_gold_label": {
+   "excluded": {
+    "insufficient_data": 15,
+    "not_eligible": 50,
+    "needs_more_data": 8,
+    "likely_eligible": 2
+   },
+   "eligible": {
+    "needs_more_data": 28,
+    "insufficient_data": 25,
+    "not_eligible": 21,
+    "likely_eligible": 2
+   },
+   "not_relevant": {
+    "needs_more_data": 9,
+    "not_eligible": 51,
+    "insufficient_data": 16
+   }
+  },
+  "topics": 38,
+  "per_label_sample": 2
+ },
+ "errors": [],
+ "mode": "llm",
+ "split": "test",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 2093.6,
+ "date": "2026-11-04"
+}

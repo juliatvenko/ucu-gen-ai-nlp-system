@@ -1,0 +1,127 @@
+{
+ "metrics": {
+  "trec_query_recall_over_judged_pool": 0.278,
+  "trec_query_precision_over_judged_pool": 0.529,
+  "trec_recall_at_100_of_live_registry": 0.008,
+  "trec_topics_without_query": 13,
+  "trec_topics": 37,
+  "pool_ndcg_at_10_rerank": 0.48,
+  "pool_ndcg_at_10_random": 0.409,
+  "vignette_on_topic_precision_at_10": 1.0,
+  "vignette_results_shown": 80,
+  "hard_filter_violations": 0
+ },
+ "errors": [
+  {
+   "topic": 1,
+   "problem": "no diagnosis extracted",
+   "text": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity"
+  },
+  {
+   "topic": 2,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hypertension"
+  },
+  {
+   "topic": 3,
+   "problem": "no diagnosis extracted",
+   "text": "A 32 yo woman who presents following a severe 'exploding' headache. She and her husband report that yesterday she was in"
+  },
+  {
+   "topic": 4,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "obesity"
+  },
+  {
+   "topic": 6,
+   "problem": "no diagnosis extracted",
+   "text": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and w"
+  },
+  {
+   "topic": 8,
+   "problem": "no diagnosis extracted",
+   "text": "This is a 57-year-old gentleman with CLL and large cell transformation. He presented with his disease back in [**10/2119"
+  },
+  {
+   "topic": 10,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "adverse reaction"
+  },
+  {
+   "topic": 11,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "dysphagia"
+  },
+  {
+   "topic": 12,
+   "problem": "no diagnosis extracted",
+   "text": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for "
+  },
+  {
+   "topic": 13,
+   "problem": "no diagnosis extracted",
+   "text": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTI"
+  },
+  {
+   "topic": 17,
+   "problem": "no diagnosis extracted",
+   "text": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involv"
+  },
+  {
+   "topic": 18,
+   "problem": "no diagnosis extracted",
+   "text": "This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He w"
+  },
+  {
+   "topic": 19,
+   "problem": "no diagnosis extracted",
+   "text": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today ev"
+  },
+  {
+   "topic": 20,
+   "problem": "no diagnosis extracted",
+   "text": "A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testoster"
+  },
+  {
+   "topic": 21,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "type 2 diabetes"
+  },
+  {
+   "topic": 24,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequenc"
+  },
+  {
+   "topic": 26,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "abdominal pain"
+  },
+  {
+   "topic": 31,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervica"
+  },
+  {
+   "topic": 32,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "abdominal pain"
+  },
+  {
+   "topic": 33,
+   "problem": "no diagnosis extracted",
+   "text": "A 42-year-old healthy woman came to the clinic to have her flu shot in early October. She works in a rehab center and ha"
+  },
+  {
+   "topic": 34,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "colorectal cancer"
+  }
+ ],
+ "mode": "offline",
+ "split": "dev",
+ "limit": null,
+ "model": null,
+ "seconds": 0.3,
+ "date": "2026-11-16"
+}

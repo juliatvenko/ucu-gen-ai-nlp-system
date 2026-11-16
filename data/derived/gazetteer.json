@@ -1,0 +1,7450 @@
+{
+"12-lead ecg": {
+"count": 2,
+"type": "Procedure"
+},
+"3-week defecation diary": {
+"count": 2,
+"type": "Procedure"
+},
+"abdominal myomectomy": {
+"count": 4,
+"type": "Procedure"
+},
+"abdominal obesity": {
+"count": 2,
+"type": "Condition"
+},
+"abdominal pain": {
+"count": 5,
+"type": "Condition"
+},
+"abdominal surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"ability to ambulate with or without assistive devices": {
+"count": 2,
+"type": "Condition"
+},
+"ability to follow verbal or visual commands": {
+"count": 2,
+"type": "Condition"
+},
+"abiraterone acetate": {
+"count": 2,
+"type": "Drug"
+},
+"abnormal coagulation profile": {
+"count": 2,
+"type": "Condition"
+},
+"abnormal findings": {
+"count": 3,
+"type": "Condition"
+},
+"abnormal renal function": {
+"count": 2,
+"type": "Condition"
+},
+"abnormal renal or liver function": {
+"count": 2,
+"type": "Condition"
+},
+"abnormalities in cns, respiratory or cardiovascular function": {
+"count": 2,
+"type": "Condition"
+},
+"abnormalities in hepatic or renal function": {
+"count": 2,
+"type": "Condition"
+},
+"abortion": {
+"count": 2,
+"type": "Condition"
+},
+"absolute contraindications": {
+"count": 2,
+"type": "Condition"
+},
+"absolute neutrophil count": {
+"count": 5,
+"type": "Measurement"
+},
+"absolute neutrophil count (anc)": {
+"count": 2,
+"type": "Measurement"
+},
+"ac220": {
+"count": 2,
+"type": "Drug"
+},
+"ace inh": {
+"count": 2,
+"type": "Drug"
+},
+"ace inhibitor": {
+"count": 3,
+"type": "Drug"
+},
+"ace inhibitors": {
+"count": 8,
+"type": "Drug"
+},
+"ace-inhibitor": {
+"count": 2,
+"type": "Drug"
+},
+"aceis": {
+"count": 2,
+"type": "Drug"
+},
+"acetaminophen": {
+"count": 11,
+"type": "Drug"
+},
+"acetazolamide": {
+"count": 3,
+"type": "Drug"
+},
+"acetylsalicylic acid": {
+"count": 7,
+"type": "Drug"
+},
+"acquired immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"acquired valvular abnormalities": {
+"count": 2,
+"type": "Condition"
+},
+"acs": {
+"count": 4,
+"type": "Condition"
+},
+"act score": {
+"count": 2,
+"type": "Measurement"
+},
+"active proctitis": {
+"count": 3,
+"type": "Condition"
+},
+"acute bacterial endocarditis": {
+"count": 2,
+"type": "Condition"
+},
+"acute coronary syndrome": {
+"count": 24,
+"type": "Condition"
+},
+"acute disease": {
+"count": 3,
+"type": "Condition"
+},
+"acute heart failure": {
+"count": 4,
+"type": "Condition"
+},
+"acute kidney injury": {
+"count": 2,
+"type": "Condition"
+},
+"acute liver failure": {
+"count": 2,
+"type": "Condition"
+},
+"acute myocardial infarction": {
+"count": 12,
+"type": "Condition"
+},
+"acute pancreatitis": {
+"count": 3,
+"type": "Condition"
+},
+"acute promyelocytic leukemia": {
+"count": 2,
+"type": "Condition"
+},
+"acute pulmonary edema": {
+"count": 2,
+"type": "Condition"
+},
+"acute trauma": {
+"count": 2,
+"type": "Condition"
+},
+"acute undifferentiated fever": {
+"count": 2,
+"type": "Condition"
+},
+"acyclovir": {
+"count": 2,
+"type": "Drug"
+},
+"adalimumab": {
+"count": 4,
+"type": "Drug"
+},
+"adefovir": {
+"count": 2,
+"type": "Drug"
+},
+"adenocarcinoma": {
+"count": 6,
+"type": "Condition"
+},
+"adenomyosis": {
+"count": 2,
+"type": "Condition"
+},
+"adenosine": {
+"count": 2,
+"type": "Drug"
+},
+"adenotonsillectomy": {
+"count": 3,
+"type": "Procedure"
+},
+"adhd": {
+"count": 6,
+"type": "Condition"
+},
+"adjuvant chemotherapy": {
+"count": 5,
+"type": "Procedure"
+},
+"adolescent": {
+"count": 2,
+"type": "Person"
+},
+"adrenal insufficiency": {
+"count": 2,
+"type": "Condition"
+},
+"adult": {
+"count": 33,
+"type": "Person"
+},
+"adults": {
+"count": 16,
+"type": "Person"
+},
+"adverse event": {
+"count": 2,
+"type": "Condition"
+},
+"adverse reaction": {
+"count": 9,
+"type": "Condition"
+},
+"age": {
+"count": 337,
+"type": "Person"
+},
+"aged": {
+"count": 81,
+"type": "Person"
+},
+"ages": {
+"count": 20,
+"type": "Person"
+},
+"agitation /aggression": {
+"count": 3,
+"type": "Condition"
+},
+"aids": {
+"count": 5,
+"type": "Condition"
+},
+"alanine aminotransferase (alt)": {
+"count": 4,
+"type": "Measurement"
+},
+"alanine transaminase (alt)": {
+"count": 5,
+"type": "Measurement"
+},
+"alat": {
+"count": 2,
+"type": "Measurement"
+},
+"albuterol": {
+"count": 5,
+"type": "Drug"
+},
+"alcohol abuse": {
+"count": 19,
+"type": "Condition"
+},
+"alcohol dependence": {
+"count": 6,
+"type": "Condition"
+},
+"alcohol or drug abuse": {
+"count": 3,
+"type": "Condition"
+},
+"alcohol or drug dependence": {
+"count": 2,
+"type": "Condition"
+},
+"alcohol or substance abuse": {
+"count": 4,
+"type": "Condition"
+},
+"alcohol use disorder": {
+"count": 4,
+"type": "Condition"
+},
+"alcohol use or dependence": {
+"count": 3,
+"type": "Condition"
+},
+"alcohol withdrawal": {
+"count": 3,
+"type": "Condition"
+},
+"alcoholic liver disease": {
+"count": 3,
+"type": "Condition"
+},
+"alcoholism": {
+"count": 12,
+"type": "Condition"
+},
+"alemtuzumab": {
+"count": 2,
+"type": "Drug"
+},
+"alfuzosin": {
+"count": 2,
+"type": "Drug"
+},
+"alkaline phosphatase": {
+"count": 5,
+"type": "Measurement"
+},
+"allergic constitution": {
+"count": 2,
+"type": "Condition"
+},
+"allergic contact dermatitis": {
+"count": 2,
+"type": "Condition"
+},
+"allergic disease": {
+"count": 4,
+"type": "Condition"
+},
+"allergic disease or reactions": {
+"count": 3,
+"type": "Condition"
+},
+"allergic reaction": {
+"count": 11,
+"type": "Condition"
+},
+"allergic reactions": {
+"count": 10,
+"type": "Condition"
+},
+"allergic rhinitis": {
+"count": 2,
+"type": "Condition"
+},
+"allergies": {
+"count": 18,
+"type": "Condition"
+},
+"allergy": {
+"count": 161,
+"type": "Condition"
+},
+"alpha-1 antagonist": {
+"count": 2,
+"type": "Drug"
+},
+"alpha-1 antitrypsin deficiency": {
+"count": 3,
+"type": "Condition"
+},
+"alpha-1-antitrypsin deficiency": {
+"count": 2,
+"type": "Condition"
+},
+"alt": {
+"count": 34,
+"type": "Measurement"
+},
+"alt level": {
+"count": 2,
+"type": "Measurement"
+},
+"alt/ast": {
+"count": 2,
+"type": "Measurement"
+},
+"altered cognitive status": {
+"count": 3,
+"type": "Condition"
+},
+"alternative therapies": {
+"count": 2,
+"type": "Procedure"
+},
+"amd": {
+"count": 2,
+"type": "Condition"
+},
+"american society of anesthesiologists (asa) physical status": {
+"count": 4,
+"type": "Measurement"
+},
+"american society of anesthesiologists physical status": {
+"count": 2,
+"type": "Measurement"
+},
+"amikacin": {
+"count": 2,
+"type": "Drug"
+},
+"aminophylline": {
+"count": 3,
+"type": "Drug"
+},
+"amiodarone": {
+"count": 5,
+"type": "Drug"
+},
+"aml": {
+"count": 5,
+"type": "Condition"
+},
+"amlodipine": {
+"count": 2,
+"type": "Drug"
+},
+"amylase": {
+"count": 2,
+"type": "Measurement"
+},
+"anaemia": {
+"count": 6,
+"type": "Condition"
+},
+"anaphylactic reaction": {
+"count": 6,
+"type": "Condition"
+},
+"anaphylaxis": {
+"count": 8,
+"type": "Condition"
+},
+"anc": {
+"count": 4,
+"type": "Measurement"
+},
+"androgenetic alopecia": {
+"count": 2,
+"type": "Condition"
+},
+"anemia": {
+"count": 13,
+"type": "Condition"
+},
+"anesthetic agents": {
+"count": 2,
+"type": "Drug"
+},
+"angioedema": {
+"count": 6,
+"type": "Condition"
+},
+"angiotensin ii receptor blockers": {
+"count": 2,
+"type": "Drug"
+},
+"angiotensin receptor blocker": {
+"count": 2,
+"type": "Drug"
+},
+"ankle fracture": {
+"count": 3,
+"type": "Condition"
+},
+"anovulation": {
+"count": 2,
+"type": "Condition"
+},
+"anti-cancer therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"anti-coagulants": {
+"count": 4,
+"type": "Drug"
+},
+"anti-coagulation therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"anti-depressants": {
+"count": 2,
+"type": "Drug"
+},
+"anti-epileptic drugs": {
+"count": 2,
+"type": "Drug"
+},
+"anti-inflammatory therapy": {
+"count": 1,
+"type": "Procedure"
+},
+"anti-parkinsonian medications": {
+"count": 2,
+"type": "Drug"
+},
+"anti-platelet therapy": {
+"count": 1,
+"type": "Procedure"
+},
+"anti-tnf agent": {
+"count": 5,
+"type": "Drug"
+},
+"anti-tnfa agent": {
+"count": 2,
+"type": "Drug"
+},
+"anti-vegf treatment": {
+"count": 2,
+"type": "Procedure"
+},
+"antiarrhythmic drug": {
+"count": 2,
+"type": "Drug"
+},
+"antiarrhythmic drugs": {
+"count": 2,
+"type": "Drug"
+},
+"antibiotic therapy": {
+"count": 2,
+"type": "Drug"
+},
+"antibiotics": {
+"count": 18,
+"type": "Drug"
+},
+"anticholinergics": {
+"count": 2,
+"type": "Drug"
+},
+"anticoagulant": {
+"count": 16,
+"type": "Drug"
+},
+"anticoagulant therapy": {
+"count": 6,
+"type": "Procedure"
+},
+"anticoagulants": {
+"count": 9,
+"type": "Drug"
+},
+"anticoagulation medication": {
+"count": 2,
+"type": "Drug"
+},
+"anticoagulation therapy": {
+"count": 5,
+"type": "Procedure"
+},
+"anticonvulsant medication": {
+"count": 2,
+"type": "Drug"
+},
+"anticonvulsants": {
+"count": 3,
+"type": "Drug"
+},
+"antidepressant medication": {
+"count": 2,
+"type": "Drug"
+},
+"antidepressants": {
+"count": 10,
+"type": "Drug"
+},
+"antihistamine": {
+"count": 2,
+"type": "Drug"
+},
+"antihypertensive drugs": {
+"count": 5,
+"type": "Drug"
+},
+"antihypertensive medications": {
+"count": 2,
+"type": "Drug"
+},
+"antihypertensives": {
+"count": 2,
+"type": "Drug"
+},
+"antimicrobials": {
+"count": 2,
+"type": "Drug"
+},
+"antineoplastic or immunomodulatory therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"antiplatelet agents": {
+"count": 4,
+"type": "Drug"
+},
+"antipsychotic drugs": {
+"count": 2,
+"type": "Drug"
+},
+"antipsychotics": {
+"count": 5,
+"type": "Drug"
+},
+"antiretroviral regimen": {
+"count": 2,
+"type": "Procedure"
+},
+"antiretrovirals": {
+"count": 2,
+"type": "Drug"
+},
+"antitachycardia pacing": {
+"count": 2,
+"type": "Procedure"
+},
+"antiviral therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"anxiety disorders": {
+"count": 2,
+"type": "Condition"
+},
+"any blood products": {
+"count": 2,
+"type": "Drug"
+},
+"aortic stenosis": {
+"count": 4,
+"type": "Condition"
+},
+"ap": {
+"count": 3,
+"type": "Measurement"
+},
+"ap radiograph": {
+"count": 2,
+"type": "Procedure"
+},
+"apatinib": {
+"count": 3,
+"type": "Drug"
+},
+"apheresis": {
+"count": 2,
+"type": "Procedure"
+},
+"apixaban": {
+"count": 2,
+"type": "Drug"
+},
+"apnea-hypopnea index": {
+"count": 3,
+"type": "Measurement"
+},
+"apomorphine": {
+"count": 4,
+"type": "Drug"
+},
+"aptt": {
+"count": 2,
+"type": "Measurement"
+},
+"arb": {
+"count": 3,
+"type": "Drug"
+},
+"arbs": {
+"count": 5,
+"type": "Drug"
+},
+"arf": {
+"count": 2,
+"type": "Condition"
+},
+"aromatase inhibitor": {
+"count": 2,
+"type": "Drug"
+},
+"art": {
+"count": 2,
+"type": "Procedure"
+},
+"arteriovenous fistula": {
+"count": 2,
+"type": "Condition"
+},
+"asa class": {
+"count": 3,
+"type": "Measurement"
+},
+"asa classification": {
+"count": 2,
+"type": "Measurement"
+},
+"asa physical status": {
+"count": 5,
+"type": "Measurement"
+},
+"asa status": {
+"count": 2,
+"type": "Measurement"
+},
+"asat": {
+"count": 2,
+"type": "Measurement"
+},
+"ascites": {
+"count": 11,
+"type": "Condition"
+},
+"ascorbic acid": {
+"count": 3,
+"type": "Drug"
+},
+"asia": {
+"count": 3,
+"type": "Measurement"
+},
+"aspartate aminotransferase (ast)": {
+"count": 4,
+"type": "Measurement"
+},
+"aspirin": {
+"count": 30,
+"type": "Drug"
+},
+"ast": {
+"count": 33,
+"type": "Measurement"
+},
+"asthma": {
+"count": 33,
+"type": "Condition"
+},
+"asthma episode": {
+"count": 2,
+"type": "Condition"
+},
+"asthma exacerbation": {
+"count": 2,
+"type": "Condition"
+},
+"atazanavir": {
+"count": 3,
+"type": "Drug"
+},
+"atorvastatin": {
+"count": 4,
+"type": "Drug"
+},
+"atp": {
+"count": 2,
+"type": "Procedure"
+},
+"atrial ablation": {
+"count": 2,
+"type": "Procedure"
+},
+"atrial fibrillation": {
+"count": 25,
+"type": "Condition"
+},
+"atrial flutter": {
+"count": 5,
+"type": "Condition"
+},
+"atriotomy": {
+"count": 2,
+"type": "Procedure"
+},
+"atrioventricular block": {
+"count": 4,
+"type": "Condition"
+},
+"atrioventricular block of second or third degree": {
+"count": 2,
+"type": "Condition"
+},
+"atypia": {
+"count": 2,
+"type": "Condition"
+},
+"audit": {
+"count": 2,
+"type": "Measurement"
+},
+"autism spectrum disorder": {
+"count": 2,
+"type": "Condition"
+},
+"auto-immune hepatitis": {
+"count": 2,
+"type": "Condition"
+},
+"autoimmune disease": {
+"count": 12,
+"type": "Condition"
+},
+"autoimmune diseases": {
+"count": 5,
+"type": "Condition"
+},
+"autoimmune encephalitis": {
+"count": 2,
+"type": "Condition"
+},
+"autoimmune hemolytic anemia": {
+"count": 2,
+"type": "Condition"
+},
+"autoimmune hepatitis": {
+"count": 6,
+"type": "Condition"
+},
+"av block": {
+"count": 2,
+"type": "Condition"
+},
+"avanafil": {
+"count": 2,
+"type": "Drug"
+},
+"axillary node dissection": {
+"count": 2,
+"type": "Procedure"
+},
+"azathioprine": {
+"count": 5,
+"type": "Drug"
+},
+"azithromycin": {
+"count": 4,
+"type": "Drug"
+},
+"b-cell lymphoma": {
+"count": 2,
+"type": "Condition"
+},
+"babies": {
+"count": 3,
+"type": "Person"
+},
+"bacterial infection": {
+"count": 3,
+"type": "Condition"
+},
+"balloon angioplasty": {
+"count": 2,
+"type": "Procedure"
+},
+"bariatric surgery": {
+"count": 5,
+"type": "Procedure"
+},
+"basal cell or squamous cell skin cancer": {
+"count": 2,
+"type": "Condition"
+},
+"basal cell skin cancer": {
+"count": 2,
+"type": "Condition"
+},
+"basal cell skin carcinoma": {
+"count": 2,
+"type": "Condition"
+},
+"baseline appointment": {
+"count": 2,
+"type": "Procedure"
+},
+"bcaa": {
+"count": 2,
+"type": "Drug"
+},
+"bcva": {
+"count": 2,
+"type": "Measurement"
+},
+"benzodiazepines": {
+"count": 7,
+"type": "Drug"
+},
+"best corrected visual acuity (bcva)": {
+"count": 2,
+"type": "Measurement"
+},
+"beta blockers": {
+"count": 3,
+"type": "Drug"
+},
+"beta-blocker": {
+"count": 5,
+"type": "Drug"
+},
+"beta-blockers": {
+"count": 3,
+"type": "Drug"
+},
+"beta-lactam": {
+"count": 2,
+"type": "Drug"
+},
+"bevacizumab": {
+"count": 3,
+"type": "Drug"
+},
+"bilateral oophorectomy": {
+"count": 7,
+"type": "Procedure"
+},
+"bilateral oophorectomy (with or without hysterectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"bilateral ovariectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"bilateral tubal ligation": {
+"count": 2,
+"type": "Procedure"
+},
+"bilateral tubal ligation or occlusion": {
+"count": 1,
+"type": "Condition"
+},
+"biliary strictures": {
+"count": 2,
+"type": "Condition"
+},
+"biliary tract obstruction": {
+"count": 2,
+"type": "Condition"
+},
+"bilirubin level": {
+"count": 2,
+"type": "Measurement"
+},
+"bipolar disorder": {
+"count": 12,
+"type": "Condition"
+},
+"birthweight": {
+"count": 3,
+"type": "Measurement"
+},
+"bismuth salts": {
+"count": 3,
+"type": "Drug"
+},
+"bisoprolol": {
+"count": 3,
+"type": "Drug"
+},
+"bivalirudin": {
+"count": 2,
+"type": "Drug"
+},
+"bladder cancer": {
+"count": 3,
+"type": "Condition"
+},
+"blasts": {
+"count": 3,
+"type": "Measurement"
+},
+"bleeding abnormalities": {
+"count": 2,
+"type": "Condition"
+},
+"bleeding diathesis": {
+"count": 10,
+"type": "Condition"
+},
+"bleeding disorder": {
+"count": 6,
+"type": "Condition"
+},
+"bleeding disorders": {
+"count": 7,
+"type": "Condition"
+},
+"bleeding per vagina": {
+"count": 2,
+"type": "Condition"
+},
+"bleeding tendency": {
+"count": 5,
+"type": "Condition"
+},
+"blood culture": {
+"count": 2,
+"type": "Measurement"
+},
+"blood disorders": {
+"count": 3,
+"type": "Condition"
+},
+"blood donation": {
+"count": 4,
+"type": "Procedure"
+},
+"blood transfusion": {
+"count": 4,
+"type": "Procedure"
+},
+"blood transfusions": {
+"count": 3,
+"type": "Procedure"
+},
+"blood urea nitrogen": {
+"count": 2,
+"type": "Measurement"
+},
+"bmi": {
+"count": 54,
+"type": "Measurement"
+},
+"body dysmorphic disorder": {
+"count": 2,
+"type": "Condition"
+},
+"body mass index": {
+"count": 26,
+"type": "Measurement"
+},
+"body mass index (bmi)": {
+"count": 13,
+"type": "Measurement"
+},
+"body weight": {
+"count": 12,
+"type": "Measurement"
+},
+"bone fractures": {
+"count": 2,
+"type": "Condition"
+},
+"bone marrow function": {
+"count": 2,
+"type": "Measurement"
+},
+"bone metastases": {
+"count": 2,
+"type": "Condition"
+},
+"bone sarcomas": {
+"count": 2,
+"type": "Condition"
+},
+"bosentan": {
+"count": 4,
+"type": "Drug"
+},
+"both sexes": {
+"count": 4,
+"type": "Person"
+},
+"botulinum toxin": {
+"count": 2,
+"type": "Drug"
+},
+"botulinum toxin injection": {
+"count": 2,
+"type": "Procedure"
+},
+"bowel obstruction": {
+"count": 4,
+"type": "Condition"
+},
+"bowel perforation": {
+"count": 2,
+"type": "Condition"
+},
+"brachial plexus block": {
+"count": 2,
+"type": "Procedure"
+},
+"bradycardia": {
+"count": 6,
+"type": "Condition"
+},
+"brain abscess": {
+"count": 2,
+"type": "Condition"
+},
+"brain metastases": {
+"count": 12,
+"type": "Condition"
+},
+"brain mri": {
+"count": 4,
+"type": "Procedure"
+},
+"brain tumor": {
+"count": 5,
+"type": "Condition"
+},
+"brain tumors": {
+"count": 3,
+"type": "Condition"
+},
+"braunwald class": {
+"count": 2,
+"type": "Measurement"
+},
+"breast cancer": {
+"count": 18,
+"type": "Condition"
+},
+"breast-feeding": {
+"count": 16,
+"type": "Condition"
+},
+"brilliant blue fcf (e133)": {
+"count": 2,
+"type": "Drug"
+},
+"brimonidine": {
+"count": 2,
+"type": "Drug"
+},
+"bronchial asthma": {
+"count": 2,
+"type": "Condition"
+},
+"bronchiectasis": {
+"count": 5,
+"type": "Condition"
+},
+"bronchospasm": {
+"count": 2,
+"type": "Condition"
+},
+"bun": {
+"count": 2,
+"type": "Measurement"
+},
+"bupivacaine": {
+"count": 7,
+"type": "Drug"
+},
+"buprenorphine": {
+"count": 4,
+"type": "Drug"
+},
+"bupropion": {
+"count": 2,
+"type": "Drug"
+},
+"burns": {
+"count": 2,
+"type": "Condition"
+},
+"bv": {
+"count": 3,
+"type": "Condition"
+},
+"ca": {
+"count": 2,
+"type": "Condition"
+},
+"cabg": {
+"count": 11,
+"type": "Procedure"
+},
+"cabg surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"cad": {
+"count": 7,
+"type": "Condition"
+},
+"caesarean section": {
+"count": 2,
+"type": "Procedure"
+},
+"caffeine": {
+"count": 2,
+"type": "Drug"
+},
+"calcineurin inhibitor": {
+"count": 2,
+"type": "Drug"
+},
+"calcium channel blockers": {
+"count": 2,
+"type": "Drug"
+},
+"calculated creatinine clearance": {
+"count": 4,
+"type": "Measurement"
+},
+"carbamazepine": {
+"count": 6,
+"type": "Drug"
+},
+"cardiac arrest": {
+"count": 4,
+"type": "Condition"
+},
+"cardiac arrhythmia": {
+"count": 7,
+"type": "Condition"
+},
+"cardiac arrhythmias": {
+"count": 9,
+"type": "Condition"
+},
+"cardiac catheterization": {
+"count": 2,
+"type": "Procedure"
+},
+"cardiac condition": {
+"count": 2,
+"type": "Condition"
+},
+"cardiac conditions": {
+"count": 2,
+"type": "Condition"
+},
+"cardiac disease": {
+"count": 15,
+"type": "Condition"
+},
+"cardiac dysfunction": {
+"count": 3,
+"type": "Condition"
+},
+"cardiac failure": {
+"count": 6,
+"type": "Condition"
+},
+"cardiac function": {
+"count": 2,
+"type": "Measurement"
+},
+"cardiac medications": {
+"count": 3,
+"type": "Drug"
+},
+"cardiac procedure": {
+"count": 2,
+"type": "Procedure"
+},
+"cardiac surgery": {
+"count": 18,
+"type": "Procedure"
+},
+"cardiac transplantation": {
+"count": 3,
+"type": "Procedure"
+},
+"cardioembolic event": {
+"count": 2,
+"type": "Condition"
+},
+"cardiogenic shock": {
+"count": 13,
+"type": "Condition"
+},
+"cardiopulmonary bypass": {
+"count": 3,
+"type": "Procedure"
+},
+"cardiopulmonary diseases": {
+"count": 2,
+"type": "Condition"
+},
+"cardiovascular disease": {
+"count": 17,
+"type": "Condition"
+},
+"cardiovascular diseases": {
+"count": 3,
+"type": "Condition"
+},
+"cardiovascular or orthopedic disease": {
+"count": 3,
+"type": "Condition"
+},
+"cardiovascular risk": {
+"count": 3,
+"type": "Condition"
+},
+"carotid artery disease": {
+"count": 2,
+"type": "Condition"
+},
+"carpal tunnel syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"cataract surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"cataracts": {
+"count": 2,
+"type": "Condition"
+},
+"catheter insertion": {
+"count": 2,
+"type": "Procedure"
+},
+"caucasian": {
+"count": 3,
+"type": "Person"
+},
+"ccr": {
+"count": 2,
+"type": "Measurement"
+},
+"cd": {
+"count": 3,
+"type": "Procedure"
+},
+"cd4 cell count": {
+"count": 2,
+"type": "Measurement"
+},
+"ceftriaxone": {
+"count": 2,
+"type": "Drug"
+},
+"celecoxib": {
+"count": 2,
+"type": "Drug"
+},
+"celiac disease": {
+"count": 2,
+"type": "Condition"
+},
+"central nervous system disease": {
+"count": 2,
+"type": "Condition"
+},
+"cephalic presentation": {
+"count": 3,
+"type": "Condition"
+},
+"cerebral aneurysm": {
+"count": 2,
+"type": "Condition"
+},
+"cerebral hemorrhage": {
+"count": 2,
+"type": "Condition"
+},
+"cerebral infarction": {
+"count": 2,
+"type": "Condition"
+},
+"cerebral palsy": {
+"count": 4,
+"type": "Condition"
+},
+"cerebrovascular accident": {
+"count": 6,
+"type": "Condition"
+},
+"cerebrovascular disease": {
+"count": 3,
+"type": "Condition"
+},
+"cerebrovascular lesions": {
+"count": 2,
+"type": "Condition"
+},
+"cervical cancer in situ": {
+"count": 3,
+"type": "Condition"
+},
+"cervical carcinoma in situ": {
+"count": 2,
+"type": "Condition"
+},
+"cervical cerclage": {
+"count": 4,
+"type": "Procedure"
+},
+"cervical dilation": {
+"count": 1,
+"type": "Condition"
+},
+"cesarean birth": {
+"count": 2,
+"type": "Procedure"
+},
+"cesarean delivery": {
+"count": 2,
+"type": "Procedure"
+},
+"cesarean section": {
+"count": 6,
+"type": "Procedure"
+},
+"cetirizine": {
+"count": 2,
+"type": "Drug"
+},
+"cha2ds2-vasc score": {
+"count": 3,
+"type": "Measurement"
+},
+"chads2 score": {
+"count": 2,
+"type": "Measurement"
+},
+"chads2vasc score": {
+"count": 2,
+"type": "Measurement"
+},
+"chb": {
+"count": 2,
+"type": "Condition"
+},
+"chemotherapy": {
+"count": 48,
+"type": "Procedure"
+},
+"chemotherapy regimens": {
+"count": 3,
+"type": "Procedure"
+},
+"chest pain": {
+"count": 6,
+"type": "Condition"
+},
+"chest x-ray": {
+"count": 4,
+"type": "Procedure"
+},
+"child bearing potential": {
+"count": 6,
+"type": "Condition"
+},
+"child pugh": {
+"count": 2,
+"type": "Measurement"
+},
+"child-pugh grade": {
+"count": 2,
+"type": "Measurement"
+},
+"child-pugh score": {
+"count": 5,
+"type": "Measurement"
+},
+"children": {
+"count": 22,
+"type": "Person"
+},
+"chlorhexidine": {
+"count": 2,
+"type": "Drug"
+},
+"chloride": {
+"count": 2,
+"type": "Measurement"
+},
+"chlorpromazine": {
+"count": 3,
+"type": "Drug"
+},
+"cholecystectomy": {
+"count": 4,
+"type": "Procedure"
+},
+"cholestyramine": {
+"count": 2,
+"type": "Drug"
+},
+"chondrosarcoma": {
+"count": 2,
+"type": "Condition"
+},
+"choroidal neovascularization": {
+"count": 3,
+"type": "Condition"
+},
+"chromosomal abnormality": {
+"count": 2,
+"type": "Condition"
+},
+"chromosomal anomalies": {
+"count": 2,
+"type": "Condition"
+},
+"chronic active hepatitis": {
+"count": 2,
+"type": "Condition"
+},
+"chronic alcohol consumption": {
+"count": 2,
+"type": "Condition"
+},
+"chronic atopic dermatitis": {
+"count": 5,
+"type": "Condition"
+},
+"chronic diarrhea": {
+"count": 3,
+"type": "Condition"
+},
+"chronic disease": {
+"count": 3,
+"type": "Condition"
+},
+"chronic diseases": {
+"count": 5,
+"type": "Condition"
+},
+"chronic gastritis": {
+"count": 2,
+"type": "Condition"
+},
+"chronic hbv/hiv infection": {
+"count": 2,
+"type": "Condition"
+},
+"chronic heart failure": {
+"count": 12,
+"type": "Condition"
+},
+"chronic hepatitis b": {
+"count": 3,
+"type": "Condition"
+},
+"chronic illness": {
+"count": 3,
+"type": "Condition"
+},
+"chronic inflammatory diseases": {
+"count": 2,
+"type": "Condition"
+},
+"chronic kidney disease": {
+"count": 17,
+"type": "Condition"
+},
+"chronic liver disease": {
+"count": 10,
+"type": "Condition"
+},
+"chronic obstructive pulmonary disease": {
+"count": 9,
+"type": "Condition"
+},
+"chronic pain": {
+"count": 13,
+"type": "Condition"
+},
+"chronic pain condition": {
+"count": 2,
+"type": "Condition"
+},
+"chronic pain syndrome": {
+"count": 3,
+"type": "Condition"
+},
+"chronic pancreatitis": {
+"count": 3,
+"type": "Condition"
+},
+"chronic renal failure": {
+"count": 5,
+"type": "Condition"
+},
+"chronic renal insufficiency": {
+"count": 2,
+"type": "Condition"
+},
+"cialis": {
+"count": 2,
+"type": "Drug"
+},
+"cidofovir": {
+"count": 2,
+"type": "Drug"
+},
+"cilostazol": {
+"count": 2,
+"type": "Drug"
+},
+"cimetidine": {
+"count": 2,
+"type": "Drug"
+},
+"cirrhosis": {
+"count": 21,
+"type": "Condition"
+},
+"cirrhosis of the liver": {
+"count": 3,
+"type": "Condition"
+},
+"cisplatin": {
+"count": 3,
+"type": "Drug"
+},
+"citalopram": {
+"count": 3,
+"type": "Drug"
+},
+"ckd": {
+"count": 2,
+"type": "Condition"
+},
+"clarithromycin": {
+"count": 9,
+"type": "Drug"
+},
+"claustrophobia": {
+"count": 16,
+"type": "Condition"
+},
+"clinical condition that may lead to bleeding": {
+"count": 2,
+"type": "Condition"
+},
+"clinical laboratory tests": {
+"count": 1,
+"type": "Procedure"
+},
+"clinical paratyphoid a or b fever": {
+"count": 2,
+"type": "Condition"
+},
+"clinical situation": {
+"count": 2,
+"type": "Condition"
+},
+"clinically important hepatic or renal disease": {
+"count": 2,
+"type": "Condition"
+},
+"cll": {
+"count": 2,
+"type": "Condition"
+},
+"clonidine": {
+"count": 3,
+"type": "Drug"
+},
+"clopidogrel": {
+"count": 24,
+"type": "Drug"
+},
+"closed reduction with percutaneous pinning": {
+"count": 2,
+"type": "Procedure"
+},
+"clotting disorder": {
+"count": 2,
+"type": "Condition"
+},
+"clozapine": {
+"count": 3,
+"type": "Drug"
+},
+"cml": {
+"count": 2,
+"type": "Condition"
+},
+"cns metastases": {
+"count": 2,
+"type": "Condition"
+},
+"co-morbidities": {
+"count": 3,
+"type": "Condition"
+},
+"coagulation disorder": {
+"count": 6,
+"type": "Condition"
+},
+"coagulation disorders": {
+"count": 5,
+"type": "Condition"
+},
+"coagulation profile": {
+"count": 2,
+"type": "Measurement"
+},
+"coagulopathies": {
+"count": 4,
+"type": "Condition"
+},
+"coagulopathy": {
+"count": 28,
+"type": "Condition"
+},
+"cobi-containing fixed-dose combination regimens": {
+"count": 2,
+"type": "Procedure"
+},
+"codeine": {
+"count": 4,
+"type": "Drug"
+},
+"coeliac disease": {
+"count": 2,
+"type": "Condition"
+},
+"cognitive behavioural therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"cognitive disorders": {
+"count": 3,
+"type": "Condition"
+},
+"cognitive dysfunction": {
+"count": 3,
+"type": "Condition"
+},
+"cognitive enhancers": {
+"count": 2,
+"type": "Procedure"
+},
+"cognitive impairment": {
+"count": 13,
+"type": "Condition"
+},
+"colchicine": {
+"count": 4,
+"type": "Drug"
+},
+"colistin": {
+"count": 2,
+"type": "Drug"
+},
+"colitis": {
+"count": 3,
+"type": "Condition"
+},
+"colonoscopy": {
+"count": 3,
+"type": "Procedure"
+},
+"color blindness": {
+"count": 2,
+"type": "Condition"
+},
+"colorectal cancer": {
+"count": 3,
+"type": "Condition"
+},
+"colposcopy": {
+"count": 2,
+"type": "Procedure"
+},
+"common variable immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"community periodontal index score": {
+"count": 2,
+"type": "Measurement"
+},
+"community-acquired pneumonia": {
+"count": 2,
+"type": "Condition"
+},
+"complete parenteral or enteral feeding": {
+"count": 2,
+"type": "Condition"
+},
+"complications": {
+"count": 11,
+"type": "Condition"
+},
+"components of study drugs": {
+"count": 3,
+"type": "Drug"
+},
+"congenital anomalies": {
+"count": 2,
+"type": "Condition"
+},
+"congenital heart disease": {
+"count": 7,
+"type": "Condition"
+},
+"congenital immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"congenital or acquired immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"congenital or acquired valvular abnormalities": {
+"count": 2,
+"type": "Condition"
+},
+"congenital or hereditary immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"congestive heart failure": {
+"count": 36,
+"type": "Condition"
+},
+"congestive heart failure (chf)": {
+"count": 2,
+"type": "Condition"
+},
+"connective tissue diseases": {
+"count": 2,
+"type": "Condition"
+},
+"conservative treatment": {
+"count": 3,
+"type": "Procedure"
+},
+"constipation": {
+"count": 4,
+"type": "Condition"
+},
+"constrictive pericarditis": {
+"count": 2,
+"type": "Condition"
+},
+"consumption of alcohol": {
+"count": 2,
+"type": "Condition"
+},
+"consumption of alcohol and/or drugs": {
+"count": 2,
+"type": "Condition"
+},
+"contra-indication": {
+"count": 10,
+"type": "Condition"
+},
+"contra-indications": {
+"count": 7,
+"type": "Condition"
+},
+"contraindicate": {
+"count": 4,
+"type": "Condition"
+},
+"contraindicated": {
+"count": 5,
+"type": "Condition"
+},
+"contraindicating": {
+"count": 3,
+"type": "Condition"
+},
+"contraindication": {
+"count": 83,
+"type": "Condition"
+},
+"contraindications": {
+"count": 51,
+"type": "Condition"
+},
+"contraindications to general anesthesia": {
+"count": 2,
+"type": "Condition"
+},
+"convulsion": {
+"count": 2,
+"type": "Condition"
+},
+"convulsions": {
+"count": 2,
+"type": "Condition"
+},
+"copd": {
+"count": 20,
+"type": "Condition"
+},
+"copd exacerbation": {
+"count": 3,
+"type": "Condition"
+},
+"cord compression": {
+"count": 3,
+"type": "Condition"
+},
+"corneal staining": {
+"count": 1,
+"type": "Condition"
+},
+"corneal transplant": {
+"count": 1,
+"type": "Condition"
+},
+"corneal ulcer": {
+"count": 3,
+"type": "Condition"
+},
+"coronary angiography": {
+"count": 9,
+"type": "Procedure"
+},
+"coronary artery bypass graft (cabg)": {
+"count": 1,
+"type": "Procedure"
+},
+"coronary artery bypass surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"coronary artery disease": {
+"count": 23,
+"type": "Condition"
+},
+"coronary artery intervention": {
+"count": 2,
+"type": "Procedure"
+},
+"coronary heart disease": {
+"count": 3,
+"type": "Condition"
+},
+"coronary lesion": {
+"count": 1,
+"type": "Condition"
+},
+"coronary revascularization": {
+"count": 5,
+"type": "Procedure"
+},
+"cortical stroke": {
+"count": 2,
+"type": "Condition"
+},
+"corticosteroid injection": {
+"count": 3,
+"type": "Procedure"
+},
+"corticosteroids": {
+"count": 20,
+"type": "Drug"
+},
+"coumadin": {
+"count": 3,
+"type": "Drug"
+},
+"crcl": {
+"count": 4,
+"type": "Measurement"
+},
+"creatinine clearance": {
+"count": 16,
+"type": "Measurement"
+},
+"creatinine level": {
+"count": 3,
+"type": "Measurement"
+},
+"critically ill": {
+"count": 2,
+"type": "Condition"
+},
+"crohn's disease": {
+"count": 2,
+"type": "Condition"
+},
+"crown-rump length": {
+"count": 2,
+"type": "Measurement"
+},
+"crp": {
+"count": 4,
+"type": "Measurement"
+},
+"crps": {
+"count": 2,
+"type": "Condition"
+},
+"ct angiography": {
+"count": 2,
+"type": "Procedure"
+},
+"ctcl": {
+"count": 3,
+"type": "Condition"
+},
+"ctp score": {
+"count": 2,
+"type": "Measurement"
+},
+"curettage": {
+"count": 2,
+"type": "Procedure"
+},
+"cushing's syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"cva": {
+"count": 4,
+"type": "Condition"
+},
+"cyanotic congenital heart disease": {
+"count": 2,
+"type": "Condition"
+},
+"cyanotic heart disease": {
+"count": 2,
+"type": "Condition"
+},
+"cyclophosphamide": {
+"count": 9,
+"type": "Drug"
+},
+"cyclosporin": {
+"count": 2,
+"type": "Drug"
+},
+"cyclosporine": {
+"count": 11,
+"type": "Drug"
+},
+"cyp2c9 substrates": {
+"count": 2,
+"type": "Drug"
+},
+"cystic fibrosis": {
+"count": 2,
+"type": "Condition"
+},
+"cystoscopy": {
+"count": 2,
+"type": "Procedure"
+},
+"cytomegalovirus infection": {
+"count": 2,
+"type": "Condition"
+},
+"cytotoxic chemotherapy": {
+"count": 2,
+"type": "Procedure"
+},
+"cytotoxic drugs": {
+"count": 3,
+"type": "Drug"
+},
+"dabigatran": {
+"count": 2,
+"type": "Drug"
+},
+"dapsone": {
+"count": 4,
+"type": "Drug"
+},
+"daytime sleepiness": {
+"count": 3,
+"type": "Condition"
+},
+"dbp": {
+"count": 6,
+"type": "Measurement"
+},
+"dcis": {
+"count": 2,
+"type": "Condition"
+},
+"debilitating disease": {
+"count": 3,
+"type": "Condition"
+},
+"decompensated cardiac insufficiency": {
+"count": 2,
+"type": "Condition"
+},
+"deep vein thrombosis": {
+"count": 6,
+"type": "Condition"
+},
+"deep venous thrombosis": {
+"count": 2,
+"type": "Condition"
+},
+"defecations": {
+"count": 5,
+"type": "Condition"
+},
+"deferiprone": {
+"count": 1,
+"type": "Condition"
+},
+"deferoxamine": {
+"count": 1,
+"type": "Condition"
+},
+"definitive surgical therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"delirious": {
+"count": 2,
+"type": "Condition"
+},
+"delirium": {
+"count": 10,
+"type": "Condition"
+},
+"delusions": {
+"count": 5,
+"type": "Condition"
+},
+"dementia": {
+"count": 34,
+"type": "Condition"
+},
+"demyelinating diseases": {
+"count": 2,
+"type": "Condition"
+},
+"dental extraction": {
+"count": 2,
+"type": "Procedure"
+},
+"developmental delay": {
+"count": 3,
+"type": "Condition"
+},
+"dexamethasone": {
+"count": 4,
+"type": "Drug"
+},
+"dexmedetomidine": {
+"count": 6,
+"type": "Drug"
+},
+"diabetes mellitus": {
+"count": 29,
+"type": "Condition"
+},
+"diabetes mellitus type 1": {
+"count": 2,
+"type": "Condition"
+},
+"diabetic coma": {
+"count": 3,
+"type": "Condition"
+},
+"diabetic ketoacidosis": {
+"count": 6,
+"type": "Condition"
+},
+"diabetic nephropathy": {
+"count": 2,
+"type": "Condition"
+},
+"dialysis": {
+"count": 15,
+"type": "Procedure"
+},
+"diarrhea": {
+"count": 6,
+"type": "Condition"
+},
+"diastolic blood pressure": {
+"count": 10,
+"type": "Measurement"
+},
+"diastolic blood pressure (dbp)": {
+"count": 2,
+"type": "Measurement"
+},
+"diastolic bp": {
+"count": 5,
+"type": "Measurement"
+},
+"diastolic dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"difficulty in breathing": {
+"count": 3,
+"type": "Condition"
+},
+"difficulty swallowing": {
+"count": 2,
+"type": "Condition"
+},
+"diffuse large b cell lymphomas (dlbcl)": {
+"count": 2,
+"type": "Condition"
+},
+"digital ulcers": {
+"count": 2,
+"type": "Condition"
+},
+"dihydropyridines": {
+"count": 2,
+"type": "Drug"
+},
+"diltiazem": {
+"count": 2,
+"type": "Drug"
+},
+"diphenhydramine": {
+"count": 2,
+"type": "Drug"
+},
+"diphtheria": {
+"count": 2,
+"type": "Condition"
+},
+"dipyridamole": {
+"count": 3,
+"type": "Drug"
+},
+"direct bilirubin": {
+"count": 3,
+"type": "Measurement"
+},
+"disabling neurological or psychiatric condition": {
+"count": 4,
+"type": "Condition"
+},
+"discharge": {
+"count": 2,
+"type": "Procedure"
+},
+"disease duration": {
+"count": 2,
+"type": "Measurement"
+},
+"disseminated intravascular coagulation": {
+"count": 2,
+"type": "Condition"
+},
+"distal biliary obstruction": {
+"count": 2,
+"type": "Condition"
+},
+"distal cbd cholangiocarcinoma": {
+"count": 2,
+"type": "Condition"
+},
+"distal proctosigmoiditis": {
+"count": 3,
+"type": "Condition"
+},
+"disulfiram": {
+"count": 3,
+"type": "Drug"
+},
+"diuretics": {
+"count": 8,
+"type": "Drug"
+},
+"diverticulitis": {
+"count": 3,
+"type": "Condition"
+},
+"dizziness": {
+"count": 2,
+"type": "Condition"
+},
+"dlbcl": {
+"count": 5,
+"type": "Condition"
+},
+"dmard": {
+"count": 3,
+"type": "Drug"
+},
+"dmt": {
+"count": 2,
+"type": "Drug"
+},
+"dn": {
+"count": 2,
+"type": "Condition"
+},
+"dna testing": {
+"count": 3,
+"type": "Procedure"
+},
+"docetaxel": {
+"count": 2,
+"type": "Drug"
+},
+"domperidone": {
+"count": 2,
+"type": "Drug"
+},
+"donepezil": {
+"count": 2,
+"type": "Drug"
+},
+"doxazosin": {
+"count": 2,
+"type": "Drug"
+},
+"doxorubicin": {
+"count": 3,
+"type": "Drug"
+},
+"doxorubicin hydrochloride": {
+"count": 2,
+"type": "Drug"
+},
+"doxycycline": {
+"count": 2,
+"type": "Drug"
+},
+"drug abuse": {
+"count": 16,
+"type": "Condition"
+},
+"drug allergies": {
+"count": 2,
+"type": "Condition"
+},
+"drug and alcohol abuse": {
+"count": 2,
+"type": "Condition"
+},
+"drug dependence": {
+"count": 4,
+"type": "Condition"
+},
+"drug or alcohol abuse": {
+"count": 6,
+"type": "Condition"
+},
+"drug or alcohol dependence": {
+"count": 3,
+"type": "Condition"
+},
+"drug or alcohol use or dependence": {
+"count": 2,
+"type": "Condition"
+},
+"drug screen": {
+"count": 2,
+"type": "Measurement"
+},
+"drug therapy": {
+"count": 1,
+"type": "Measurement"
+},
+"drug/alcohol abuse": {
+"count": 1,
+"type": "Drug"
+},
+"drugs acting primarily on the central nervous system": {
+"count": 3,
+"type": "Drug"
+},
+"dsm-iv-tr": {
+"count": 2,
+"type": "Measurement"
+},
+"dsm-v criteria": {
+"count": 2,
+"type": "Measurement"
+},
+"dtap": {
+"count": 2,
+"type": "Drug"
+},
+"dual antiplatelet therapy": {
+"count": 5,
+"type": "Procedure"
+},
+"ductal carcinoma in situ": {
+"count": 3,
+"type": "Condition"
+},
+"duodenal ulcer": {
+"count": 5,
+"type": "Condition"
+},
+"duodenal ulcers": {
+"count": 2,
+"type": "Condition"
+},
+"dupuytrens contracture": {
+"count": 2,
+"type": "Condition"
+},
+"dvt": {
+"count": 3,
+"type": "Condition"
+},
+"dyslipidemia": {
+"count": 2,
+"type": "Condition"
+},
+"dysphagia": {
+"count": 3,
+"type": "Condition"
+},
+"dysuria": {
+"count": 2,
+"type": "Condition"
+},
+"e/e'": {
+"count": 2,
+"type": "Measurement"
+},
+"eastern cooperative oncology group (ecog) performance status": {
+"count": 3,
+"type": "Measurement"
+},
+"eating disorder": {
+"count": 2,
+"type": "Condition"
+},
+"ecog performance status": {
+"count": 11,
+"type": "Measurement"
+},
+"ecog ps": {
+"count": 2,
+"type": "Measurement"
+},
+"ect": {
+"count": 2,
+"type": "Procedure"
+},
+"eczema": {
+"count": 2,
+"type": "Condition"
+},
+"efavirenz": {
+"count": 3,
+"type": "Drug"
+},
+"egfr": {
+"count": 20,
+"type": "Measurement"
+},
+"eggs": {
+"count": 5,
+"type": "Drug"
+},
+"elderly": {
+"count": 2,
+"type": "Person"
+},
+"elective knee/hip surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"elective surgery": {
+"count": 3,
+"type": "Procedure"
+},
+"electrocardiographic": {
+"count": 2,
+"type": "Procedure"
+},
+"electroconvulsive therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"electrolyte imbalance": {
+"count": 2,
+"type": "Condition"
+},
+"eltrombopag": {
+"count": 2,
+"type": "Drug"
+},
+"emergency surgery": {
+"count": 5,
+"type": "Procedure"
+},
+"empagliflozin": {
+"count": 2,
+"type": "Drug"
+},
+"emphysema": {
+"count": 3,
+"type": "Condition"
+},
+"empyema": {
+"count": 3,
+"type": "Condition"
+},
+"enalapril": {
+"count": 3,
+"type": "Drug"
+},
+"end stage renal disease": {
+"count": 3,
+"type": "Condition"
+},
+"endocrine disease": {
+"count": 2,
+"type": "Condition"
+},
+"endocrine diseases": {
+"count": 2,
+"type": "Condition"
+},
+"endogenous creatinine clearance": {
+"count": 2,
+"type": "Measurement"
+},
+"endometrial cancer": {
+"count": 3,
+"type": "Condition"
+},
+"endometrial hyperplasia": {
+"count": 2,
+"type": "Condition"
+},
+"endometrial or epithelial ovarian cancer": {
+"count": 2,
+"type": "Condition"
+},
+"endometrial thickness": {
+"count": 2,
+"type": "Measurement"
+},
+"endometriosis": {
+"count": 7,
+"type": "Condition"
+},
+"endoscopically": {
+"count": 3,
+"type": "Procedure"
+},
+"enoxaparin": {
+"count": 4,
+"type": "Drug"
+},
+"enzalutamide": {
+"count": 2,
+"type": "Drug"
+},
+"epilepsy": {
+"count": 20,
+"type": "Condition"
+},
+"epirubicin": {
+"count": 2,
+"type": "Drug"
+},
+"epithelial ovarian cancer": {
+"count": 2,
+"type": "Condition"
+},
+"epworth sleepiness scale": {
+"count": 4,
+"type": "Measurement"
+},
+"eradication therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"erectile dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"eribulin": {
+"count": 2,
+"type": "Drug"
+},
+"erythromycin": {
+"count": 2,
+"type": "Drug"
+},
+"erythropoietin": {
+"count": 3,
+"type": "Drug"
+},
+"escitalopram": {
+"count": 4,
+"type": "Drug"
+},
+"esmolol": {
+"count": 2,
+"type": "Drug"
+},
+"esophageal cancer": {
+"count": 3,
+"type": "Condition"
+},
+"esophageal varices": {
+"count": 8,
+"type": "Condition"
+},
+"esophagectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"essential hypertension": {
+"count": 2,
+"type": "Condition"
+},
+"estimated creatinine clearance": {
+"count": 2,
+"type": "Measurement"
+},
+"estimated gfr": {
+"count": 2,
+"type": "Measurement"
+},
+"estimated glomerular filtration rate": {
+"count": 7,
+"type": "Measurement"
+},
+"estimated glomerular filtration rate (egfr)": {
+"count": 6,
+"type": "Measurement"
+},
+"estimated life expectancy": {
+"count": 2,
+"type": "Measurement"
+},
+"etomidate": {
+"count": 2,
+"type": "Drug"
+},
+"etravirine": {
+"count": 2,
+"type": "Drug"
+},
+"eus": {
+"count": 2,
+"type": "Procedure"
+},
+"ev71 infection": {
+"count": 4,
+"type": "Condition"
+},
+"ev71 vaccine": {
+"count": 4,
+"type": "Drug"
+},
+"everolimus": {
+"count": 5,
+"type": "Drug"
+},
+"excipient": {
+"count": 2,
+"type": "Drug"
+},
+"excipients": {
+"count": 13,
+"type": "Drug"
+},
+"exercise intolerance": {
+"count": 3,
+"type": "Condition"
+},
+"eye drops": {
+"count": 2,
+"type": "Drug"
+},
+"ezetimibe": {
+"count": 2,
+"type": "Drug"
+},
+"fa": {
+"count": 2,
+"type": "Procedure"
+},
+"fai": {
+"count": 2,
+"type": "Condition"
+},
+"fasting blood glucose": {
+"count": 5,
+"type": "Measurement"
+},
+"fasting glucose": {
+"count": 9,
+"type": "Measurement"
+},
+"fasting ldl-c": {
+"count": 2,
+"type": "Measurement"
+},
+"fasting plasma glucose": {
+"count": 4,
+"type": "Measurement"
+},
+"fbs": {
+"count": 2,
+"type": "Measurement"
+},
+"febrile illness": {
+"count": 2,
+"type": "Condition"
+},
+"fec-d": {
+"count": 2,
+"type": "Procedure"
+},
+"fecal occult blood test": {
+"count": 2,
+"type": "Measurement"
+},
+"female": {
+"count": 102,
+"type": "Person"
+},
+"female sexual dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"females": {
+"count": 55,
+"type": "Person"
+},
+"fentanyl": {
+"count": 3,
+"type": "Drug"
+},
+"fertile": {
+"count": 2,
+"type": "Condition"
+},
+"fetal anomalies": {
+"count": 2,
+"type": "Condition"
+},
+"fetal assessment": {
+"count": 1,
+"type": "Procedure"
+},
+"fev1/fvc": {
+"count": 8,
+"type": "Measurement"
+},
+"fibrates": {
+"count": 5,
+"type": "Drug"
+},
+"fibrinolytic therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"fibro spect ii index": {
+"count": 2,
+"type": "Measurement"
+},
+"fibroid uterus": {
+"count": 2,
+"type": "Condition"
+},
+"fibromyalgia": {
+"count": 5,
+"type": "Condition"
+},
+"fibroscan": {
+"count": 3,
+"type": "Procedure"
+},
+"firmagon": {
+"count": 2,
+"type": "Drug"
+},
+"first-line therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"fish": {
+"count": 2,
+"type": "Drug"
+},
+"fl": {
+"count": 3,
+"type": "Condition"
+},
+"floseal": {
+"count": 2,
+"type": "Drug"
+},
+"fluconazole": {
+"count": 2,
+"type": "Drug"
+},
+"fluoxetine": {
+"count": 3,
+"type": "Drug"
+},
+"fluvastatin": {
+"count": 2,
+"type": "Drug"
+},
+"fluvoxamine": {
+"count": 3,
+"type": "Drug"
+},
+"follicle stimulating hormone (fsh)": {
+"count": 2,
+"type": "Measurement"
+},
+"food allergy": {
+"count": 3,
+"type": "Condition"
+},
+"food product known to alter p450 enzyme or p-gp activity": {
+"count": 2,
+"type": "Drug"
+},
+"foot ulcer": {
+"count": 2,
+"type": "Condition"
+},
+"fractures of the vertebra": {
+"count": 2,
+"type": "Condition"
+},
+"fructose intolerance": {
+"count": 2,
+"type": "Condition"
+},
+"gabapentin": {
+"count": 6,
+"type": "Drug"
+},
+"galactose intolerance": {
+"count": 2,
+"type": "Condition"
+},
+"galantamine": {
+"count": 2,
+"type": "Drug"
+},
+"gastrectomy": {
+"count": 6,
+"type": "Procedure"
+},
+"gastric bypass surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"gastric surgery": {
+"count": 4,
+"type": "Procedure"
+},
+"gastric ulcer": {
+"count": 3,
+"type": "Condition"
+},
+"gastric ulcers": {
+"count": 2,
+"type": "Condition"
+},
+"gastric varices": {
+"count": 2,
+"type": "Condition"
+},
+"gastric/duodenal ulcer": {
+"count": 2,
+"type": "Condition"
+},
+"gastritis": {
+"count": 2,
+"type": "Condition"
+},
+"gastroesophageal reflux disease": {
+"count": 2,
+"type": "Condition"
+},
+"gastrointestinal bleeding": {
+"count": 7,
+"type": "Condition"
+},
+"gastrointestinal disease": {
+"count": 6,
+"type": "Condition"
+},
+"gastrointestinal surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"gastrointestinal ulcer": {
+"count": 5,
+"type": "Condition"
+},
+"gastroparesis": {
+"count": 5,
+"type": "Condition"
+},
+"gbm": {
+"count": 3,
+"type": "Condition"
+},
+"gelatin": {
+"count": 2,
+"type": "Drug"
+},
+"gemcitabine": {
+"count": 2,
+"type": "Drug"
+},
+"general anesthesia": {
+"count": 19,
+"type": "Procedure"
+},
+"generalized anxiety disorder": {
+"count": 3,
+"type": "Condition"
+},
+"gerd": {
+"count": 2,
+"type": "Condition"
+},
+"gestation": {
+"count": 12,
+"type": "Measurement"
+},
+"gestational age": {
+"count": 9,
+"type": "Measurement"
+},
+"gestational diabetes": {
+"count": 4,
+"type": "Condition"
+},
+"gfr": {
+"count": 7,
+"type": "Measurement"
+},
+"gi bleeding": {
+"count": 2,
+"type": "Condition"
+},
+"gi disease": {
+"count": 2,
+"type": "Condition"
+},
+"gilbert's syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"ginkgo biloba": {
+"count": 3,
+"type": "Drug"
+},
+"glaucoma": {
+"count": 11,
+"type": "Condition"
+},
+"glomerular filtration rate (gfr)": {
+"count": 3,
+"type": "Measurement"
+},
+"glp-1 analogues": {
+"count": 2,
+"type": "Drug"
+},
+"glucocorticoids": {
+"count": 2,
+"type": "Drug"
+},
+"glucocorticosteroid": {
+"count": 2,
+"type": "Drug"
+},
+"glucose lowering therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"glucose-6-phosphate dehydrogenase deficiency": {
+"count": 2,
+"type": "Condition"
+},
+"glucose-galactose malabsorption": {
+"count": 3,
+"type": "Condition"
+},
+"gold": {
+"count": 5,
+"type": "Measurement"
+},
+"good general health": {
+"count": 6,
+"type": "Condition"
+},
+"grapefruit juice": {
+"count": 2,
+"type": "Drug"
+},
+"guillain-barr\u00e9 syndrome": {
+"count": 3,
+"type": "Condition"
+},
+"gynecologic cancer": {
+"count": 2,
+"type": "Condition"
+},
+"h. pylori infection": {
+"count": 2,
+"type": "Condition"
+},
+"haemodialysis": {
+"count": 2,
+"type": "Procedure"
+},
+"haemoglobin": {
+"count": 2,
+"type": "Measurement"
+},
+"haemophilus influenzae type b": {
+"count": 2,
+"type": "Condition"
+},
+"hallucinations": {
+"count": 5,
+"type": "Condition"
+},
+"hb": {
+"count": 11,
+"type": "Measurement"
+},
+"hba1c": {
+"count": 30,
+"type": "Measurement"
+},
+"hbcab": {
+"count": 3,
+"type": "Measurement"
+},
+"hbeag": {
+"count": 9,
+"type": "Measurement"
+},
+"hbeag positive": {
+"count": 2,
+"type": "Condition"
+},
+"hbsag": {
+"count": 16,
+"type": "Measurement"
+},
+"hbsag and hbeag positive": {
+"count": 2,
+"type": "Condition"
+},
+"hbsag positive": {
+"count": 2,
+"type": "Condition"
+},
+"hbv dna": {
+"count": 10,
+"type": "Measurement"
+},
+"hbv dna detectable": {
+"count": 2,
+"type": "Condition"
+},
+"hbv infection": {
+"count": 2,
+"type": "Condition"
+},
+"hcc": {
+"count": 5,
+"type": "Condition"
+},
+"hcv antibody": {
+"count": 2,
+"type": "Measurement"
+},
+"hcv genotype": {
+"count": 2,
+"type": "Measurement"
+},
+"hcv infection": {
+"count": 4,
+"type": "Condition"
+},
+"hcv viremia": {
+"count": 2,
+"type": "Measurement"
+},
+"hdl-cholesterol": {
+"count": 2,
+"type": "Measurement"
+},
+"hdv coinfection": {
+"count": 2,
+"type": "Condition"
+},
+"head injury": {
+"count": 9,
+"type": "Condition"
+},
+"head trauma": {
+"count": 9,
+"type": "Condition"
+},
+"health problems": {
+"count": 2,
+"type": "Condition"
+},
+"healthy": {
+"count": 31,
+"type": "Condition"
+},
+"hearing loss": {
+"count": 2,
+"type": "Condition"
+},
+"heart attack": {
+"count": 5,
+"type": "Condition"
+},
+"heart block": {
+"count": 4,
+"type": "Condition"
+},
+"heart condition": {
+"count": 2,
+"type": "Condition"
+},
+"heart diseases": {
+"count": 2,
+"type": "Condition"
+},
+"heart function": {
+"count": 1,
+"type": "Measurement"
+},
+"heart rate": {
+"count": 9,
+"type": "Measurement"
+},
+"heart transplantation": {
+"count": 6,
+"type": "Procedure"
+},
+"hematemesis": {
+"count": 2,
+"type": "Condition"
+},
+"hematocrit": {
+"count": 6,
+"type": "Measurement"
+},
+"hematologic malignancies": {
+"count": 2,
+"type": "Condition"
+},
+"hematological disease": {
+"count": 2,
+"type": "Condition"
+},
+"hematuria": {
+"count": 2,
+"type": "Condition"
+},
+"hemochromatosis": {
+"count": 6,
+"type": "Condition"
+},
+"hemodialysis": {
+"count": 8,
+"type": "Procedure"
+},
+"hemodynamic instability": {
+"count": 7,
+"type": "Condition"
+},
+"hemodynamically unstable": {
+"count": 2,
+"type": "Condition"
+},
+"hemoglobin": {
+"count": 31,
+"type": "Measurement"
+},
+"hemoglobin level": {
+"count": 3,
+"type": "Measurement"
+},
+"heparin": {
+"count": 17,
+"type": "Drug"
+},
+"heparin-induced thrombocytopenia": {
+"count": 3,
+"type": "Condition"
+},
+"hepatectomy": {
+"count": 3,
+"type": "Procedure"
+},
+"hepatic disease": {
+"count": 9,
+"type": "Condition"
+},
+"hepatic dysfunction": {
+"count": 7,
+"type": "Condition"
+},
+"hepatic encephalopathy": {
+"count": 9,
+"type": "Condition"
+},
+"hepatic enzyme elevation": {
+"count": 2,
+"type": "Condition"
+},
+"hepatic failure": {
+"count": 8,
+"type": "Condition"
+},
+"hepatic function": {
+"count": 2,
+"type": "Measurement"
+},
+"hepatic impairment": {
+"count": 8,
+"type": "Condition"
+},
+"hepatic insufficiency": {
+"count": 9,
+"type": "Condition"
+},
+"hepatic or renal disease": {
+"count": 2,
+"type": "Condition"
+},
+"hepatic or renal impairment": {
+"count": 2,
+"type": "Condition"
+},
+"hepatitis b and c infection": {
+"count": 2,
+"type": "Condition"
+},
+"hepatitis b e antigen": {
+"count": 2,
+"type": "Measurement"
+},
+"hepatitis b infection": {
+"count": 3,
+"type": "Condition"
+},
+"hepatitis b or c": {
+"count": 3,
+"type": "Condition"
+},
+"hepatitis b or c carrier": {
+"count": 2,
+"type": "Condition"
+},
+"hepatitis b or c infection": {
+"count": 2,
+"type": "Condition"
+},
+"hepatitis b surface antigen": {
+"count": 6,
+"type": "Measurement"
+},
+"hepatitis b surface antigen test": {
+"count": 2,
+"type": "Measurement"
+},
+"hepatitis b virus (hbv)": {
+"count": 2,
+"type": "Condition"
+},
+"hepatitis b virus dna": {
+"count": 3,
+"type": "Measurement"
+},
+"hepatitis b, c and hiv serologies": {
+"count": 2,
+"type": "Measurement"
+},
+"hepatitis c antibody": {
+"count": 3,
+"type": "Measurement"
+},
+"hepatitis c virus (hcv)": {
+"count": 1,
+"type": "Condition"
+},
+"hepatitis d virus": {
+"count": 2,
+"type": "Condition"
+},
+"hepatocellular carcinoma": {
+"count": 8,
+"type": "Condition"
+},
+"hepatorenal syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"hereditary immunodeficiency": {
+"count": 2,
+"type": "Condition"
+},
+"herniated cervical disk": {
+"count": 2,
+"type": "Condition"
+},
+"herpes": {
+"count": 2,
+"type": "Condition"
+},
+"heterozygous": {
+"count": 5,
+"type": "Condition"
+},
+"hfpef": {
+"count": 2,
+"type": "Condition"
+},
+"hgb": {
+"count": 4,
+"type": "Measurement"
+},
+"hib": {
+"count": 2,
+"type": "Drug"
+},
+"high blood pressure": {
+"count": 6,
+"type": "Condition"
+},
+"hip fracture": {
+"count": 3,
+"type": "Condition"
+},
+"histologic": {
+"count": 1,
+"type": "Measurement"
+},
+"histological": {
+"count": 6,
+"type": "Procedure"
+},
+"histologically": {
+"count": 14,
+"type": "Procedure"
+},
+"histology": {
+"count": 2,
+"type": "Procedure"
+},
+"hiv infected": {
+"count": 2,
+"type": "Condition"
+},
+"hiv infection": {
+"count": 13,
+"type": "Condition"
+},
+"hiv neuropathy": {
+"count": 2,
+"type": "Condition"
+},
+"hiv positive": {
+"count": 3,
+"type": "Condition"
+},
+"hiv positivity": {
+"count": 3,
+"type": "Condition"
+},
+"hiv protease inhibitors": {
+"count": 2,
+"type": "Drug"
+},
+"hiv test": {
+"count": 2,
+"type": "Measurement"
+},
+"hiv+": {
+"count": 2,
+"type": "Condition"
+},
+"hiv-1 plasma rna": {
+"count": 3,
+"type": "Measurement"
+},
+"hives": {
+"count": 2,
+"type": "Condition"
+},
+"hl": {
+"count": 3,
+"type": "Condition"
+},
+"hormonal abnormalities": {
+"count": 3,
+"type": "Condition"
+},
+"hormonal contraception": {
+"count": 4,
+"type": "Procedure"
+},
+"hormonal therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"hormone replacement therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"hormone therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"hospitalization": {
+"count": 16,
+"type": "Procedure"
+},
+"hot flashes": {
+"count": 3,
+"type": "Condition"
+},
+"hr": {
+"count": 3,
+"type": "Measurement"
+},
+"human albumin": {
+"count": 2,
+"type": "Drug"
+},
+"human immunodeficiency virus (hiv)": {
+"count": 6,
+"type": "Condition"
+},
+"hyaluronic acid": {
+"count": 3,
+"type": "Drug"
+},
+"hydrocephalus": {
+"count": 2,
+"type": "Condition"
+},
+"hydrocortisone": {
+"count": 4,
+"type": "Drug"
+},
+"hydromorphone": {
+"count": 3,
+"type": "Drug"
+},
+"hydrosalpinx": {
+"count": 4,
+"type": "Condition"
+},
+"hypercapnea": {
+"count": 2,
+"type": "Condition"
+},
+"hypercholesterolemia": {
+"count": 2,
+"type": "Condition"
+},
+"hyperkalemia": {
+"count": 2,
+"type": "Condition"
+},
+"hyperlipidemia": {
+"count": 3,
+"type": "Condition"
+},
+"hyperprolactinemia": {
+"count": 2,
+"type": "Condition"
+},
+"hypersensibility": {
+"count": 3,
+"type": "Condition"
+},
+"hypersensitivity": {
+"count": 110,
+"type": "Condition"
+},
+"hypertensive": {
+"count": 4,
+"type": "Condition"
+},
+"hypertensive patients": {
+"count": 2,
+"type": "Condition"
+},
+"hyperthyroidism": {
+"count": 7,
+"type": "Condition"
+},
+"hypertriglyceridemia": {
+"count": 3,
+"type": "Condition"
+},
+"hypertriglyceridemic": {
+"count": 1,
+"type": "Condition"
+},
+"hypertrophic cardiomyopathy": {
+"count": 5,
+"type": "Condition"
+},
+"hypoglycemia": {
+"count": 2,
+"type": "Condition"
+},
+"hypoglycemic episodes": {
+"count": 2,
+"type": "Condition"
+},
+"hypogonadotropic hypogonadism": {
+"count": 2,
+"type": "Condition"
+},
+"hypomania": {
+"count": 2,
+"type": "Condition"
+},
+"hypotension": {
+"count": 14,
+"type": "Condition"
+},
+"hypothyroidism": {
+"count": 7,
+"type": "Condition"
+},
+"hypoxemia": {
+"count": 3,
+"type": "Condition"
+},
+"hypoxia": {
+"count": 3,
+"type": "Condition"
+},
+"hypoxic seizures": {
+"count": 2,
+"type": "Condition"
+},
+"hypoxic-ischemic encephalopathy": {
+"count": 2,
+"type": "Condition"
+},
+"hysterectomized": {
+"count": 1,
+"type": "Condition"
+},
+"hysterectomy": {
+"count": 10,
+"type": "Procedure"
+},
+"ibuprofen": {
+"count": 5,
+"type": "Drug"
+},
+"icga": {
+"count": 2,
+"type": "Procedure"
+},
+"icsi": {
+"count": 2,
+"type": "Procedure"
+},
+"idiopathic thrombocytopenic purpura": {
+"count": 2,
+"type": "Condition"
+},
+"idiosyncratic reaction": {
+"count": 3,
+"type": "Condition"
+},
+"idu": {
+"count": 2,
+"type": "Person"
+},
+"igpro20": {
+"count": 5,
+"type": "Drug"
+},
+"iief": {
+"count": 2,
+"type": "Measurement"
+},
+"iloprost": {
+"count": 2,
+"type": "Drug"
+},
+"imaging modalities": {
+"count": 2,
+"type": "Procedure"
+},
+"imaging studies": {
+"count": 2,
+"type": "Procedure"
+},
+"immune disease": {
+"count": 2,
+"type": "Condition"
+},
+"immune-modifying drugs": {
+"count": 2,
+"type": "Drug"
+},
+"immunocompromised": {
+"count": 3,
+"type": "Condition"
+},
+"immunodeficiency condition": {
+"count": 2,
+"type": "Condition"
+},
+"immunodeficient condition": {
+"count": 3,
+"type": "Condition"
+},
+"immunodepression": {
+"count": 2,
+"type": "Condition"
+},
+"immunoglobulins": {
+"count": 4,
+"type": "Drug"
+},
+"immunomodulatory therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"immunosuppressants": {
+"count": 5,
+"type": "Drug"
+},
+"immunosuppression": {
+"count": 5,
+"type": "Condition"
+},
+"immunosuppressive agents": {
+"count": 2,
+"type": "Drug"
+},
+"immunosuppressive drug": {
+"count": 2,
+"type": "Drug"
+},
+"immunosuppressive drugs": {
+"count": 6,
+"type": "Drug"
+},
+"immunosuppressive medication": {
+"count": 2,
+"type": "Drug"
+},
+"immunosuppressive or immunodeficient condition": {
+"count": 3,
+"type": "Condition"
+},
+"immunosuppressive therapy": {
+"count": 11,
+"type": "Procedure"
+},
+"immunosuppressive treatment": {
+"count": 2,
+"type": "Procedure"
+},
+"immunotherapy": {
+"count": 4,
+"type": "Procedure"
+},
+"impact on activities of daily living": {
+"count": 2,
+"type": "Condition"
+},
+"impaired renal function": {
+"count": 2,
+"type": "Condition"
+},
+"implantation of a single or dual chamber icd": {
+"count": 2,
+"type": "Procedure"
+},
+"in vitro fertilization": {
+"count": 2,
+"type": "Procedure"
+},
+"inability to swallow": {
+"count": 2,
+"type": "Condition"
+},
+"inability to use": {
+"count": 2,
+"type": "Condition"
+},
+"inadequate response": {
+"count": 3,
+"type": "Condition"
+},
+"inborn errors of metabolism": {
+"count": 2,
+"type": "Condition"
+},
+"indinavir": {
+"count": 4,
+"type": "Drug"
+},
+"infants": {
+"count": 4,
+"type": "Person"
+},
+"infectious arthritis": {
+"count": 2,
+"type": "Condition"
+},
+"infectious disease": {
+"count": 5,
+"type": "Condition"
+},
+"infertile": {
+"count": 4,
+"type": "Condition"
+},
+"infertility factor": {
+"count": 2,
+"type": "Condition"
+},
+"inflammatory arthritis": {
+"count": 5,
+"type": "Condition"
+},
+"inflammatory bowel disease": {
+"count": 11,
+"type": "Condition"
+},
+"inflammatory disease": {
+"count": 5,
+"type": "Condition"
+},
+"influenza vaccination": {
+"count": 3,
+"type": "Drug"
+},
+"influenza vaccine": {
+"count": 4,
+"type": "Drug"
+},
+"inguinal hernia repair": {
+"count": 2,
+"type": "Procedure"
+},
+"inhalational induction": {
+"count": 2,
+"type": "Procedure"
+},
+"inhl": {
+"count": 2,
+"type": "Condition"
+},
+"inoculation": {
+"count": 4,
+"type": "Procedure"
+},
+"inr": {
+"count": 12,
+"type": "Measurement"
+},
+"insomnia": {
+"count": 5,
+"type": "Condition"
+},
+"insulin": {
+"count": 23,
+"type": "Drug"
+},
+"insulin therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"integrase": {
+"count": 2,
+"type": "Drug"
+},
+"intellectual disability": {
+"count": 2,
+"type": "Condition"
+},
+"intercurrent illness": {
+"count": 5,
+"type": "Condition"
+},
+"international normalized ratio (inr)": {
+"count": 2,
+"type": "Measurement"
+},
+"interstitial lung disease": {
+"count": 2,
+"type": "Condition"
+},
+"interstitial lung diseases": {
+"count": 2,
+"type": "Condition"
+},
+"intestinal obstruction": {
+"count": 5,
+"type": "Condition"
+},
+"intolerability": {
+"count": 3,
+"type": "Condition"
+},
+"intolerance": {
+"count": 32,
+"type": "Condition"
+},
+"intolerant": {
+"count": 4,
+"type": "Condition"
+},
+"intra-abdominal inflammation": {
+"count": 2,
+"type": "Condition"
+},
+"intra-cardiac thrombus": {
+"count": 2,
+"type": "Condition"
+},
+"intracranial aneurysm": {
+"count": 3,
+"type": "Condition"
+},
+"intracranial bleeding": {
+"count": 2,
+"type": "Condition"
+},
+"intracranial hemorrhage": {
+"count": 8,
+"type": "Condition"
+},
+"intracranial pressure": {
+"count": 3,
+"type": "Measurement"
+},
+"intramuscular vaccination": {
+"count": 3,
+"type": "Procedure"
+},
+"intraocular inflammation": {
+"count": 2,
+"type": "Condition"
+},
+"intubated": {
+"count": 2,
+"type": "Procedure"
+},
+"intubation": {
+"count": 7,
+"type": "Procedure"
+},
+"invasive coronary angiography": {
+"count": 2,
+"type": "Procedure"
+},
+"investigational agent": {
+"count": 2,
+"type": "Drug"
+},
+"investigational medications": {
+"count": 3,
+"type": "Drug"
+},
+"iodinated contrast": {
+"count": 2,
+"type": "Drug"
+},
+"ipv": {
+"count": 2,
+"type": "Drug"
+},
+"iq": {
+"count": 3,
+"type": "Measurement"
+},
+"iron deficiency": {
+"count": 2,
+"type": "Condition"
+},
+"iron deficiency anemia": {
+"count": 2,
+"type": "Condition"
+},
+"iron overload": {
+"count": 2,
+"type": "Condition"
+},
+"irradiated": {
+"count": 2,
+"type": "Procedure"
+},
+"irritable bowel syndrome": {
+"count": 4,
+"type": "Condition"
+},
+"ischemic heart disease": {
+"count": 10,
+"type": "Condition"
+},
+"ischemic stroke": {
+"count": 3,
+"type": "Condition"
+},
+"isoniazid": {
+"count": 4,
+"type": "Drug"
+},
+"itraconazole": {
+"count": 6,
+"type": "Drug"
+},
+"ivf cycle": {
+"count": 2,
+"type": "Procedure"
+},
+"ivig": {
+"count": 2,
+"type": "Drug"
+},
+"jaundice": {
+"count": 2,
+"type": "Condition"
+},
+"karnofsky performance status": {
+"count": 2,
+"type": "Measurement"
+},
+"kellgren-lawrence grade": {
+"count": 2,
+"type": "Measurement"
+},
+"keratoconus": {
+"count": 2,
+"type": "Condition"
+},
+"ketamine": {
+"count": 7,
+"type": "Drug"
+},
+"ketoconazole": {
+"count": 9,
+"type": "Drug"
+},
+"kidney failure": {
+"count": 5,
+"type": "Condition"
+},
+"kidney function": {
+"count": 2,
+"type": "Measurement"
+},
+"kidney stones": {
+"count": 2,
+"type": "Condition"
+},
+"kidney transplant": {
+"count": 7,
+"type": "Procedure"
+},
+"kidney transplantation": {
+"count": 2,
+"type": "Procedure"
+},
+"kps": {
+"count": 2,
+"type": "Measurement"
+},
+"l-tryptophan": {
+"count": 2,
+"type": "Drug"
+},
+"la size": {
+"count": 2,
+"type": "Measurement"
+},
+"laboratory abnormalities": {
+"count": 4,
+"type": "Condition"
+},
+"laboratory abnormality": {
+"count": 3,
+"type": "Condition"
+},
+"laceration": {
+"count": 2,
+"type": "Condition"
+},
+"lactating": {
+"count": 40,
+"type": "Condition"
+},
+"lactation": {
+"count": 18,
+"type": "Condition"
+},
+"lactose": {
+"count": 4,
+"type": "Drug"
+},
+"lal": {
+"count": 3,
+"type": "Condition"
+},
+"lamivudine": {
+"count": 2,
+"type": "Drug"
+},
+"laparoscopy": {
+"count": 2,
+"type": "Procedure"
+},
+"lapp lactase deficiency": {
+"count": 2,
+"type": "Condition"
+},
+"latex": {
+"count": 2,
+"type": "Drug"
+},
+"lbp": {
+"count": 3,
+"type": "Condition"
+},
+"ldl-cholesterol": {
+"count": 4,
+"type": "Measurement"
+},
+"leflunomide": {
+"count": 3,
+"type": "Drug"
+},
+"left atrial appendage closure": {
+"count": 2,
+"type": "Procedure"
+},
+"left atrial appendage occlusion": {
+"count": 1,
+"type": "Procedure"
+},
+"left atrial thrombus": {
+"count": 2,
+"type": "Condition"
+},
+"left bundle branch block": {
+"count": 4,
+"type": "Condition"
+},
+"left ventricular dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"left ventricular ejection fraction": {
+"count": 15,
+"type": "Measurement"
+},
+"left ventricular ejection fraction (lvef)": {
+"count": 4,
+"type": "Measurement"
+},
+"left ventricular hypertrophy": {
+"count": 2,
+"type": "Condition"
+},
+"left ventricular mass index": {
+"count": 2,
+"type": "Measurement"
+},
+"left ventricular outflow obstruction": {
+"count": 2,
+"type": "Condition"
+},
+"leucocytes": {
+"count": 2,
+"type": "Measurement"
+},
+"leukocytosis": {
+"count": 2,
+"type": "Measurement"
+},
+"levetiracetam": {
+"count": 2,
+"type": "Drug"
+},
+"levothyroxine": {
+"count": 3,
+"type": "Drug"
+},
+"lfts": {
+"count": 1,
+"type": "Measurement"
+},
+"lidocaine": {
+"count": 8,
+"type": "Drug"
+},
+"limb ischemia": {
+"count": 4,
+"type": "Condition"
+},
+"lipase": {
+"count": 2,
+"type": "Measurement"
+},
+"liraglutide": {
+"count": 5,
+"type": "Drug"
+},
+"lithium": {
+"count": 3,
+"type": "Drug"
+},
+"live vaccinations": {
+"count": 2,
+"type": "Drug"
+},
+"live-virus vaccines": {
+"count": 2,
+"type": "Drug"
+},
+"liver biopsy": {
+"count": 7,
+"type": "Procedure"
+},
+"liver cirrhosis": {
+"count": 14,
+"type": "Condition"
+},
+"liver disease": {
+"count": 30,
+"type": "Condition"
+},
+"liver diseases": {
+"count": 3,
+"type": "Condition"
+},
+"liver dysfunction": {
+"count": 5,
+"type": "Condition"
+},
+"liver enzymes": {
+"count": 7,
+"type": "Measurement"
+},
+"liver failure": {
+"count": 6,
+"type": "Condition"
+},
+"liver function test": {
+"count": 4,
+"type": "Measurement"
+},
+"liver function tests": {
+"count": 4,
+"type": "Measurement"
+},
+"liver impairment": {
+"count": 3,
+"type": "Condition"
+},
+"liver metastases": {
+"count": 7,
+"type": "Condition"
+},
+"liver or kidney failure": {
+"count": 2,
+"type": "Condition"
+},
+"liver puncture biopsy": {
+"count": 2,
+"type": "Procedure"
+},
+"liver transplant": {
+"count": 7,
+"type": "Procedure"
+},
+"liver transplantation": {
+"count": 3,
+"type": "Procedure"
+},
+"ln": {
+"count": 2,
+"type": "Condition"
+},
+"lobectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"local anaesthetics": {
+"count": 2,
+"type": "Procedure"
+},
+"local anesthesia": {
+"count": 2,
+"type": "Procedure"
+},
+"local anesthetic": {
+"count": 6,
+"type": "Drug"
+},
+"local anesthetics": {
+"count": 6,
+"type": "Drug"
+},
+"local infection": {
+"count": 3,
+"type": "Condition"
+},
+"local inflammation": {
+"count": 2,
+"type": "Condition"
+},
+"local or systemic infection": {
+"count": 2,
+"type": "Condition"
+},
+"long-term oral anticoagulation": {
+"count": 2,
+"type": "Procedure"
+},
+"longest diameter": {
+"count": 2,
+"type": "Measurement"
+},
+"loop diuretics": {
+"count": 2,
+"type": "Drug"
+},
+"loss of consciousness": {
+"count": 3,
+"type": "Condition"
+},
+"lovastatin": {
+"count": 2,
+"type": "Drug"
+},
+"low-molecular weight heparin": {
+"count": 4,
+"type": "Drug"
+},
+"lumbar puncture": {
+"count": 2,
+"type": "Procedure"
+},
+"lumbar radiculopathy": {
+"count": 2,
+"type": "Condition"
+},
+"lung transplant": {
+"count": 2,
+"type": "Procedure"
+},
+"lv ejection fraction": {
+"count": 2,
+"type": "Measurement"
+},
+"lvef": {
+"count": 13,
+"type": "Measurement"
+},
+"m1 marrow": {
+"count": 2,
+"type": "Condition"
+},
+"m3 marrow": {
+"count": 3,
+"type": "Condition"
+},
+"macrolide": {
+"count": 2,
+"type": "Drug"
+},
+"macula degeneration": {
+"count": 2,
+"type": "Condition"
+},
+"macular edema": {
+"count": 4,
+"type": "Condition"
+},
+"madrs score": {
+"count": 2,
+"type": "Measurement"
+},
+"magnesium stearate": {
+"count": 2,
+"type": "Drug"
+},
+"major cardiac surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"major depression": {
+"count": 9,
+"type": "Condition"
+},
+"major depressive disorder": {
+"count": 15,
+"type": "Condition"
+},
+"major depressive episode": {
+"count": 3,
+"type": "Condition"
+},
+"major impairment of renal or hepatic function": {
+"count": 2,
+"type": "Condition"
+},
+"major surgery": {
+"count": 16,
+"type": "Procedure"
+},
+"malabsorption syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"male": {
+"count": 70,
+"type": "Person"
+},
+"male factor infertility": {
+"count": 3,
+"type": "Condition"
+},
+"males": {
+"count": 23,
+"type": "Person"
+},
+"malignancies": {
+"count": 10,
+"type": "Condition"
+},
+"malignancy": {
+"count": 62,
+"type": "Condition"
+},
+"malignant hyperthermia": {
+"count": 4,
+"type": "Condition"
+},
+"malignant neoplasms": {
+"count": 3,
+"type": "Condition"
+},
+"malignant tumor": {
+"count": 7,
+"type": "Condition"
+},
+"malignant tumors": {
+"count": 2,
+"type": "Condition"
+},
+"malnutrition": {
+"count": 5,
+"type": "Condition"
+},
+"manic episode": {
+"count": 2,
+"type": "Condition"
+},
+"mayo score": {
+"count": 3,
+"type": "Measurement"
+},
+"mci": {
+"count": 2,
+"type": "Condition"
+},
+"mcrpc": {
+"count": 4,
+"type": "Condition"
+},
+"mds": {
+"count": 3,
+"type": "Condition"
+},
+"mean arterial pressure": {
+"count": 2,
+"type": "Measurement"
+},
+"mean systolic/diastolic office blood pressure": {
+"count": 2,
+"type": "Condition"
+},
+"measurable lesion": {
+"count": 2,
+"type": "Condition"
+},
+"mechanical ventilation": {
+"count": 8,
+"type": "Procedure"
+},
+"medical comorbidities": {
+"count": 2,
+"type": "Condition"
+},
+"medical condition": {
+"count": 19,
+"type": "Condition"
+},
+"medical conditions": {
+"count": 10,
+"type": "Condition"
+},
+"medical disease": {
+"count": 2,
+"type": "Condition"
+},
+"medical evaluation": {
+"count": 2,
+"type": "Procedure"
+},
+"medical illness": {
+"count": 6,
+"type": "Condition"
+},
+"medical induction of labor": {
+"count": 2,
+"type": "Procedure"
+},
+"medical or psychiatric illness": {
+"count": 3,
+"type": "Condition"
+},
+"medical problems": {
+"count": 4,
+"type": "Condition"
+},
+"medical treatment": {
+"count": 4,
+"type": "Procedure"
+},
+"medication for treating": {
+"count": 4,
+"type": "Drug"
+},
+"medications known to alter p450 enzyme or p-gp activity": {
+"count": 2,
+"type": "Drug"
+},
+"medications used in the study": {
+"count": 2,
+"type": "Drug"
+},
+"medullary thyroid carcinoma": {
+"count": 2,
+"type": "Condition"
+},
+"meibomian gland dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"melanoma": {
+"count": 8,
+"type": "Condition"
+},
+"memantine": {
+"count": 4,
+"type": "Drug"
+},
+"men": {
+"count": 36,
+"type": "Person"
+},
+"meningitis": {
+"count": 4,
+"type": "Condition"
+},
+"menometrorrhagia": {
+"count": 2,
+"type": "Condition"
+},
+"menopause": {
+"count": 4,
+"type": "Condition"
+},
+"menstrual disorder": {
+"count": 2,
+"type": "Condition"
+},
+"mental illness": {
+"count": 3,
+"type": "Condition"
+},
+"mental retardation": {
+"count": 9,
+"type": "Condition"
+},
+"metabolic acidosis": {
+"count": 2,
+"type": "Condition"
+},
+"metabolic disease": {
+"count": 4,
+"type": "Condition"
+},
+"metabolic diseases": {
+"count": 2,
+"type": "Condition"
+},
+"metabolic disorder": {
+"count": 2,
+"type": "Condition"
+},
+"metabolic disorders": {
+"count": 2,
+"type": "Condition"
+},
+"metabolic or hormonal abnormalities": {
+"count": 3,
+"type": "Condition"
+},
+"metabolic syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"metastasectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"metastatic cancer": {
+"count": 3,
+"type": "Condition"
+},
+"metastatic disease": {
+"count": 3,
+"type": "Condition"
+},
+"metformin": {
+"count": 16,
+"type": "Drug"
+},
+"methadone": {
+"count": 5,
+"type": "Drug"
+},
+"methotrexate": {
+"count": 10,
+"type": "Drug"
+},
+"methylphenidate": {
+"count": 3,
+"type": "Drug"
+},
+"methylprednisolone": {
+"count": 3,
+"type": "Drug"
+},
+"metoprolol": {
+"count": 2,
+"type": "Drug"
+},
+"metronidazole": {
+"count": 5,
+"type": "Drug"
+},
+"mexiletine": {
+"count": 2,
+"type": "Drug"
+},
+"mhspc": {
+"count": 2,
+"type": "Condition"
+},
+"mi": {
+"count": 9,
+"type": "Condition"
+},
+"micturition": {
+"count": 2,
+"type": "Condition"
+},
+"migraine headaches": {
+"count": 2,
+"type": "Condition"
+},
+"mild cognitive impairment": {
+"count": 2,
+"type": "Condition"
+},
+"milk protein allergy": {
+"count": 3,
+"type": "Condition"
+},
+"mini-kid": {
+"count": 4,
+"type": "Procedure"
+},
+"minors": {
+"count": 4,
+"type": "Person"
+},
+"mirabegron": {
+"count": 2,
+"type": "Drug"
+},
+"misoprostol": {
+"count": 5,
+"type": "Drug"
+},
+"mitoxantrone": {
+"count": 2,
+"type": "Drug"
+},
+"mitral regurgitation": {
+"count": 4,
+"type": "Condition"
+},
+"mitral stenosis": {
+"count": 2,
+"type": "Condition"
+},
+"mmf": {
+"count": 2,
+"type": "Drug"
+},
+"moca score": {
+"count": 3,
+"type": "Measurement"
+},
+"modafinil": {
+"count": 2,
+"type": "Drug"
+},
+"monoamine oxidase inhibitors": {
+"count": 4,
+"type": "Drug"
+},
+"mood stabilizers": {
+"count": 2,
+"type": "Drug"
+},
+"morbid obesity": {
+"count": 2,
+"type": "Condition"
+},
+"morbidly obese": {
+"count": 3,
+"type": "Condition"
+},
+"morphine": {
+"count": 9,
+"type": "Drug"
+},
+"motion sickness": {
+"count": 2,
+"type": "Condition"
+},
+"mpa": {
+"count": 2,
+"type": "Drug"
+},
+"mr": {
+"count": 2,
+"type": "Procedure"
+},
+"mri scans": {
+"count": 2,
+"type": "Procedure"
+},
+"mskcc radiation oncology department dose constraint criteria": {
+"count": 2,
+"type": "Measurement"
+},
+"mtx": {
+"count": 3,
+"type": "Drug"
+},
+"multiple endocrine neoplasia syndrome type 2": {
+"count": 2,
+"type": "Condition"
+},
+"multiple myeloma": {
+"count": 2,
+"type": "Condition"
+},
+"multiple premature ventricular or atrial contractions": {
+"count": 2,
+"type": "Condition"
+},
+"multiple sclerosis": {
+"count": 12,
+"type": "Condition"
+},
+"muscle relaxants": {
+"count": 3,
+"type": "Drug"
+},
+"myasthenia gravis": {
+"count": 4,
+"type": "Condition"
+},
+"mycophenolate": {
+"count": 3,
+"type": "Drug"
+},
+"myelodysplastic syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"myocardial infarction": {
+"count": 41,
+"type": "Condition"
+},
+"myocardial ischemia": {
+"count": 2,
+"type": "Condition"
+},
+"myocarditis": {
+"count": 2,
+"type": "Condition"
+},
+"myoma": {
+"count": 5,
+"type": "Condition"
+},
+"myopia": {
+"count": 1,
+"type": "Condition"
+},
+"myxoma": {
+"count": 2,
+"type": "Condition"
+},
+"mzl": {
+"count": 2,
+"type": "Condition"
+},
+"n-acetylcysteine": {
+"count": 2,
+"type": "Drug"
+},
+"nac": {
+"count": 2,
+"type": "Drug"
+},
+"naloxone": {
+"count": 2,
+"type": "Drug"
+},
+"naltrexone": {
+"count": 3,
+"type": "Drug"
+},
+"narcotics": {
+"count": 5,
+"type": "Drug"
+},
+"nas": {
+"count": 2,
+"type": "Drug"
+},
+"nausea": {
+"count": 4,
+"type": "Condition"
+},
+"nefazodone": {
+"count": 4,
+"type": "Drug"
+},
+"nelfinavir": {
+"count": 4,
+"type": "Drug"
+},
+"neoadjuvant chemotherapy": {
+"count": 2,
+"type": "Procedure"
+},
+"neoadjuvant hormone therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"neoadjuvant therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"neomycin": {
+"count": 4,
+"type": "Drug"
+},
+"neoplasm": {
+"count": 6,
+"type": "Condition"
+},
+"neoplastic diseases": {
+"count": 2,
+"type": "Condition"
+},
+"neuraxial anesthesia": {
+"count": 6,
+"type": "Procedure"
+},
+"neurogenic bladder": {
+"count": 2,
+"type": "Condition"
+},
+"neurogenic bowel/bladder dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"neuroleptics": {
+"count": 3,
+"type": "Drug"
+},
+"neurologic disease": {
+"count": 3,
+"type": "Condition"
+},
+"neurological deficit": {
+"count": 2,
+"type": "Condition"
+},
+"neurological deficits": {
+"count": 2,
+"type": "Condition"
+},
+"neurological disease": {
+"count": 7,
+"type": "Condition"
+},
+"neurological diseases": {
+"count": 4,
+"type": "Condition"
+},
+"neurological disorder": {
+"count": 2,
+"type": "Condition"
+},
+"neurological disorders": {
+"count": 2,
+"type": "Condition"
+},
+"neurological sequelae": {
+"count": 2,
+"type": "Condition"
+},
+"neuromuscular disease": {
+"count": 2,
+"type": "Condition"
+},
+"neuromuscular disorder": {
+"count": 2,
+"type": "Condition"
+},
+"neuromuscular disorders": {
+"count": 2,
+"type": "Condition"
+},
+"neurosurgery": {
+"count": 1,
+"type": "Condition"
+},
+"neurosurgical intervention": {
+"count": 2,
+"type": "Procedure"
+},
+"neutropenia": {
+"count": 6,
+"type": "Condition"
+},
+"neutrophils": {
+"count": 2,
+"type": "Measurement"
+},
+"new york heart association (nyha) class": {
+"count": 2,
+"type": "Measurement"
+},
+"newborns": {
+"count": 5,
+"type": "Person"
+},
+"nhl": {
+"count": 4,
+"type": "Condition"
+},
+"niacin": {
+"count": 2,
+"type": "Drug"
+},
+"nicotine replacement therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"nilotinib": {
+"count": 4,
+"type": "Drug"
+},
+"nitrate": {
+"count": 2,
+"type": "Drug"
+},
+"nitrates": {
+"count": 5,
+"type": "Drug"
+},
+"nitrogen mustard": {
+"count": 2,
+"type": "Drug"
+},
+"nitroglycerin": {
+"count": 3,
+"type": "Drug"
+},
+"nnrti": {
+"count": 4,
+"type": "Drug"
+},
+"noac": {
+"count": 5,
+"type": "Drug"
+},
+"nocturnal oxygen therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"non-melanoma skin cancer": {
+"count": 8,
+"type": "Condition"
+},
+"non-smokers": {
+"count": 1,
+"type": "Person"
+},
+"non-steroidal anti-inflammatory drugs": {
+"count": 4,
+"type": "Drug"
+},
+"nonsteroidal anti-inflammatory drugs (nsaid)": {
+"count": 2,
+"type": "Drug"
+},
+"nonsteroidal antiinflammatory drug": {
+"count": 1,
+"type": "Drug"
+},
+"normal liver and kidney function": {
+"count": 2,
+"type": "Condition"
+},
+"normal organ and marrow function": {
+"count": 2,
+"type": "Condition"
+},
+"normal who morphology": {
+"count": 2,
+"type": "Measurement"
+},
+"npi": {
+"count": 11,
+"type": "Measurement"
+},
+"nrt": {
+"count": 2,
+"type": "Procedure"
+},
+"nsaid": {
+"count": 9,
+"type": "Drug"
+},
+"nsaids": {
+"count": 13,
+"type": "Drug"
+},
+"nsclc": {
+"count": 2,
+"type": "Condition"
+},
+"nste-acs": {
+"count": 2,
+"type": "Condition"
+},
+"nugent score": {
+"count": 2,
+"type": "Measurement"
+},
+"nursing": {
+"count": 29,
+"type": "Condition"
+},
+"nyha": {
+"count": 22,
+"type": "Measurement"
+},
+"nyha functional class": {
+"count": 2,
+"type": "Measurement"
+},
+"oat": {
+"count": 2,
+"type": "Drug"
+},
+"obese": {
+"count": 6,
+"type": "Condition"
+},
+"obstructive sleep apnea": {
+"count": 4,
+"type": "Condition"
+},
+"oct": {
+"count": 4,
+"type": "Procedure"
+},
+"ocular infection": {
+"count": 2,
+"type": "Condition"
+},
+"ocular surface or annexes metaplastic lesions": {
+"count": 2,
+"type": "Condition"
+},
+"ocular surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"oesophageal varices": {
+"count": 2,
+"type": "Condition"
+},
+"old": {
+"count": 55,
+"type": "Person"
+},
+"oligoovulation": {
+"count": 2,
+"type": "Condition"
+},
+"operations": {
+"count": 2,
+"type": "Procedure"
+},
+"ophthalmoscopy": {
+"count": 3,
+"type": "Procedure"
+},
+"opiate": {
+"count": 3,
+"type": "Drug"
+},
+"opiates": {
+"count": 2,
+"type": "Drug"
+},
+"opioid analgesics": {
+"count": 2,
+"type": "Drug"
+},
+"opioids": {
+"count": 13,
+"type": "Drug"
+},
+"opportunistic infection": {
+"count": 2,
+"type": "Condition"
+},
+"opportunistic infections": {
+"count": 2,
+"type": "Condition"
+},
+"oral 5-aminosalicylates": {
+"count": 2,
+"type": "Drug"
+},
+"oral anticoagulation": {
+"count": 3,
+"type": "Procedure"
+},
+"oral contraceptive pills": {
+"count": 5,
+"type": "Drug"
+},
+"oral contraceptives": {
+"count": 3,
+"type": "Drug"
+},
+"oral corticosteroids": {
+"count": 4,
+"type": "Drug"
+},
+"oral lesions": {
+"count": 2,
+"type": "Condition"
+},
+"oral steroids": {
+"count": 3,
+"type": "Drug"
+},
+"organ dysfunction": {
+"count": 3,
+"type": "Condition"
+},
+"organ dysfunctions": {
+"count": 2,
+"type": "Condition"
+},
+"organ transplant": {
+"count": 4,
+"type": "Procedure"
+},
+"organic brain disease": {
+"count": 2,
+"type": "Condition"
+},
+"orthopedic disease": {
+"count": 3,
+"type": "Condition"
+},
+"orthostatic hypotension": {
+"count": 2,
+"type": "Condition"
+},
+"osa": {
+"count": 3,
+"type": "Condition"
+},
+"osdi": {
+"count": 3,
+"type": "Measurement"
+},
+"osteoarthritis": {
+"count": 10,
+"type": "Condition"
+},
+"osteomalacia": {
+"count": 2,
+"type": "Condition"
+},
+"osteopenia": {
+"count": 2,
+"type": "Condition"
+},
+"osteoporosis": {
+"count": 8,
+"type": "Condition"
+},
+"other cancers": {
+"count": 2,
+"type": "Condition"
+},
+"other diseases": {
+"count": 3,
+"type": "Condition"
+},
+"other immune-modifying drugs": {
+"count": 2,
+"type": "Drug"
+},
+"other investigational drugs": {
+"count": 2,
+"type": "Drug"
+},
+"outpatient clinic visit": {
+"count": 2,
+"type": "Procedure"
+},
+"ovarian cancer": {
+"count": 2,
+"type": "Condition"
+},
+"ovarian cysts": {
+"count": 2,
+"type": "Condition"
+},
+"ovarian surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"over the counter memory enhancing or protecting medications": {
+"count": 2,
+"type": "Drug"
+},
+"over-the-counter medication": {
+"count": 2,
+"type": "Drug"
+},
+"overweight": {
+"count": 5,
+"type": "Condition"
+},
+"oxycodone": {
+"count": 3,
+"type": "Drug"
+},
+"oxygen saturation": {
+"count": 5,
+"type": "Measurement"
+},
+"p2y12 receptor antagonist": {
+"count": 2,
+"type": "Drug"
+},
+"paba": {
+"count": 2,
+"type": "Drug"
+},
+"pacemaker implantation": {
+"count": 2,
+"type": "Procedure"
+},
+"paclitaxel": {
+"count": 2,
+"type": "Drug"
+},
+"paget's disease": {
+"count": 4,
+"type": "Condition"
+},
+"pah": {
+"count": 2,
+"type": "Condition"
+},
+"painful symptoms": {
+"count": 2,
+"type": "Condition"
+},
+"palliative treatment": {
+"count": 2,
+"type": "Procedure"
+},
+"palpation": {
+"count": 1,
+"type": "Measurement"
+},
+"pancreas cancer": {
+"count": 2,
+"type": "Condition"
+},
+"pancreatectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"pancreatic cancer": {
+"count": 3,
+"type": "Condition"
+},
+"pancreatitis": {
+"count": 7,
+"type": "Condition"
+},
+"panic disorder": {
+"count": 2,
+"type": "Condition"
+},
+"paracetamol": {
+"count": 8,
+"type": "Drug"
+},
+"parkinson disease": {
+"count": 3,
+"type": "Condition"
+},
+"parkinson's disease": {
+"count": 9,
+"type": "Condition"
+},
+"parkland protocol": {
+"count": 3,
+"type": "Procedure"
+},
+"paroxysmal atrial fibrillation": {
+"count": 2,
+"type": "Condition"
+},
+"partial seizure": {
+"count": 2,
+"type": "Condition"
+},
+"parturient": {
+"count": 3,
+"type": "Condition"
+},
+"patent foramen ovale": {
+"count": 2,
+"type": "Condition"
+},
+"pathological bleeding": {
+"count": 2,
+"type": "Condition"
+},
+"pbc": {
+"count": 5,
+"type": "Condition"
+},
+"pci": {
+"count": 17,
+"type": "Procedure"
+},
+"pcos": {
+"count": 7,
+"type": "Condition"
+},
+"pcv13": {
+"count": 2,
+"type": "Drug"
+},
+"pd": {
+"count": 4,
+"type": "Condition"
+},
+"pe": {
+"count": 3,
+"type": "Condition"
+},
+"peginterferon": {
+"count": 2,
+"type": "Drug"
+},
+"peginterferon alfa-2a": {
+"count": 2,
+"type": "Drug"
+},
+"pelvic irradiation": {
+"count": 2,
+"type": "Procedure"
+},
+"pelvic pain": {
+"count": 2,
+"type": "Condition"
+},
+"pelvic/speculum examination": {
+"count": 2,
+"type": "Procedure"
+},
+"pembrolizumab": {
+"count": 2,
+"type": "Drug"
+},
+"penicillin": {
+"count": 4,
+"type": "Drug"
+},
+"peptic ulcer": {
+"count": 3,
+"type": "Condition"
+},
+"peptic ulceration": {
+"count": 2,
+"type": "Condition"
+},
+"peptic ulcers": {
+"count": 2,
+"type": "Condition"
+},
+"percutaneous coronary intervention": {
+"count": 9,
+"type": "Procedure"
+},
+"percutaneous coronary intervention (pci)": {
+"count": 3,
+"type": "Procedure"
+},
+"percutaneous intervention": {
+"count": 4,
+"type": "Procedure"
+},
+"pericardial effusion": {
+"count": 2,
+"type": "Condition"
+},
+"peripheral arterial disease": {
+"count": 2,
+"type": "Condition"
+},
+"peripheral artery disease": {
+"count": 2,
+"type": "Condition"
+},
+"peripheral edema": {
+"count": 2,
+"type": "Condition"
+},
+"peripheral neuropathy": {
+"count": 12,
+"type": "Condition"
+},
+"peripheral vascular disease": {
+"count": 6,
+"type": "Condition"
+},
+"peritoneal dialysis": {
+"count": 3,
+"type": "Procedure"
+},
+"peritonitis": {
+"count": 2,
+"type": "Condition"
+},
+"pertussis": {
+"count": 2,
+"type": "Condition"
+},
+"phacoemulsification surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"pharmacotherapy": {
+"count": 2,
+"type": "Procedure"
+},
+"pharyngitis": {
+"count": 3,
+"type": "Condition"
+},
+"phenobarbital": {
+"count": 5,
+"type": "Drug"
+},
+"phenytoin": {
+"count": 8,
+"type": "Drug"
+},
+"pheochromocytoma": {
+"count": 5,
+"type": "Condition"
+},
+"phn": {
+"count": 2,
+"type": "Condition"
+},
+"photosensitivity": {
+"count": 2,
+"type": "Condition"
+},
+"phq-9": {
+"count": 2,
+"type": "Measurement"
+},
+"physical exam": {
+"count": 5,
+"type": "Procedure"
+},
+"physical examination": {
+"count": 17,
+"type": "Procedure"
+},
+"physical signs": {
+"count": 2,
+"type": "Condition"
+},
+"physical therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"pivmecillinam": {
+"count": 2,
+"type": "Drug"
+},
+"placebo": {
+"count": 3,
+"type": "Drug"
+},
+"plasma sodium concentration": {
+"count": 2,
+"type": "Measurement"
+},
+"platelet count": {
+"count": 27,
+"type": "Measurement"
+},
+"platelet storage pool or release defects": {
+"count": 2,
+"type": "Condition"
+},
+"platelets": {
+"count": 17,
+"type": "Measurement"
+},
+"plavix": {
+"count": 4,
+"type": "Drug"
+},
+"plt": {
+"count": 2,
+"type": "Measurement"
+},
+"pn": {
+"count": 4,
+"type": "Procedure"
+},
+"pneumonectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"pneumonitis": {
+"count": 2,
+"type": "Condition"
+},
+"pneumothorax": {
+"count": 2,
+"type": "Condition"
+},
+"polio": {
+"count": 2,
+"type": "Condition"
+},
+"polycystic ovary syndrome (pcos)": {
+"count": 2,
+"type": "Condition"
+},
+"polyp": {
+"count": 2,
+"type": "Condition"
+},
+"polysomnography": {
+"count": 2,
+"type": "Procedure"
+},
+"polytrauma": {
+"count": 2,
+"type": "Condition"
+},
+"porphyria": {
+"count": 6,
+"type": "Condition"
+},
+"porphyrins": {
+"count": 2,
+"type": "Drug"
+},
+"post menopausal": {
+"count": 2,
+"type": "Condition"
+},
+"postnatal age": {
+"count": 3,
+"type": "Measurement"
+},
+"ppi": {
+"count": 5,
+"type": "Drug"
+},
+"ppis": {
+"count": 3,
+"type": "Drug"
+},
+"pra": {
+"count": 2,
+"type": "Measurement"
+},
+"prasugrel": {
+"count": 7,
+"type": "Drug"
+},
+"prazosin": {
+"count": 2,
+"type": "Drug"
+},
+"pre-eclampsia": {
+"count": 4,
+"type": "Condition"
+},
+"pre-menopausal": {
+"count": 4,
+"type": "Condition"
+},
+"prednisolone": {
+"count": 3,
+"type": "Drug"
+},
+"prednisone": {
+"count": 25,
+"type": "Drug"
+},
+"prednisone, or equivalent": {
+"count": 2,
+"type": "Drug"
+},
+"preeclampsia": {
+"count": 2,
+"type": "Condition"
+},
+"pregabalin": {
+"count": 5,
+"type": "Drug"
+},
+"pregnancy": {
+"count": 158,
+"type": "Condition"
+},
+"pregnant": {
+"count": 190,
+"type": "Condition"
+},
+"pregnyl": {
+"count": 2,
+"type": "Drug"
+},
+"premenopausal": {
+"count": 2,
+"type": "Condition"
+},
+"prescription medications": {
+"count": 2,
+"type": "Drug"
+},
+"prescription pain/ insulin medication": {
+"count": 2,
+"type": "Drug"
+},
+"pressure sores": {
+"count": 2,
+"type": "Condition"
+},
+"preterm labor": {
+"count": 2,
+"type": "Condition"
+},
+"primary disease": {
+"count": 2,
+"type": "Condition"
+},
+"primary malignancy": {
+"count": 2,
+"type": "Condition"
+},
+"primary pci": {
+"count": 2,
+"type": "Procedure"
+},
+"primary percutaneous coronary intervention": {
+"count": 2,
+"type": "Procedure"
+},
+"primary pulmonary hypertension": {
+"count": 3,
+"type": "Condition"
+},
+"primary sclerosing cholangitis": {
+"count": 2,
+"type": "Condition"
+},
+"prisoners": {
+"count": 9,
+"type": "Person"
+},
+"prl": {
+"count": 2,
+"type": "Measurement"
+},
+"professional drivers": {
+"count": 2,
+"type": "Person"
+},
+"progestin": {
+"count": 2,
+"type": "Drug"
+},
+"progressive neurological or neuromuscular disorders": {
+"count": 2,
+"type": "Condition"
+},
+"proliferative retinopathy": {
+"count": 2,
+"type": "Condition"
+},
+"prom": {
+"count": 2,
+"type": "Condition"
+},
+"propofol": {
+"count": 4,
+"type": "Drug"
+},
+"prostate cancer": {
+"count": 14,
+"type": "Condition"
+},
+"prostate surgery": {
+"count": 1,
+"type": "Condition"
+},
+"prostate volume": {
+"count": 2,
+"type": "Measurement"
+},
+"prostatectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"prostatic carcinoma": {
+"count": 2,
+"type": "Condition"
+},
+"prostatic hypertrophy": {
+"count": 2,
+"type": "Condition"
+},
+"prostatitis": {
+"count": 3,
+"type": "Condition"
+},
+"protease inhibitor": {
+"count": 3,
+"type": "Drug"
+},
+"protease inhibitors": {
+"count": 3,
+"type": "Drug"
+},
+"proteinuria": {
+"count": 3,
+"type": "Condition"
+},
+"prothrombin time": {
+"count": 2,
+"type": "Measurement"
+},
+"psa": {
+"count": 6,
+"type": "Measurement"
+},
+"psc": {
+"count": 2,
+"type": "Condition"
+},
+"psoriasis": {
+"count": 9,
+"type": "Condition"
+},
+"psoriatic arthritis": {
+"count": 2,
+"type": "Condition"
+},
+"psoriatic disease": {
+"count": 2,
+"type": "Condition"
+},
+"psychiatric condition": {
+"count": 4,
+"type": "Condition"
+},
+"psychiatric conditions": {
+"count": 2,
+"type": "Condition"
+},
+"psychiatric diagnosis": {
+"count": 2,
+"type": "Condition"
+},
+"psychiatric disease": {
+"count": 13,
+"type": "Condition"
+},
+"psychiatric diseases": {
+"count": 4,
+"type": "Condition"
+},
+"psychiatric disorder": {
+"count": 8,
+"type": "Condition"
+},
+"psychiatric disorders": {
+"count": 6,
+"type": "Condition"
+},
+"psychiatric illness": {
+"count": 9,
+"type": "Condition"
+},
+"psychiatric medications": {
+"count": 3,
+"type": "Drug"
+},
+"psychiatric troubles": {
+"count": 2,
+"type": "Condition"
+},
+"psychoactive medication": {
+"count": 2,
+"type": "Drug"
+},
+"psychosis": {
+"count": 16,
+"type": "Condition"
+},
+"psychotherapy": {
+"count": 4,
+"type": "Procedure"
+},
+"psychotic disorder": {
+"count": 8,
+"type": "Condition"
+},
+"psychotic disorders": {
+"count": 3,
+"type": "Condition"
+},
+"psychotic features": {
+"count": 2,
+"type": "Condition"
+},
+"psychotic illness": {
+"count": 2,
+"type": "Condition"
+},
+"psychotropic medications": {
+"count": 4,
+"type": "Drug"
+},
+"psychotropics": {
+"count": 3,
+"type": "Drug"
+},
+"ptcl": {
+"count": 2,
+"type": "Condition"
+},
+"ptsd": {
+"count": 4,
+"type": "Condition"
+},
+"ptt": {
+"count": 2,
+"type": "Measurement"
+},
+"pulmonary arterial hypertension": {
+"count": 2,
+"type": "Condition"
+},
+"pulmonary conditions": {
+"count": 2,
+"type": "Condition"
+},
+"pulmonary dysfunction": {
+"count": 2,
+"type": "Condition"
+},
+"pulmonary edema": {
+"count": 2,
+"type": "Condition"
+},
+"pulmonary embolism": {
+"count": 7,
+"type": "Condition"
+},
+"pulmonary heart disease": {
+"count": 2,
+"type": "Condition"
+},
+"pulmonary hypertension": {
+"count": 11,
+"type": "Condition"
+},
+"pulmonary, cardiovascular or orthopedic disease": {
+"count": 3,
+"type": "Condition"
+},
+"pulse": {
+"count": 2,
+"type": "Measurement"
+},
+"pvr": {
+"count": 3,
+"type": "Measurement"
+},
+"pws": {
+"count": 2,
+"type": "Condition"
+},
+"qtc": {
+"count": 4,
+"type": "Measurement"
+},
+"qtcf": {
+"count": 2,
+"type": "Measurement"
+},
+"quetiapine": {
+"count": 2,
+"type": "Drug"
+},
+"ra": {
+"count": 6,
+"type": "Condition"
+},
+"radiation therapy": {
+"count": 17,
+"type": "Procedure"
+},
+"radiographic": {
+"count": 3,
+"type": "Procedure"
+},
+"radiographically": {
+"count": 2,
+"type": "Procedure"
+},
+"radiologically": {
+"count": 2,
+"type": "Procedure"
+},
+"radiotherapy": {
+"count": 16,
+"type": "Procedure"
+},
+"rash": {
+"count": 3,
+"type": "Condition"
+},
+"recession defects": {
+"count": 2,
+"type": "Condition"
+},
+"reconstructive surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"rectal cancer": {
+"count": 2,
+"type": "Condition"
+},
+"refractory disease": {
+"count": 3,
+"type": "Condition"
+},
+"regadenoson": {
+"count": 2,
+"type": "Drug"
+},
+"regional anesthesia": {
+"count": 6,
+"type": "Procedure"
+},
+"regular cycles": {
+"count": 2,
+"type": "Condition"
+},
+"relapse": {
+"count": 7,
+"type": "Condition"
+},
+"related products": {
+"count": 2,
+"type": "Drug"
+},
+"renal artery stenosis": {
+"count": 3,
+"type": "Condition"
+},
+"renal dialysis": {
+"count": 2,
+"type": "Procedure"
+},
+"renal disease": {
+"count": 15,
+"type": "Condition"
+},
+"renal diseases": {
+"count": 2,
+"type": "Condition"
+},
+"renal disorder": {
+"count": 2,
+"type": "Condition"
+},
+"renal dysfunction": {
+"count": 13,
+"type": "Condition"
+},
+"renal failure": {
+"count": 22,
+"type": "Condition"
+},
+"renal function": {
+"count": 10,
+"type": "Measurement"
+},
+"renal function impairment": {
+"count": 2,
+"type": "Condition"
+},
+"renal impairment": {
+"count": 14,
+"type": "Condition"
+},
+"renal insufficiency": {
+"count": 18,
+"type": "Condition"
+},
+"renal replacement therapy": {
+"count": 3,
+"type": "Procedure"
+},
+"renovascular disease": {
+"count": 2,
+"type": "Condition"
+},
+"resection of aortic or left ventricular aneurysm": {
+"count": 2,
+"type": "Procedure"
+},
+"reserpine": {
+"count": 2,
+"type": "Drug"
+},
+"residual cognitive deficits": {
+"count": 2,
+"type": "Condition"
+},
+"respiratory arrest": {
+"count": 2,
+"type": "Condition"
+},
+"respiratory depression": {
+"count": 2,
+"type": "Condition"
+},
+"respiratory disease": {
+"count": 7,
+"type": "Condition"
+},
+"respiratory failure": {
+"count": 4,
+"type": "Condition"
+},
+"respiratory rate": {
+"count": 2,
+"type": "Measurement"
+},
+"restenosis": {
+"count": 2,
+"type": "Condition"
+},
+"resting heart rate": {
+"count": 2,
+"type": "Measurement"
+},
+"restrictive cardiomyopathy": {
+"count": 2,
+"type": "Condition"
+},
+"restrictive pulmonary disease": {
+"count": 3,
+"type": "Condition"
+},
+"retransplantation": {
+"count": 1,
+"type": "Condition"
+},
+"revascularization": {
+"count": 10,
+"type": "Procedure"
+},
+"revision total knee arthroplasty": {
+"count": 3,
+"type": "Procedure"
+},
+"rheumatic heart disease": {
+"count": 2,
+"type": "Condition"
+},
+"rheumatoid arthritis": {
+"count": 17,
+"type": "Condition"
+},
+"rifabutin": {
+"count": 3,
+"type": "Drug"
+},
+"rifampicin": {
+"count": 4,
+"type": "Drug"
+},
+"rifampin": {
+"count": 12,
+"type": "Drug"
+},
+"rifapentine": {
+"count": 2,
+"type": "Drug"
+},
+"right bundle branch block": {
+"count": 2,
+"type": "Condition"
+},
+"risk for moderate exercise": {
+"count": 2,
+"type": "Measurement"
+},
+"risk profession": {
+"count": 2,
+"type": "Person"
+},
+"ritonavir": {
+"count": 7,
+"type": "Drug"
+},
+"rituximab": {
+"count": 11,
+"type": "Drug"
+},
+"rivaroxaban": {
+"count": 5,
+"type": "Drug"
+},
+"rivastigmine": {
+"count": 2,
+"type": "Drug"
+},
+"rocuronium": {
+"count": 2,
+"type": "Drug"
+},
+"ropivacaine": {
+"count": 2,
+"type": "Drug"
+},
+"rosuvastatin": {
+"count": 5,
+"type": "Drug"
+},
+"roux-en-y gastric bypass": {
+"count": 2,
+"type": "Procedure"
+},
+"rupture of membranes": {
+"count": 2,
+"type": "Condition"
+},
+"ruptured membranes": {
+"count": 2,
+"type": "Condition"
+},
+"rutherford category": {
+"count": 3,
+"type": "Measurement"
+},
+"ruxolitinib": {
+"count": 2,
+"type": "Drug"
+},
+"rygb": {
+"count": 4,
+"type": "Procedure"
+},
+"sacroiliitis": {
+"count": 4,
+"type": "Condition"
+},
+"salbutamol": {
+"count": 6,
+"type": "Drug"
+},
+"saquinavir": {
+"count": 4,
+"type": "Drug"
+},
+"sarcoidosis": {
+"count": 5,
+"type": "Condition"
+},
+"sbp": {
+"count": 6,
+"type": "Measurement"
+},
+"scar diathesis": {
+"count": 2,
+"type": "Condition"
+},
+"schirmer": {
+"count": 2,
+"type": "Measurement"
+},
+"schizoaffective disorder": {
+"count": 5,
+"type": "Condition"
+},
+"schizophrenia": {
+"count": 21,
+"type": "Condition"
+},
+"sci": {
+"count": 3,
+"type": "Condition"
+},
+"scleroderma": {
+"count": 4,
+"type": "Condition"
+},
+"scoliosis": {
+"count": 2,
+"type": "Condition"
+},
+"scorten": {
+"count": 2,
+"type": "Measurement"
+},
+"second or third degree heart block": {
+"count": 2,
+"type": "Condition"
+},
+"secondary hypertension": {
+"count": 3,
+"type": "Condition"
+},
+"sedation": {
+"count": 4,
+"type": "Procedure"
+},
+"sedative hypnotics": {
+"count": 3,
+"type": "Drug"
+},
+"sedatives": {
+"count": 3,
+"type": "Drug"
+},
+"seizure disorder": {
+"count": 14,
+"type": "Condition"
+},
+"seizures": {
+"count": 13,
+"type": "Condition"
+},
+"sensitivity": {
+"count": 12,
+"type": "Condition"
+},
+"sepsis": {
+"count": 16,
+"type": "Condition"
+},
+"septic shock": {
+"count": 4,
+"type": "Condition"
+},
+"serology": {
+"count": 2,
+"type": "Measurement"
+},
+"serous detachment": {
+"count": 2,
+"type": "Condition"
+},
+"serum albumin": {
+"count": 3,
+"type": "Measurement"
+},
+"serum cr": {
+"count": 2,
+"type": "Measurement"
+},
+"serum creatinine": {
+"count": 30,
+"type": "Measurement"
+},
+"serum creatinine level": {
+"count": 2,
+"type": "Measurement"
+},
+"serum ferritin": {
+"count": 2,
+"type": "Measurement"
+},
+"serum potassium": {
+"count": 7,
+"type": "Measurement"
+},
+"serum pregnancy test": {
+"count": 7,
+"type": "Measurement"
+},
+"serum total bilirubin": {
+"count": 2,
+"type": "Measurement"
+},
+"serum tsh": {
+"count": 2,
+"type": "Measurement"
+},
+"severe allergic reaction": {
+"count": 2,
+"type": "Condition"
+},
+"severe hypertension": {
+"count": 2,
+"type": "Condition"
+},
+"severe liver or renal insufficiency": {
+"count": 2,
+"type": "Condition"
+},
+"severe physical illness": {
+"count": 2,
+"type": "Condition"
+},
+"severe sepsis": {
+"count": 2,
+"type": "Condition"
+},
+"sglt-2 inhibitors": {
+"count": 2,
+"type": "Drug"
+},
+"sglt2 inhibitors": {
+"count": 2,
+"type": "Drug"
+},
+"sgot": {
+"count": 2,
+"type": "Measurement"
+},
+"sgpt": {
+"count": 2,
+"type": "Measurement"
+},
+"short bowel syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"sick sinus syndrome": {
+"count": 3,
+"type": "Condition"
+},
+"sickle cell disease": {
+"count": 5,
+"type": "Condition"
+},
+"sidbp": {
+"count": 3,
+"type": "Measurement"
+},
+"significant scarring": {
+"count": 2,
+"type": "Condition"
+},
+"sildenafil": {
+"count": 7,
+"type": "Drug"
+},
+"silodosin": {
+"count": 2,
+"type": "Drug"
+},
+"simvastatin": {
+"count": 4,
+"type": "Drug"
+},
+"singleton fetus": {
+"count": 2,
+"type": "Condition"
+},
+"singleton pregnancy": {
+"count": 9,
+"type": "Condition"
+},
+"sinus rhythm": {
+"count": 2,
+"type": "Condition"
+},
+"sirolimus": {
+"count": 10,
+"type": "Drug"
+},
+"sisbp": {
+"count": 3,
+"type": "Measurement"
+},
+"sitagliptin": {
+"count": 2,
+"type": "Drug"
+},
+"skin breakdown": {
+"count": 2,
+"type": "Condition"
+},
+"skin disease": {
+"count": 4,
+"type": "Condition"
+},
+"skin diseases": {
+"count": 3,
+"type": "Condition"
+},
+"skin infections": {
+"count": 2,
+"type": "Condition"
+},
+"sle": {
+"count": 2,
+"type": "Condition"
+},
+"sleep apnea": {
+"count": 6,
+"type": "Condition"
+},
+"sleep disordered breathing": {
+"count": 2,
+"type": "Condition"
+},
+"sleep disorders": {
+"count": 2,
+"type": "Condition"
+},
+"slit lamp examination": {
+"count": 2,
+"type": "Procedure"
+},
+"sll": {
+"count": 2,
+"type": "Condition"
+},
+"slnbx": {
+"count": 2,
+"type": "Procedure"
+},
+"small bowel video capsule endoscopy": {
+"count": 2,
+"type": "Procedure"
+},
+"smoker": {
+"count": 2,
+"type": "Condition"
+},
+"smokers": {
+"count": 4,
+"type": "Condition"
+},
+"snri": {
+"count": 2,
+"type": "Drug"
+},
+"solid organ transplant": {
+"count": 2,
+"type": "Procedure"
+},
+"solid tumor": {
+"count": 2,
+"type": "Condition"
+},
+"sorafenib": {
+"count": 2,
+"type": "Drug"
+},
+"soy": {
+"count": 2,
+"type": "Drug"
+},
+"spa": {
+"count": 3,
+"type": "Condition"
+},
+"spasticity": {
+"count": 2,
+"type": "Condition"
+},
+"speculum examination": {
+"count": 2,
+"type": "Procedure"
+},
+"spina bifida": {
+"count": 3,
+"type": "Condition"
+},
+"spinal anaesthesia": {
+"count": 2,
+"type": "Procedure"
+},
+"spinal anesthesia": {
+"count": 4,
+"type": "Procedure"
+},
+"spinal cord disease": {
+"count": 3,
+"type": "Condition"
+},
+"spinal cord injury": {
+"count": 4,
+"type": "Condition"
+},
+"spinal stenosis": {
+"count": 5,
+"type": "Condition"
+},
+"spiral ct scan": {
+"count": 2,
+"type": "Procedure"
+},
+"spirometry": {
+"count": 2,
+"type": "Procedure"
+},
+"spo2": {
+"count": 5,
+"type": "Measurement"
+},
+"spondylolisthesis": {
+"count": 4,
+"type": "Condition"
+},
+"spontaneous amenorrhea": {
+"count": 3,
+"type": "Condition"
+},
+"squamous cell carcinoma of the skin": {
+"count": 2,
+"type": "Condition"
+},
+"squamous cell skin cancer": {
+"count": 2,
+"type": "Condition"
+},
+"sr": {
+"count": 2,
+"type": "Measurement"
+},
+"ssris": {
+"count": 3,
+"type": "Drug"
+},
+"st segment elevation": {
+"count": 3,
+"type": "Condition"
+},
+"st. john's wort": {
+"count": 5,
+"type": "Drug"
+},
+"st.p.": {
+"count": 2,
+"type": "Condition"
+},
+"stable angina pectoris": {
+"count": 2,
+"type": "Condition"
+},
+"stable dosing": {
+"count": 2,
+"type": "Procedure"
+},
+"statin": {
+"count": 9,
+"type": "Drug"
+},
+"statins": {
+"count": 9,
+"type": "Drug"
+},
+"stemi": {
+"count": 8,
+"type": "Condition"
+},
+"stent placement": {
+"count": 2,
+"type": "Procedure"
+},
+"stimulant medication": {
+"count": 2,
+"type": "Drug"
+},
+"stimulants": {
+"count": 3,
+"type": "Drug"
+},
+"stone": {
+"count": 3,
+"type": "Condition"
+},
+"stroke": {
+"count": 68,
+"type": "Condition"
+},
+"strong cyp3a4 inhibitors": {
+"count": 2,
+"type": "Drug"
+},
+"structured behavioral or exercise programs": {
+"count": 2,
+"type": "Procedure"
+},
+"structured interview": {
+"count": 2,
+"type": "Procedure"
+},
+"study drugs": {
+"count": 22,
+"type": "Drug"
+},
+"study medications": {
+"count": 9,
+"type": "Drug"
+},
+"subdural hematoma": {
+"count": 2,
+"type": "Condition"
+},
+"subject to a tutorial, judiciary or administrative decision": {
+"count": 2,
+"type": "Condition"
+},
+"submacular surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"substance abuse": {
+"count": 23,
+"type": "Condition"
+},
+"substance dependence": {
+"count": 2,
+"type": "Condition"
+},
+"substance use disorder": {
+"count": 8,
+"type": "Condition"
+},
+"sugammadex": {
+"count": 3,
+"type": "Drug"
+},
+"suicidal ideation": {
+"count": 8,
+"type": "Condition"
+},
+"sulfonamides": {
+"count": 4,
+"type": "Drug"
+},
+"sulfonylurea": {
+"count": 3,
+"type": "Drug"
+},
+"sunitinib": {
+"count": 3,
+"type": "Drug"
+},
+"supraclavicular block": {
+"count": 2,
+"type": "Procedure"
+},
+"surgical intervention": {
+"count": 5,
+"type": "Procedure"
+},
+"surgical or medical condition": {
+"count": 3,
+"type": "Condition"
+},
+"surgical procedure": {
+"count": 7,
+"type": "Procedure"
+},
+"surgical removal": {
+"count": 2,
+"type": "Procedure"
+},
+"surgical treatment": {
+"count": 6,
+"type": "Procedure"
+},
+"surgically sterilized": {
+"count": 1,
+"type": "Condition"
+},
+"swelling of the mouth": {
+"count": 2,
+"type": "Condition"
+},
+"swelling of the mouth and throat": {
+"count": 3,
+"type": "Condition"
+},
+"syncope": {
+"count": 3,
+"type": "Condition"
+},
+"syphilis": {
+"count": 7,
+"type": "Condition"
+},
+"syrinx": {
+"count": 3,
+"type": "Condition"
+},
+"systemic arterial hypertension": {
+"count": 3,
+"type": "Condition"
+},
+"systemic corticosteroid therapy": {
+"count": 2,
+"type": "Procedure"
+},
+"systemic corticosteroids": {
+"count": 8,
+"type": "Drug"
+},
+"systemic disease": {
+"count": 7,
+"type": "Condition"
+},
+"systemic diseases": {
+"count": 6,
+"type": "Condition"
+},
+"systemic illness": {
+"count": 4,
+"type": "Condition"
+},
+"systemic infection": {
+"count": 9,
+"type": "Condition"
+},
+"systemic lupus erythematosus": {
+"count": 4,
+"type": "Condition"
+},
+"systemic medication": {
+"count": 2,
+"type": "Drug"
+},
+"systemic sclerosis": {
+"count": 2,
+"type": "Condition"
+},
+"systemic steroids": {
+"count": 7,
+"type": "Drug"
+},
+"systemic treatment": {
+"count": 3,
+"type": "Procedure"
+},
+"systolic blood pressure": {
+"count": 21,
+"type": "Measurement"
+},
+"systolic blood pressure (sbp)": {
+"count": 2,
+"type": "Measurement"
+},
+"systolic bp": {
+"count": 6,
+"type": "Measurement"
+},
+"t score": {
+"count": 2,
+"type": "Measurement"
+},
+"t2dm": {
+"count": 7,
+"type": "Condition"
+},
+"tac": {
+"count": 2,
+"type": "Drug"
+},
+"tacrolimus": {
+"count": 7,
+"type": "Drug"
+},
+"tadalafil": {
+"count": 3,
+"type": "Drug"
+},
+"taf-containing fixed-dose combination regimens": {
+"count": 2,
+"type": "Procedure"
+},
+"tamoxifen": {
+"count": 3,
+"type": "Drug"
+},
+"tamsulosin": {
+"count": 3,
+"type": "Drug"
+},
+"target lesion": {
+"count": 6,
+"type": "Condition"
+},
+"target lesions": {
+"count": 3,
+"type": "Condition"
+},
+"tavi procedure": {
+"count": 4,
+"type": "Procedure"
+},
+"tbil": {
+"count": 3,
+"type": "Measurement"
+},
+"tbut": {
+"count": 2,
+"type": "Measurement"
+},
+"tbv": {
+"count": 3,
+"type": "Measurement"
+},
+"tca": {
+"count": 2,
+"type": "Drug"
+},
+"telbivudine": {
+"count": 3,
+"type": "Drug"
+},
+"telithromycin": {
+"count": 4,
+"type": "Drug"
+},
+"temperature": {
+"count": 16,
+"type": "Measurement"
+},
+"terazosin": {
+"count": 2,
+"type": "Drug"
+},
+"terminal cancer": {
+"count": 2,
+"type": "Condition"
+},
+"test drugs": {
+"count": 2,
+"type": "Drug"
+},
+"tetanus": {
+"count": 2,
+"type": "Condition"
+},
+"tetracycline": {
+"count": 5,
+"type": "Drug"
+},
+"therapeutic dosing": {
+"count": 2,
+"type": "Procedure"
+},
+"thiazolidinediones": {
+"count": 4,
+"type": "Drug"
+},
+"third degree heart block": {
+"count": 2,
+"type": "Condition"
+},
+"thoracic surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"thrombocytopenia": {
+"count": 13,
+"type": "Condition"
+},
+"thrombocytosis": {
+"count": 2,
+"type": "Condition"
+},
+"thromboembolic disease": {
+"count": 5,
+"type": "Condition"
+},
+"thromboembolic disorders": {
+"count": 2,
+"type": "Condition"
+},
+"thromboembolic event": {
+"count": 2,
+"type": "Condition"
+},
+"thrombolytic therapy": {
+"count": 4,
+"type": "Procedure"
+},
+"thrombophilia": {
+"count": 3,
+"type": "Condition"
+},
+"thyroid disease": {
+"count": 13,
+"type": "Condition"
+},
+"thyroid disorders": {
+"count": 3,
+"type": "Condition"
+},
+"thyroid dysfunction": {
+"count": 3,
+"type": "Condition"
+},
+"thyroid function": {
+"count": 2,
+"type": "Measurement"
+},
+"thyroid hormones": {
+"count": 2,
+"type": "Drug"
+},
+"thyroid pathology": {
+"count": 2,
+"type": "Condition"
+},
+"thyroidectomy": {
+"count": 3,
+"type": "Procedure"
+},
+"thyrotoxicosis": {
+"count": 2,
+"type": "Condition"
+},
+"tia": {
+"count": 6,
+"type": "Condition"
+},
+"ticagrelor": {
+"count": 14,
+"type": "Drug"
+},
+"ticlopidine": {
+"count": 5,
+"type": "Drug"
+},
+"tiotropium": {
+"count": 2,
+"type": "Drug"
+},
+"tonsillectomy": {
+"count": 2,
+"type": "Procedure"
+},
+"topical medications": {
+"count": 2,
+"type": "Drug"
+},
+"topical steroids": {
+"count": 3,
+"type": "Drug"
+},
+"topiramate": {
+"count": 3,
+"type": "Drug"
+},
+"total bilirubin": {
+"count": 18,
+"type": "Measurement"
+},
+"total cholesterol": {
+"count": 5,
+"type": "Measurement"
+},
+"total hip or knee replacement": {
+"count": 2,
+"type": "Procedure"
+},
+"total knee or hip replacement": {
+"count": 2,
+"type": "Procedure"
+},
+"total motile sperm count": {
+"count": 2,
+"type": "Measurement"
+},
+"total occluded vessels": {
+"count": 2,
+"type": "Condition"
+},
+"total occlusion": {
+"count": 2,
+"type": "Condition"
+},
+"tourette's syndrome": {
+"count": 2,
+"type": "Condition"
+},
+"toxic epidermal necrolysis": {
+"count": 2,
+"type": "Condition"
+},
+"tramadol": {
+"count": 4,
+"type": "Drug"
+},
+"tranexamic acid": {
+"count": 4,
+"type": "Drug"
+},
+"tranquilizers": {
+"count": 2,
+"type": "Drug"
+},
+"trans-jugular liver biopsy": {
+"count": 2,
+"type": "Procedure"
+},
+"transesophageal echocardiography": {
+"count": 2,
+"type": "Procedure"
+},
+"transient ischemic attack": {
+"count": 15,
+"type": "Condition"
+},
+"transient ischemic attack (tia)": {
+"count": 2,
+"type": "Condition"
+},
+"trastuzumab": {
+"count": 3,
+"type": "Drug"
+},
+"traumatic brain injury": {
+"count": 5,
+"type": "Condition"
+},
+"traumatic injury": {
+"count": 3,
+"type": "Condition"
+},
+"treadmill stress test": {
+"count": 2,
+"type": "Measurement"
+},
+"treprostinil": {
+"count": 4,
+"type": "Drug"
+},
+"tricyclic antidepressants": {
+"count": 4,
+"type": "Drug"
+},
+"triglycerides": {
+"count": 6,
+"type": "Measurement"
+},
+"triptans": {
+"count": 2,
+"type": "Drug"
+},
+"troponin levels": {
+"count": 2,
+"type": "Measurement"
+},
+"tsat": {
+"count": 2,
+"type": "Measurement"
+},
+"tsh": {
+"count": 6,
+"type": "Measurement"
+},
+"tuberculin skin test": {
+"count": 1,
+"type": "Measurement"
+},
+"tuberculosis": {
+"count": 17,
+"type": "Condition"
+},
+"tuberculosis (tb)": {
+"count": 2,
+"type": "Condition"
+},
+"tuberculosis medications": {
+"count": 2,
+"type": "Drug"
+},
+"type 1 diabetes": {
+"count": 16,
+"type": "Condition"
+},
+"type 1 diabetes mellitus": {
+"count": 3,
+"type": "Condition"
+},
+"type 2 diabetes": {
+"count": 13,
+"type": "Condition"
+},
+"type 2 diabetes mellitus": {
+"count": 8,
+"type": "Condition"
+},
+"type 2 diabetic": {
+"count": 3,
+"type": "Condition"
+},
+"type i or ii diabetes": {
+"count": 4,
+"type": "Condition"
+},
+"typhoid fever": {
+"count": 4,
+"type": "Condition"
+},
+"ulcerative colitis": {
+"count": 2,
+"type": "Condition"
+},
+"unable to walk": {
+"count": 2,
+"type": "Condition"
+},
+"unconsciousness": {
+"count": 2,
+"type": "Condition"
+},
+"underlying disease": {
+"count": 2,
+"type": "Condition"
+},
+"unfractionated heparin": {
+"count": 2,
+"type": "Drug"
+},
+"unipolar major depression": {
+"count": 2,
+"type": "Condition"
+},
+"unstable angina": {
+"count": 19,
+"type": "Condition"
+},
+"unstable angina pectoris": {
+"count": 6,
+"type": "Condition"
+},
+"upper arm circumference": {
+"count": 2,
+"type": "Measurement"
+},
+"upper endoscopy": {
+"count": 2,
+"type": "Procedure"
+},
+"upper gastrointestinal bleeding": {
+"count": 3,
+"type": "Condition"
+},
+"uremia": {
+"count": 2,
+"type": "Condition"
+},
+"urethral stricture": {
+"count": 2,
+"type": "Condition"
+},
+"urinalysis": {
+"count": 3,
+"type": "Procedure"
+},
+"urinary albumin/creatinine ratio": {
+"count": 2,
+"type": "Measurement"
+},
+"urinary infection": {
+"count": 2,
+"type": "Condition"
+},
+"urinary tract infection": {
+"count": 3,
+"type": "Condition"
+},
+"urine drug screening test": {
+"count": 2,
+"type": "Measurement"
+},
+"urine or serum pregnancy test": {
+"count": 2,
+"type": "Measurement"
+},
+"urine toxicology": {
+"count": 2,
+"type": "Measurement"
+},
+"urogenital infections": {
+"count": 3,
+"type": "Condition"
+},
+"urticaria": {
+"count": 4,
+"type": "Condition"
+},
+"uterine abnormalities": {
+"count": 5,
+"type": "Condition"
+},
+"uterine prolapse": {
+"count": 2,
+"type": "Condition"
+},
+"uterine scar": {
+"count": 2,
+"type": "Condition"
+},
+"uterine size": {
+"count": 2,
+"type": "Measurement"
+},
+"uterine surgery": {
+"count": 5,
+"type": "Procedure"
+},
+"uti": {
+"count": 3,
+"type": "Condition"
+},
+"utis": {
+"count": 3,
+"type": "Condition"
+},
+"uveitis": {
+"count": 3,
+"type": "Condition"
+},
+"vaginal bleeding": {
+"count": 3,
+"type": "Condition"
+},
+"vaginal delivery": {
+"count": 2,
+"type": "Procedure"
+},
+"vaginal infection": {
+"count": 2,
+"type": "Condition"
+},
+"valgus misalignment": {
+"count": 1,
+"type": "Condition"
+},
+"valve disease": {
+"count": 3,
+"type": "Condition"
+},
+"valve repair": {
+"count": 3,
+"type": "Procedure"
+},
+"valve repair or replacement": {
+"count": 2,
+"type": "Procedure"
+},
+"valvular cardiac surgical/percutaneous procedure": {
+"count": 2,
+"type": "Procedure"
+},
+"valvular disease": {
+"count": 4,
+"type": "Condition"
+},
+"valvular heart disease": {
+"count": 6,
+"type": "Condition"
+},
+"vancomycin": {
+"count": 4,
+"type": "Drug"
+},
+"vardenafil": {
+"count": 2,
+"type": "Drug"
+},
+"varenicline": {
+"count": 2,
+"type": "Drug"
+},
+"variceal bleeding": {
+"count": 3,
+"type": "Condition"
+},
+"varus": {
+"count": 1,
+"type": "Measurement"
+},
+"varus or valgus misalignment": {
+"count": 1,
+"type": "Condition"
+},
+"vascular abnormalities": {
+"count": 2,
+"type": "Condition"
+},
+"vasculitis": {
+"count": 3,
+"type": "Condition"
+},
+"vce": {
+"count": 2,
+"type": "Procedure"
+},
+"veno-occlusive disease": {
+"count": 2,
+"type": "Condition"
+},
+"ventricular arrhythmia": {
+"count": 5,
+"type": "Condition"
+},
+"ventricular fibrillation": {
+"count": 2,
+"type": "Condition"
+},
+"ventricular tachycardia": {
+"count": 8,
+"type": "Condition"
+},
+"ventriculotomy": {
+"count": 2,
+"type": "Procedure"
+},
+"verapamil": {
+"count": 2,
+"type": "Drug"
+},
+"viagra": {
+"count": 2,
+"type": "Drug"
+},
+"vincristine sulfate": {
+"count": 3,
+"type": "Drug"
+},
+"viral hepatitis": {
+"count": 3,
+"type": "Condition"
+},
+"viral infection of the upper or lower respiratory tract": {
+"count": 2,
+"type": "Condition"
+},
+"viral load": {
+"count": 4,
+"type": "Measurement"
+},
+"visual impairment": {
+"count": 2,
+"type": "Condition"
+},
+"visual loss": {
+"count": 2,
+"type": "Condition"
+},
+"vital signs": {
+"count": 2,
+"type": "Measurement"
+},
+"vitamin d": {
+"count": 2,
+"type": "Drug"
+},
+"vitamin k": {
+"count": 2,
+"type": "Drug"
+},
+"vitamins": {
+"count": 3,
+"type": "Drug"
+},
+"vitrectomy surgery": {
+"count": 2,
+"type": "Procedure"
+},
+"vitreous hemorrhage": {
+"count": 2,
+"type": "Condition"
+},
+"vomiting": {
+"count": 8,
+"type": "Condition"
+},
+"voriconazole": {
+"count": 4,
+"type": "Drug"
+},
+"vt": {
+"count": 6,
+"type": "Condition"
+},
+"vte": {
+"count": 5,
+"type": "Condition"
+},
+"waist circumference": {
+"count": 2,
+"type": "Measurement"
+},
+"walking speed": {
+"count": 2,
+"type": "Measurement"
+},
+"warfarin": {
+"count": 24,
+"type": "Drug"
+},
+"wbc": {
+"count": 8,
+"type": "Measurement"
+},
+"wearing off phenomenon": {
+"count": 2,
+"type": "Condition"
+},
+"weigh": {
+"count": 3,
+"type": "Measurement"
+},
+"weighing": {
+"count": 5,
+"type": "Measurement"
+},
+"weighs": {
+"count": 2,
+"type": "Person"
+},
+"wheezing": {
+"count": 4,
+"type": "Condition"
+},
+"white blood cell count": {
+"count": 3,
+"type": "Measurement"
+},
+"wilson's": {
+"count": 2,
+"type": "Condition"
+},
+"wilson's disease": {
+"count": 2,
+"type": "Condition"
+},
+"women": {
+"count": 199,
+"type": "Person"
+},
+"y-bocs": {
+"count": 3,
+"type": "Measurement"
+}
+}

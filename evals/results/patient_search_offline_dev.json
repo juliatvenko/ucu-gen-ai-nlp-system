@@ -1,0 +1,252 @@
+{
+ "metrics": {
+  "system": {
+   "ndcg_at_10": 0.807,
+   "eligible_recall_at_10": 0.947,
+   "trials_with_eligible_in_top_10": 0.95,
+   "trials_with_eligible_in_top_10_95ci": [
+    0.919,
+    0.969
+   ],
+   "mrr_first_eligible": 0.763,
+   "eligible_patients_ruled_out_by_filter": 4,
+   "eligible_patients": 334
+  },
+  "conditions_only": {
+   "ndcg_at_10": 0.677,
+   "eligible_recall_at_10": 0.799,
+   "trials_with_eligible_in_top_10": 0.807,
+   "trials_with_eligible_in_top_10_95ci": [
+    0.758,
+    0.847
+   ],
+   "mrr_first_eligible": 0.643,
+   "eligible_patients_ruled_out_by_filter": 4,
+   "eligible_patients": 334
+  },
+  "random": {
+   "ndcg_at_10": 0.06,
+   "eligible_recall_at_10": 0.125,
+   "trials_with_eligible_in_top_10": 0.137
+  },
+  "trials": 300,
+  "patients_ranked_per_trial": 75,
+  "variants_dev_only": {
+   "conditions only": {
+    "ndcg_at_10": 0.677,
+    "eligible_recall_at_10": 0.799,
+    "trials_with_eligible_in_top_10": 0.807,
+    "mrr_first_eligible": 0.643,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "conditions + title": {
+    "ndcg_at_10": 0.727,
+    "eligible_recall_at_10": 0.862,
+    "trials_with_eligible_in_top_10": 0.87,
+    "mrr_first_eligible": 0.683,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ keywords": {
+    "ndcg_at_10": 0.746,
+    "eligible_recall_at_10": 0.889,
+    "trials_with_eligible_in_top_10": 0.897,
+    "mrr_first_eligible": 0.699,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ keywords, stemming": {
+    "ndcg_at_10": 0.747,
+    "eligible_recall_at_10": 0.892,
+    "trials_with_eligible_in_top_10": 0.9,
+    "mrr_first_eligible": 0.701,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ keywords, stemming, concepts": {
+    "ndcg_at_10": 0.766,
+    "eligible_recall_at_10": 0.914,
+    "trials_with_eligible_in_top_10": 0.92,
+    "mrr_first_eligible": 0.717,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ inclusion criteria (0.3)": {
+    "ndcg_at_10": 0.791,
+    "eligible_recall_at_10": 0.939,
+    "trials_with_eligible_in_top_10": 0.943,
+    "mrr_first_eligible": 0.743,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ inclusion criteria (1.0)": {
+    "ndcg_at_10": 0.807,
+    "eligible_recall_at_10": 0.947,
+    "trials_with_eligible_in_top_10": 0.95,
+    "mrr_first_eligible": 0.763,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ inclusion criteria (2.0)": {
+    "ndcg_at_10": 0.819,
+    "eligible_recall_at_10": 0.947,
+    "trials_with_eligible_in_top_10": 0.95,
+    "mrr_first_eligible": 0.78,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "+ inclusion criteria (1.0), conditions 2": {
+    "ndcg_at_10": 0.817,
+    "eligible_recall_at_10": 0.95,
+    "trials_with_eligible_in_top_10": 0.953,
+    "mrr_first_eligible": 0.777,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   },
+   "no age/sex filter": {
+    "ndcg_at_10": 0.804,
+    "eligible_recall_at_10": 0.948,
+    "trials_with_eligible_in_top_10": 0.95,
+    "mrr_first_eligible": 0.75,
+    "eligible_patients_ruled_out_by_filter": 4,
+    "eligible_patients": 334
+   }
+  }
+ },
+ "errors": [
+  {
+   "trial": "NCT03292055",
+   "conditions": [
+    "Coronary Heart Disease"
+   ],
+   "first_eligible_rank": 14,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02106182",
+   "conditions": [
+    "Nocturia",
+    "Benign Prostatic Hyperplasia"
+   ],
+   "first_eligible_rank": 19,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00964821",
+   "conditions": [
+    "Chronic Myeloproliferative Disorders",
+    "Leukemia",
+    "Lymphoma"
+   ],
+   "first_eligible_rank": 17,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03279432",
+   "conditions": [
+    "Metabolic Syndrome",
+    "Obesity",
+    "Central Obesity"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02071225",
+   "conditions": [
+    "Chronic Lymphocytic Leukemia"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03857464",
+   "conditions": [
+    "Clostridium Difficile"
+   ],
+   "first_eligible_rank": 24,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01913860",
+   "conditions": [
+    "Uncomplicated Urinary Tract Infection"
+   ],
+   "first_eligible_rank": 13,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01223885",
+   "conditions": [
+    "Cow's Milk Allergy"
+   ],
+   "first_eligible_rank": 34,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01222650",
+   "conditions": [
+    "Benign Prostatic Hyperplasia (BPH)"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00649337",
+   "conditions": [
+    "Breast Neoplasms",
+    "Ultrasonography"
+   ],
+   "first_eligible_rank": 13,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03638531",
+   "conditions": [
+    "Parkinson Disease"
+   ],
+   "first_eligible_rank": 20,
+   "ruled_out": "younger than 60"
+  },
+  {
+   "trial": "NCT01419119",
+   "conditions": [
+    "Vitamin D Deficiency"
+   ],
+   "first_eligible_rank": 16,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03445195",
+   "conditions": [
+    "Complicated Urinary Tract Infection",
+    "Acute Pyelonephritis"
+   ],
+   "first_eligible_rank": 64,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00464711",
+   "conditions": [
+    "Major Depressive Disorder"
+   ],
+   "first_eligible_rank": 39,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02776202",
+   "conditions": [
+    "Sickle Cell Disease"
+   ],
+   "first_eligible_rank": 15,
+   "ruled_out": "older than 18"
+  }
+ ],
+ "mode": "offline",
+ "split": "dev",
+ "limit": null,
+ "model": null,
+ "seconds": 6.2,
+ "date": "2026-11-16"
+}

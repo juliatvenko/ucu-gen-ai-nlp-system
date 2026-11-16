@@ -1,0 +1,45 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.561,
+   "recall": 0.952,
+   "f1": 0.706,
+   "support": 376
+  },
+  "excluded_trials_caught": 0.207,
+  "excluded_trials_caught_95ci": [
+   0.168,
+   0.252
+  ],
+  "precision_if_always_open": 0.516,
+  "ndcg_at_10_system": 0.518,
+  "ndcg_at_10_random": 0.456,
+  "verdicts_by_gold_label": {
+   "not_relevant": {
+    "insufficient_data": 336,
+    "not_eligible": 42,
+    "needs_more_data": 1
+   },
+   "excluded": {
+    "insufficient_data": 279,
+    "not_eligible": 73,
+    "likely_eligible": 1
+   },
+   "eligible": {
+    "insufficient_data": 345,
+    "not_eligible": 18,
+    "likely_eligible": 2,
+    "needs_more_data": 11
+   }
+  },
+  "topics": 38,
+  "per_label_sample": 10
+ },
+ "errors": [],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 5.1,
+ "date": "2026-11-06"
+}

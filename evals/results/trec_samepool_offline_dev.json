@@ -1,0 +1,700 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.515,
+   "recall": 0.919,
+   "f1": 0.66,
+   "support": 74
+  },
+  "excluded_trials_caught": 0.135,
+  "excluded_trials_caught_95ci": [
+   0.075,
+   0.231
+  ],
+  "precision_if_always_open": 0.5,
+  "ndcg_at_10_system": 0.759,
+  "ndcg_at_10_random": 0.758,
+  "verdicts_by_gold_label": {
+   "eligible": {
+    "insufficient_data": 63,
+    "not_eligible": 6,
+    "needs_more_data": 5
+   },
+   "not_relevant": {
+    "insufficient_data": 68,
+    "not_eligible": 6
+   },
+   "excluded": {
+    "insufficient_data": 62,
+    "not_eligible": 10,
+    "needs_more_data": 2
+   }
+  },
+  "topics": 37,
+  "per_label_sample": 2
+ },
+ "errors": [
+  {
+   "topic": 1,
+   "trial": "NCT00473408",
+   "title": "The Effect of Radiotherapy and Temozolomide on the Tumor Vasculature and Stem Cells in Human High-grade Astrocytomas",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age \u226518 years.",
+     "status": "met",
+     "evidence": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 2,
+   "trial": "NCT01679431",
+   "title": "Metabolic Determinants of the Progression of Aortic Stenosis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse who presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema. TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement. Noted to have 2+ aortic insufficiency with mild MR. He was sent home from cardiology clinic with Lasix and BB (which he did not tolerate), continued to have worsening SOB and LE edema and finally presented here for evaluation. During this admission repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve, dilated ascending aorta, mild pulmonary artery systolic hypertension. The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US (showing moderate heterogeneous plaque with bilateral 1-39% ICA stenosis). He also underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+   "criteria": []
+  },
+  {
+   "topic": 2,
+   "trial": "NCT03056573",
+   "title": "Assessment of the St Jude Medical Portico Resheathable Aortic Valve System-Alternative Access",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "48 M with a h/o HTN hyperlipidemia, bicuspid aortic valve, and tobacco abuse who presented to his cardiologist on [**2148-10-1**] with progressive SOB and LE edema. TTE revealed severe aortic stenosis with worsening LV function. EF was 25%. RV pressure was 41 and had biatrial enlargement. Noted to have 2+ aortic insufficiency with mild MR. He was sent home from cardiology clinic with Lasix and BB (which he did not tolerate), continued to have worsening SOB and LE edema and finally presented here for evaluation. During this admission repeat echo confirmed critical aortic stenosis showing left ventricular hypertrophy with cavity dilation and severe global hypokinesis, severe aortic valve stenosis with underlying bicuspid aortic valve, dilated ascending aorta, mild pulmonary artery systolic hypertension. The patient underwent a preop workup for valvular replacement with preop chest CT scan and carotid US (showing moderate heterogeneous plaque with bilateral 1-39% ICA stenosis). He also underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Subject has documented, untreated symptomatic coronary artery disease (CAD) requiring revascularization.",
+     "status": "not_met",
+     "evidence": "He also underwent a cardiac cath with right heart cath to evaluate his pulm art pressures which showed no angiographically apparent flow-limiting coronary artery disease.",
+     "reasoning": "patient text denies coronary artery disease",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 3,
+   "trial": "NCT03862729",
+   "title": "Risk Stratification and Minimally Invasive Surgery in Acute ICH Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 32 yo woman who presents following a severe 'exploding' headache. She and her husband report that yesterday she was in the kitchen and stood up and hit her head on the corner of a cabinet. The next morning she developed a sudden 'exploding' headache. She came to the hospital where head CT showed a significant amount of blood in her right ventricle. NSGY evaluated her for spontaneous intraventricular hemorrhage with a concern for an underlying vascular malformation. Cerebral angiogram was done which showed abnormal vasculature with a draining vein from L temporal lobe penetrating deep white matter consistent with AVM. The patient did continue to have a headaches but they were improving with pain medication. The patient refused PT evaluation but was ambulating independently without difficulty. She was discharged to home with her husband on [**2155-12-6**].",
+   "criteria": []
+  },
+  {
+   "topic": 3,
+   "trial": "NCT01774916",
+   "title": "Identification of Genetic and Cellular Markers Associated With Vascular Endothelial Modifications in Cutaneous Arteriovenous Malformations",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 32 yo woman who presents following a severe 'exploding' headache. She and her husband report that yesterday she was in the kitchen and stood up and hit her head on the corner of a cabinet. The next morning she developed a sudden 'exploding' headache. She came to the hospital where head CT showed a significant amount of blood in her right ventricle. NSGY evaluated her for spontaneous intraventricular hemorrhage with a concern for an underlying vascular malformation. Cerebral angiogram was done which showed abnormal vasculature with a draining vein from L temporal lobe penetrating deep white matter consistent with AVM. The patient did continue to have a headaches but they were improving with pain medication. The patient refused PT evaluation but was ambulating independently without difficulty. She was discharged to home with her husband on [**2155-12-6**].",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Subject of less than 10 years old",
+     "status": "not_met",
+     "evidence": "A 32 yo woman who presents following a severe 'exploding' headache.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 4,
+   "trial": "NCT01314014",
+   "title": "Imexon for Relapsed Follicular and Aggressive Lymphomas",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma. Pericardial fluid was kappa light chain restricted CD10 positive monotypic B cells expressing FMC-7, CD19, CD20, and myc rearrangement consistent with Burkitt's Lymphoma. A subsequent lumbar puncture and bone marrow biopsy were negative for any involvement which made this a primary cardiac lymphoma. A cardiac MRI showed a mass that was 3cm x 1cm on the lateral wall of the right atrium adjacent to the AV junction. Past Medical History: 1. Rare migraines 2. HTN 3. Obesity 4. PCOS/infertility 5. Viral encephalitis/meningitis-->ICH-->seizure/stroke ([**2137**]) =- from severe sinus infxn, caused mild non-focal residual deficits 6. CSF leak w/ meningitis s/p lumbar drain placement 7. R LE DVT s/p IVC filter placement 8. Knee surgery",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Age < 18 years",
+     "status": "not_met",
+     "evidence": "This is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 4,
+   "trial": "NCT00221325",
+   "title": "A Safety Study of Rituximab Plus MTX Injected Into the Cerebrospinal Fluid in the Treatment of Brain Lymphoma",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma. Pericardial fluid was kappa light chain restricted CD10 positive monotypic B cells expressing FMC-7, CD19, CD20, and myc rearrangement consistent with Burkitt's Lymphoma. A subsequent lumbar puncture and bone marrow biopsy were negative for any involvement which made this a primary cardiac lymphoma. A cardiac MRI showed a mass that was 3cm x 1cm on the lateral wall of the right atrium adjacent to the AV junction. Past Medical History: 1. Rare migraines 2. HTN 3. Obesity 4. PCOS/infertility 5. Viral encephalitis/meningitis-->ICH-->seizure/stroke ([**2137**]) =- from severe sinus infxn, caused mild non-focal residual deficits 6. CSF leak w/ meningitis s/p lumbar drain placement 7. R LE DVT s/p IVC filter placement 8. Knee surgery",
+   "criteria": []
+  },
+  {
+   "topic": 5,
+   "trial": "NCT01035567",
+   "title": "Safety and Efficacy Study of Hybrid Revascularization in Multivessel Coronary Artery Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD, and on examination patient was found to have carotid bruits. Upon further review of symptoms the pt reports + Occasional dizziness, no prior syncope occasional HA, Denies CP/SOB. No sensory or motor defects. He recalls that he might have had a stroke 10-15 years ago without any residual deficit. Prior to CABG he only had diaphoresis. Further review of systems is notable for absence of chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis. Cerebral angiography further revealed patent right ACA and MCA and patent left ACA and left MCA. Past Medical History: CAD s/p CABG in [**2154**] ([**Hospital1 112**]) Prior CVA Bilateral carotid artery disease Anemia PVD Hypertension Diabetes c/b retinopathy and peripheral neuropathy Cataracts s/p surgery Thyroid nodule Colon polyps s/p resection Intermittent Lower back pain Proteinuria s/p right elbow fracture as a child Arthritis",
+   "criteria": []
+  },
+  {
+   "topic": 5,
+   "trial": "NCT02582021",
+   "title": "WISE CVD - Continuation (WISE HFpEF)",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD, and on examination patient was found to have carotid bruits. Upon further review of symptoms the pt reports + Occasional dizziness, no prior syncope occasional HA, Denies CP/SOB. No sensory or motor defects. He recalls that he might have had a stroke 10-15 years ago without any residual deficit. Prior to CABG he only had diaphoresis. Further review of systems is notable for absence of chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis. Cerebral angiography further revealed patent right ACA and MCA and patent left ACA and left MCA. Past Medical History: CAD s/p CABG in [**2154**] ([**Hospital1 112**]) Prior CVA Bilateral carotid artery disease Anemia PVD Hypertension Diabetes c/b retinopathy and peripheral neuropathy Cataracts s/p surgery Thyroid nodule Colon polyps s/p resection Intermittent Lower back pain Proteinuria s/p right elbow fracture as a child Arthritis",
+   "criteria": []
+  },
+  {
+   "topic": 5,
+   "trial": "NCT02018497",
+   "title": "Essential Hypotension and Allostasis Registry",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "74M hx of CAD s/p CABG, EF 60% prior CVA (no residual deficits), HTN, HL, DMII, Moderate to Severe PVD was referred to cardiology for evaluation of PVD, and on examination patient was found to have carotid bruits. Upon further review of symptoms the pt reports + Occasional dizziness, no prior syncope occasional HA, Denies CP/SOB. No sensory or motor defects. He recalls that he might have had a stroke 10-15 years ago without any residual deficit. Prior to CABG he only had diaphoresis. Further review of systems is notable for absence of chest pain, dyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, palpitations, syncope or presyncope. He underwent Carotid U/S that showed significant bilateral carotid stenosis, L>R. Angiography revealed an 80% stenosis of the R ICA and a 90% L ICA stenosis. Cerebral angiography further revealed patent right ACA and MCA and patent left ACA and left MCA. Past Medical History: CAD s/p CABG in [**2154**] ([**Hospital1 112**]) Prior CVA Bilateral carotid artery disease Anemia PVD Hypertension Diabetes c/b retinopathy and peripheral neuropathy Cataracts s/p surgery Thyroid nodule Colon polyps s/p resection Intermittent Lower back pain Proteinuria s/p right elbow fracture as a child Arthritis",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "pulmonary hypertension,",
+     "status": "met",
+     "evidence": "Past Medical History: CAD s/p CABG in [**2154**] ([**Hospital1 112**]) Prior CVA Bilateral carotid artery disease Anemia PVD Hypertension Diabetes c/b retinopathy and peripheral neuropathy Cataracts s/p surgery Thyroid nodule Colon polyps s/p resection Intermittent Lower back pain Proteinuria s/p right elbow fracture as a child Arthritis",
+     "reasoning": "patient text states hypertension",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 6,
+   "trial": "NCT01295918",
+   "title": "Probiotic Lactobacillus Reuteri to Prevent Antibiotic-associated Diarrhea and Clostridium Difficile-related Infections in Hospitalized Children",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission. Was also txd for Cdiff at that time for 14 d. course with po vanco. Pt was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**] with leukocytosis but no fever. C diff assay positive on admission, and pt had leukocytosis consistent with C diff. Patient was placed on Vanco po, Flagyl IV and Flagyl po initially, and when patient improved she was transitioned to Vanco oral and Flagyl oral on [**8-29**]. Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff. Pt was also encouraged to take probiotics and to bleach her home when she was discharged.",
+   "criteria": []
+  },
+  {
+   "topic": 6,
+   "trial": "NCT04000555",
+   "title": "Oral Vancomycin for Secondary Prophylaxis of Clostridium Difficile Infection (CDI)",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Patient is a 55yo woman with h/o ESRD on HD and peritoneal dialysis who presented with watery, non bloody diarrhea and weakness. She has a history of 2 prior C diff infections, the most recent just 1 month ago. Recent antibx use in the last month on prior admission. Was also txd for Cdiff at that time for 14 d. course with po vanco. Pt was initially admitted to the ICU and was septic on pressors (levophed) until the morning of [**8-26**] with leukocytosis but no fever. C diff assay positive on admission, and pt had leukocytosis consistent with C diff. Patient was placed on Vanco po, Flagyl IV and Flagyl po initially, and when patient improved she was transitioned to Vanco oral and Flagyl oral on [**8-29**]. Patient was treated with Vanco for an extended course of 6 weeks given her recurrent C diff. Pt was also encouraged to take probiotics and to bleach her home when she was discharged.",
+   "criteria": []
+  },
+  {
+   "topic": 7,
+   "trial": "NCT02446678",
+   "title": "Use of PillCam ESO2 in Triaging Patients Present With Upper GIB",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process. Patient also describes new imbalance leading to a fall during which he may have hit his head on. Per last liver clinic note has been off ETOH for a year (corroborated with pt), utox was negative for alocohol. CT was within normal limits, and neuro evaluation determined this was not ischemic infart. Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose. Liver function tests showed a striking increase in his total and direct bilirubin since last visit. Another worrisome feature was the increase in the patient's AFP. This could be progression of cirrhosis as he failed interferon twice. He is to follow-up as an outpatient to work this up. Past Medical History: HCV Cirrhosis (tx with interferon x2 with no response) Portal Gastropathy Grade II Esophageal varices HTN Recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis",
+   "criteria": []
+  },
+  {
+   "topic": 7,
+   "trial": "NCT01065233",
+   "title": "Pangenomic Study During Alcoholic Cirrhosis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process. Patient also describes new imbalance leading to a fall during which he may have hit his head on. Per last liver clinic note has been off ETOH for a year (corroborated with pt), utox was negative for alocohol. CT was within normal limits, and neuro evaluation determined this was not ischemic infart. Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose. Liver function tests showed a striking increase in his total and direct bilirubin since last visit. Another worrisome feature was the increase in the patient's AFP. This could be progression of cirrhosis as he failed interferon twice. He is to follow-up as an outpatient to work this up. Past Medical History: HCV Cirrhosis (tx with interferon x2 with no response) Portal Gastropathy Grade II Esophageal varices HTN Recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "35 to 70 years old",
+     "status": "met",
+     "evidence": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Compensated cirrhosis or not",
+     "status": "met",
+     "evidence": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process.",
+     "reasoning": "patient text states cirrhosis",
+     "source": "rule:concept"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Patient with cirrhosis (histological proof or obvious)",
+     "status": "met",
+     "evidence": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process.",
+     "reasoning": "patient text states cirrhosis",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 8,
+   "trial": "NCT02912754",
+   "title": "Ruxolitinib Combined With Ibrutinib in Chronic Lymphocytic Leukemia Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 57-year-old gentleman with CLL and large cell transformation. He presented with his disease back in [**10/2119**] with an elevated white count and LDH. He was without any splenomegaly or any cytopenias at that time. He did have some bulky lymphadenopathy. He then completed four cycles of FCR therapy, which he completed back in 09/[**2119**]. He had an excellent response to therapy and was monitored off treatment for approximately two years. He then presented in [**7-/2122**] with a rising white count, approximately 50% lymphocytes, and a mildly elevated LDH. He also had some mild worsening palpable lymphadenopathy. He then received four cycles of PCR, but did not have much in the way of response and his treatment regimen was switched to R-CVP of which he received two cycles. He did again not have a significant response, though continued to have an excellent performance status, and he was ultimately switched to Campath therapy. He did have resolution of his lymphocytosis, and his white count has come down nicely, but did not have much in the way of response in terms of reducing his bulky lymphadenopathy. He then eventually had developed an enlarging left cervical node which was biopsied and was found to have Richter's transformation.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age >18 years old",
+     "status": "met",
+     "evidence": "This is a 57-year-old gentleman with CLL and large cell transformation.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 8,
+   "trial": "NCT01013961",
+   "title": "Rituximab and Alemtuzumab in Treating Older Patients With Progressive Chronic Lymphocytic Leukemia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 57-year-old gentleman with CLL and large cell transformation. He presented with his disease back in [**10/2119**] with an elevated white count and LDH. He was without any splenomegaly or any cytopenias at that time. He did have some bulky lymphadenopathy. He then completed four cycles of FCR therapy, which he completed back in 09/[**2119**]. He had an excellent response to therapy and was monitored off treatment for approximately two years. He then presented in [**7-/2122**] with a rising white count, approximately 50% lymphocytes, and a mildly elevated LDH. He also had some mild worsening palpable lymphadenopathy. He then received four cycles of PCR, but did not have much in the way of response and his treatment regimen was switched to R-CVP of which he received two cycles. He did again not have a significant response, though continued to have an excellent performance status, and he was ultimately switched to Campath therapy. He did have resolution of his lymphocytosis, and his white count has come down nicely, but did not have much in the way of response in terms of reducing his bulky lymphadenopathy. He then eventually had developed an enlarging left cervical node which was biopsied and was found to have Richter's transformation.",
+   "criteria": []
+  },
+  {
+   "topic": 9,
+   "trial": "NCT03497871",
+   "title": "Personal Decision Support System for Heart Failure Management",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe. The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode. He was maintained on Dilantin and phenobarbital. The patient went 20 years without another seizure. He was recently tapered off Dilantin, and it was felt that perhaps this medication was necessary to maintain him seizure free. The patient had no further events during the hospital course and was back at his baseline at the time of discharge. Full EEG reports are pending at the time of dictation. Past Medical History: Epilepsy as above, CHF, depression",
+   "criteria": []
+  },
+  {
+   "topic": 9,
+   "trial": "NCT01762215",
+   "title": "Policy on Optimal Epilepsy Management",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe. The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode. He was maintained on Dilantin and phenobarbital. The patient went 20 years without another seizure. He was recently tapered off Dilantin, and it was felt that perhaps this medication was necessary to maintain him seizure free. The patient had no further events during the hospital course and was back at his baseline at the time of discharge. Full EEG reports are pending at the time of dictation. Past Medical History: Epilepsy as above, CHF, depression",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Epilepsy (Seizure Disorder)",
+     "status": "met",
+     "evidence": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity.",
+     "reasoning": "patient text states epilepsy",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 10,
+   "trial": "NCT04714086",
+   "title": "Expanded Access Program for Avapritinib",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year, presenting with flushing and tachycardia concerning for another flare. This is patient's 3rd flare in 2 months, while still on steroid taper which is new for her. She responded well to 125 mg IV steroids q 8 hrs and IV diphenydramine in addition to her continuing home regimen. CBC was at her baseline, w/normal differential. Serum tryptase revealed a high value at 84. The patient failed aspirin challenge due to adverse reaction. She was stabilized on IV steroids and IV benadryl and transferred back to the medical floor. She continued on her home histamine receptor blockers and was transitioned from IV to PO steroids and benadryl and observed overnight and was discharged on her home meds, prednisone taper, GI prophylaxis with PPI, Calcium and vitamin D, and SS bactrim for PCP.",
+   "criteria": []
+  },
+  {
+   "topic": 10,
+   "trial": "NCT02478957",
+   "title": "Treatment of Indolent Systemic Mastocytosis With PA101",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year, presenting with flushing and tachycardia concerning for another flare. This is patient's 3rd flare in 2 months, while still on steroid taper which is new for her. She responded well to 125 mg IV steroids q 8 hrs and IV diphenydramine in addition to her continuing home regimen. CBC was at her baseline, w/normal differential. Serum tryptase revealed a high value at 84. The patient failed aspirin challenge due to adverse reaction. She was stabilized on IV steroids and IV benadryl and transferred back to the medical floor. She continued on her home histamine receptor blockers and was transitioned from IV to PO steroids and benadryl and observed overnight and was discharged on her home meds, prednisone taper, GI prophylaxis with PPI, Calcium and vitamin D, and SS bactrim for PCP.",
+   "criteria": []
+  },
+  {
+   "topic": 11,
+   "trial": "NCT02648399",
+   "title": "Prospective Study on the Clinical Prognosis of Bilateral Central Lymph Node Dissection in the Patients With Unilateral Thyroid Papillary Carcinoma",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 75 yo M w/ metastatic papillary thyroid cancer s/p XRT 19 sessions who presented with 2 days of worsening dysphagia for solids, poor oral intake, weight loss 20 pounds over last several weeks and some lethargy. Papillary thyroid cancer dx w/ right neck mass --s/p neck mass resection; unable to perform thyroidectomy --high bleed risk, proximity to trachea and recurrent laryngeal nerve and large tumor size --s/p XRT to neck --s/p RAI ablation --Metastatic to lymph nodes and adrenal glands * s/p hernia repair * s/p tonsillectomy",
+   "criteria": []
+  },
+  {
+   "topic": 11,
+   "trial": "NCT00506103",
+   "title": "The No-Tie Technique Using the Harmonic Scalpel in Total Thyroidectomy With Central Neck Dissection: A Prospective Randomized Study",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 75 yo M w/ metastatic papillary thyroid cancer s/p XRT 19 sessions who presented with 2 days of worsening dysphagia for solids, poor oral intake, weight loss 20 pounds over last several weeks and some lethargy. Papillary thyroid cancer dx w/ right neck mass --s/p neck mass resection; unable to perform thyroidectomy --high bleed risk, proximity to trachea and recurrent laryngeal nerve and large tumor size --s/p XRT to neck --s/p RAI ablation --Metastatic to lymph nodes and adrenal glands * s/p hernia repair * s/p tonsillectomy",
+   "criteria": []
+  },
+  {
+   "topic": 12,
+   "trial": "NCT02355418",
+   "title": "The Role of Myocardial Fibrosis in Degenerative Mitral Regurgitation",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length)",
+   "criteria": []
+  },
+  {
+   "topic": 12,
+   "trial": "NCT04038879",
+   "title": "Comparison Study of Echocardiography and Cardiovascular Magnetic Resonance Imaging in the Assessment of Mitral and Aortic Regurgitation",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length)",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Pregnancy",
+     "status": "met",
+     "evidence": "Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length)",
+     "reasoning": "patient text states pregnancy",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 12,
+   "trial": "NCT04731493",
+   "title": "Effect on the Quality of Life of a Therapeutic Education Program in Patients With Marfan Syndrome",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length)",
+   "criteria": []
+  },
+  {
+   "topic": 13,
+   "trial": "NCT01543347",
+   "title": "Temocillin Use in Complicated Urinary Tract Infections Due to Extended Spectrum Beta-Lactamases (ESBL)/AmpC Enterobacteriaceae",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures. Significant leaking around suprapubic cath site. Started on ditropan changed over to detrol. Urologist not concerned with leaking and will f/u with pt next week. s/p CVA Neurogenic bladder s/p suprapubic cath Recurrent UTIs with Klebsiella/Pseudomonas Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03 (s/p R-CHOP x 6 cycles) Bells Palsy BPH Hypertension Partial Bowel obstruction s/p colostomy Hepatitis C Cryoglobulinemia SLE with transverse myelitis, anti-dsDNA Ab+ Insulin Dependant Diabetic Fungal Esophagitis Stage IV? Urinary Tract Infections-pseudomonas &amp; enterococcus",
+   "criteria": []
+  },
+  {
+   "topic": 13,
+   "trial": "NCT02016118",
+   "title": "Retrospective Analysis of Ialuril vs. Standard of Care in Recurrent Urinary Tract Infections",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures. Significant leaking around suprapubic cath site. Started on ditropan changed over to detrol. Urologist not concerned with leaking and will f/u with pt next week. s/p CVA Neurogenic bladder s/p suprapubic cath Recurrent UTIs with Klebsiella/Pseudomonas Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03 (s/p R-CHOP x 6 cycles) Bells Palsy BPH Hypertension Partial Bowel obstruction s/p colostomy Hepatitis C Cryoglobulinemia SLE with transverse myelitis, anti-dsDNA Ab+ Insulin Dependant Diabetic Fungal Esophagitis Stage IV? Urinary Tract Infections-pseudomonas &amp; enterococcus",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Women aged 18-75 years old.",
+     "status": "met",
+     "evidence": "62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 14,
+   "trial": "NCT02050022",
+   "title": "Chronic Obstructive Pulmonary Disease Biomarker Study",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L. Pt agitated then somnolent at initial presentation. Daughter reported increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home. Daughter has also noted increased LE edema and weight gain which prompted a phone call to her PCP and increased lasix dose from 80daily to 100mg daily with some mild improvement in edema. She has had decreased appetite, PO intake, energy level at home with difficulty with ADLs. No recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints other than chronic right thigh pain last 1-2 months. Daughter also reports med compliance and compliance with BiPap at night. Past Medical History: - CAD; s/p 4 vessel CABG in [**2119**] - CHF; EF 55%, mild AS - obesity hypoventilation syndrome - obstructive sleep apnea - DM2 - ventricular tachycardia; s/p ICD in [**2127**] - hypothyroidism - schizophrenia - COPD - Pneumona treated in [**4-7**] at [**Hospital1 **]",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "patients seen in the COPD clinic who are experiencing an exacerbation",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 14,
+   "trial": "NCT03464695",
+   "title": "Automated Oxygen Delivery by O2matic to Patients Admitted With an Exacerbation in COPD",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L. Pt agitated then somnolent at initial presentation. Daughter reported increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home. Daughter has also noted increased LE edema and weight gain which prompted a phone call to her PCP and increased lasix dose from 80daily to 100mg daily with some mild improvement in edema. She has had decreased appetite, PO intake, energy level at home with difficulty with ADLs. No recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints other than chronic right thigh pain last 1-2 months. Daughter also reports med compliance and compliance with BiPap at night. Past Medical History: - CAD; s/p 4 vessel CABG in [**2119**] - CHF; EF 55%, mild AS - obesity hypoventilation syndrome - obstructive sleep apnea - DM2 - ventricular tachycardia; s/p ICD in [**2127**] - hypothyroidism - schizophrenia - COPD - Pneumona treated in [**4-7**] at [**Hospital1 **]",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Admission due to exacerbation in COPD",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    },
+    {
+     "kind": "inclusion",
+     "text": "COPD exacerbation and pneumonia can be included",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 14,
+   "trial": "NCT02329522",
+   "title": "USCOM For Assessing Patients With COPD",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L. Pt agitated then somnolent at initial presentation. Daughter reported increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home. Daughter has also noted increased LE edema and weight gain which prompted a phone call to her PCP and increased lasix dose from 80daily to 100mg daily with some mild improvement in edema. She has had decreased appetite, PO intake, energy level at home with difficulty with ADLs. No recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints other than chronic right thigh pain last 1-2 months. Daughter also reports med compliance and compliance with BiPap at night. Past Medical History: - CAD; s/p 4 vessel CABG in [**2119**] - CHF; EF 55%, mild AS - obesity hypoventilation syndrome - obstructive sleep apnea - DM2 - ventricular tachycardia; s/p ICD in [**2127**] - hypothyroidism - schizophrenia - COPD - Pneumona treated in [**4-7**] at [**Hospital1 **]",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age >40 years;",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Clinically diagnosed as COPD by physicians;",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 15,
+   "trial": "NCT01662609",
+   "title": "Protocol for High-Risk Assessment, Screening, and Early Detection of Pancreatic Cancer",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**])",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Peutz-Jeghers Syndrome (PJS) patients age>30",
+     "status": "met",
+     "evidence": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 15,
+   "trial": "NCT00736086",
+   "title": "RISE: A Clinical Evaluation of the StarClose\u2122 Vascular Closure System",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**])",
+   "criteria": []
+  },
+  {
+   "topic": 16,
+   "trial": "NCT03370835",
+   "title": "Tolerability of Metoprolol-Succinate-ER and Carvedilol in COPD",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living, and the patient tolerated an inpatient trial without hypotension. Patient to f/u with pulmonology to start sildenifil chronically as outpatient as prior authorization is obtained. Past Medical History: - Atrial septal defect repair [**6-17**] complicated by sinus arrest with PPM placement. - Diastolic CHF, estimated dry weight of 94kg - Pulm HTN (RSVP 75 in [**11-24**]) thought secondary to longstanding ASD - COPD on home O2 (5L NC) with baseline saturation high 80's to low 90's on this therapy. - OSA, not CPAP compliant - Mild mitral regurgitation - Microcytic anemia - Hypothyroidism - S/p APPY, s/p CCY ('[**33**]) - Gallstone pancreatitis s/p ERCP, sphincterotomy - Elevated alk phos secondary to amiodarone",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Any history of ventilator support requirement for COPD",
+     "status": "met",
+     "evidence": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 16,
+   "trial": "NCT00500526",
+   "title": "Effects of Singing in Chronic Obstructive Pulmonary Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living, and the patient tolerated an inpatient trial without hypotension. Patient to f/u with pulmonology to start sildenifil chronically as outpatient as prior authorization is obtained. Past Medical History: - Atrial septal defect repair [**6-17**] complicated by sinus arrest with PPM placement. - Diastolic CHF, estimated dry weight of 94kg - Pulm HTN (RSVP 75 in [**11-24**]) thought secondary to longstanding ASD - COPD on home O2 (5L NC) with baseline saturation high 80's to low 90's on this therapy. - OSA, not CPAP compliant - Mild mitral regurgitation - Microcytic anemia - Hypothyroidism - S/p APPY, s/p CCY ('[**33**]) - Gallstone pancreatitis s/p ERCP, sphincterotomy - Elevated alk phos secondary to amiodarone",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Diagnosis of COPD according GOLD criteria",
+     "status": "met",
+     "evidence": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath.",
+     "reasoning": "patient text states copd",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 17,
+   "trial": "NCT03267888",
+   "title": "Pembrolizumab and Radiation Therapy in Patients With Relapsed or Refractory Multiple Myeloma",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function.",
+   "criteria": []
+  },
+  {
+   "topic": 17,
+   "trial": "NCT00984828",
+   "title": "Randomized Study of Velcade-based Regimen With Autologous Stem Cell Transplantation in Newly-diagnosed Myeloma Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function.",
+   "criteria": []
+  },
+  {
+   "topic": 18,
+   "trial": "NCT01566292",
+   "title": "Intraprostatic Botulinum Toxin Type \"A\" Injection in Patients With Benign Prostatic Hyperplasia and Unsatisfactory Response to Medical Therapy",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed.",
+   "criteria": []
+  },
+  {
+   "topic": 18,
+   "trial": "NCT00507195",
+   "title": "Postanesthesia Cognitive Recovery and Neuropsychologic Complications",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed.",
+   "criteria": []
+  },
+  {
+   "topic": 19,
+   "trial": "NCT03324308",
+   "title": "Dynamic Computed Tomography Myocardial Perfusion Imaging for Detection of Coronary Artery Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device. It was interrogated at the OSH and per report the monitor read from yesterday: 40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms. Overnight, the patient went into monomorphic VT on telemetry. The patient was found to be unresponsive. CPR was initiated, unclear if the patient had a pulse. Within one minute the patient returned to sinus rhythm. The patient does not report any symptoms prior to this episode. Currently, the patient feels presyncope and nausea, but denies chest pain. Patient is to be transferred to the CCU for catheterization and EPS.",
+   "criteria": []
+  },
+  {
+   "topic": 20,
+   "trial": "NCT02493517",
+   "title": "Efficacy and Safety of Lanreotide Autogel\u00ae 60, 90 or 120 mg With Lanreotide 40 mg Prolonged Release (PR) in Acromegaly",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method.",
+   "criteria": []
+  },
+  {
+   "topic": 20,
+   "trial": "NCT01371643",
+   "title": "Surgical Debulking of Pituitary Adenomas",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method.",
+   "criteria": []
+  },
+  {
+   "topic": 21,
+   "trial": "NCT01112540",
+   "title": "Morphine in Acute Abdominal Pain",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 57-year-old man with abdominal pain and vomiting. The pain started gradually about 20 hours ago in the epigastric and periumbilical regions, radiating to his back. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day. He is healthy with no history of allergies or using any medications. His family history is positive for type 2 diabetes (his father and sister). He lives alone and has no children. The abdomen is tender and soft. His bowel sounds are normal. His heart rate is 115/min and blood pressure 110/75 mmHg. The lab results are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glc level of 15. Cross-sectional imaging was negative for obstructive pancreatitis.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Hemodynamic instability (systolic blood pressure less than 100 mm-Hg)",
+     "status": "not_met",
+     "evidence": "His heart rate is 115/min and blood pressure 110/75 mmHg.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 21,
+   "trial": "NCT02305914",
+   "title": "Follow-up Study of Complications of Acute Pancreatitis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 57-year-old man with abdominal pain and vomiting. The pain started gradually about 20 hours ago in the epigastric and periumbilical regions, radiating to his back. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day. He is healthy with no history of allergies or using any medications. His family history is positive for type 2 diabetes (his father and sister). He lives alone and has no children. The abdomen is tender and soft. His bowel sounds are normal. His heart rate is 115/min and blood pressure 110/75 mmHg. The lab results are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glc level of 15. Cross-sectional imaging was negative for obstructive pancreatitis.",
+   "criteria": []
+  },
+  {
+   "topic": 22,
+   "trial": "NCT02688244",
+   "title": "Irrigation Versus Suction in Complicated Acute Appendicitis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+   "criteria": []
+  },
+  {
+   "topic": 22,
+   "trial": "NCT01067937",
+   "title": "Study for a Rational Management of Appendicitis in Children",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia.",
+   "criteria": []
+  },
+  {
+   "topic": 23,
+   "trial": "NCT02218762",
+   "title": "A Study in Patients With Moderate Asthma to Compare Pharmacokinetics and Pharmacodynamic Effects of Fluticasone Propionate and Salmeterol Delivered Via the ROTAHALER\u00ae Inhaler Relative to the DISKUS\u00ae Inhaler",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily.",
+   "criteria": []
+  },
+  {
+   "topic": 24,
+   "trial": "NCT04722458",
+   "title": "Turkish Validation and Reliability of LURN SI-29 Questionnaire in Patients With Lower Urinary Tract Symptoms",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. Further evaluation revealed: IPSS score : 15 Post-void residual: 70 mL Prostate volume (TRUS): 60 mL Prostate-specific antigen (PSA) level: 3.2 ng/mL 10 mL/sec of maximum flow rate when urine volume was 130 mL He is otherwise healthy only using Vit D 1000 units daily. His recent blood chemistry (3 days ago) was normal: Hgb: 13.5 g/dl WBC: 135000 /mm3 Plt: 350000 /ml PT: 11 second PTT: 35 second INR: 0.9 Creatinine: 0.5 mg/dl BUN: 10 mg/dl U/A: Color: yellow Appearance: cloudy PH: 5.3 Specific gravity: 1.010 Glc: 100 Nitrite: negative Ketone: none Leukocyte esterase: negative RBC: negative WBC: 2 WBCs/hpf U/C: negative",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Patients above 18 years old",
+     "status": "met",
+     "evidence": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 24,
+   "trial": "NCT01436877",
+   "title": "Assessing Safety & Efficacy of MediTate Temporary Implant in Subjects With Benign Prostate Hyperplasia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. Further evaluation revealed: IPSS score : 15 Post-void residual: 70 mL Prostate volume (TRUS): 60 mL Prostate-specific antigen (PSA) level: 3.2 ng/mL 10 mL/sec of maximum flow rate when urine volume was 130 mL He is otherwise healthy only using Vit D 1000 units daily. His recent blood chemistry (3 days ago) was normal: Hgb: 13.5 g/dl WBC: 135000 /mm3 Plt: 350000 /ml PT: 11 second PTT: 35 second INR: 0.9 Creatinine: 0.5 mg/dl BUN: 10 mg/dl U/A: Color: yellow Appearance: cloudy PH: 5.3 Specific gravity: 1.010 Glc: 100 Nitrite: negative Ketone: none Leukocyte esterase: negative RBC: negative WBC: 2 WBCs/hpf U/C: negative",
+   "criteria": []
+  },
+  {
+   "topic": 24,
+   "trial": "NCT04807569",
+   "title": "The Effectiveness of Peripheral Magnetic Stimulation in Men With Lower Urinary Tract Symptoms",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. Further evaluation revealed: IPSS score : 15 Post-void residual: 70 mL Prostate volume (TRUS): 60 mL Prostate-specific antigen (PSA) level: 3.2 ng/mL 10 mL/sec of maximum flow rate when urine volume was 130 mL He is otherwise healthy only using Vit D 1000 units daily. His recent blood chemistry (3 days ago) was normal: Hgb: 13.5 g/dl WBC: 135000 /mm3 Plt: 350000 /ml PT: 11 second PTT: 35 second INR: 0.9 Creatinine: 0.5 mg/dl BUN: 10 mg/dl U/A: Color: yellow Appearance: cloudy PH: 5.3 Specific gravity: 1.010 Glc: 100 Nitrite: negative Ketone: none Leukocyte esterase: negative RBC: negative WBC: 2 WBCs/hpf U/C: negative",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age > 18 years;",
+     "status": "met",
+     "evidence": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 25,
+   "trial": "NCT04084730",
+   "title": "Study of 3-Day Partial Breast Radiation Therapy in Women With Breast Cancer",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 42 year-old postmenopausal woman who had a screening sonogram which revealed an abnormality in the right breast. She had no palpable masses on breast exam. Core biopsy was done and revealed a 1.8 cm infiltrating ductal breast carcinoma in the left upper outer quadrant. Lumpectomy was done and the surgical margins were clear. The tumor was HER2-positive and ER/PR negative. Axillary sampling revealed 1 positive lymph node out of 12 sampled. CXR was unremarkable. She is using \u201cwell women\u201d multivitamins daily and no other medication. She smokes frequently and consumes alcohol occasionally. She is in a relation with only one partner and has a history of 3 pregnancies and live births. She breastfed all three children.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Female",
+     "status": "met",
+     "evidence": "The patient is a 42 year-old postmenopausal woman who had a screening sonogram which revealed an abnormality in the right breast.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  }
+ ]
+}

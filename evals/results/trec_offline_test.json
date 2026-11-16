@@ -1,0 +1,622 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.56,
+   "recall": 0.952,
+   "f1": 0.705,
+   "support": 376
+  },
+  "excluded_trials_caught": 0.204,
+  "excluded_trials_caught_95ci": [
+   0.165,
+   0.249
+  ],
+  "precision_if_always_open": 0.516,
+  "ndcg_at_10_system": 0.518,
+  "ndcg_at_10_random": 0.459,
+  "verdicts_by_gold_label": {
+   "not_relevant": {
+    "insufficient_data": 336,
+    "not_eligible": 42,
+    "needs_more_data": 1
+   },
+   "excluded": {
+    "insufficient_data": 280,
+    "not_eligible": 72,
+    "likely_eligible": 1
+   },
+   "eligible": {
+    "insufficient_data": 345,
+    "not_eligible": 18,
+    "likely_eligible": 2,
+    "needs_more_data": 11
+   }
+  },
+  "topics": 38,
+  "per_label_sample": 10
+ },
+ "errors": [
+  {
+   "topic": 38,
+   "trial": "NCT00309088",
+   "title": "FK506 Phase 3 Study: a Study for Steroid Non-resistant Myasthenia Gravis (MG) Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 38,
+   "trial": "NCT00727194",
+   "title": "Safety and Efficacy Study of Eculizumab in Patients With Refractory Generalized Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Pregnancy or lactation",
+     "status": "not_met",
+     "evidence": "BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+     "reasoning": "patient text denies pregnancy",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 38,
+   "trial": "NCT03905473",
+   "title": "Physical Activity and Fatigue in Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 38,
+   "trial": "NCT03052751",
+   "title": "Study to Test the Safety, Tolerability and Efficacy of UCB7665 in Subjects With Moderate to Severe Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 38,
+   "trial": "NCT01102192",
+   "title": "The Role of the Thymus in Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age > 17 Years",
+     "status": "met",
+     "evidence": "The patient is a 35-year-old woman with myasthenia gravis, class IIa.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 38,
+   "trial": "NCT04431895",
+   "title": "Safety And Efficacy Of Tofacitinib In Patients With Refractory Myasthenia Gravis: A Pilot Study",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "pregnancy;",
+     "status": "not_met",
+     "evidence": "BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+     "reasoning": "patient text denies pregnancy",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 38,
+   "trial": "NCT03579966",
+   "title": "Long Term Safety Study of Amifampridine Phosphate in MuSK-MG (Muscle Specific Tyrosine Kinase Myasthenia Gravis)",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 38,
+   "trial": "NCT04158661",
+   "title": "Influence of Minimally Invasive Thymectomy on the Subsequent Clinical Course of Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age \u226518 years",
+     "status": "met",
+     "evidence": "The patient is a 35-year-old woman with myasthenia gravis, class IIa.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 38,
+   "trial": "NCT00997412",
+   "title": "Trial of Mycophenolic Acid Versus Azathioprine in the Treatment of Corticosteroid-refractory Myasthenia Gravis",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 38,
+   "trial": "NCT00995722",
+   "title": "Efficacy of Prednisone In the Treatment of Ocular Myasthenia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 35-year-old woman with myasthenia gravis, class IIa. She complains of diplopia and fatigue and weakness that affects mainly her upper limbs. She had a positive anti-AChR antibody test, and her single fiber electromyography (SFEMG) was positive. She takes pyridostigmine 60 mg three times a day. But she still has some symptoms that interfere with her job. She is a research coordinator and has 3 children. Her 70-year-old father has hypertension. She does not smoke or use illicit drugs. She drinks alcohol occasionally at social events. Her physical exam and lab studies were not remarkable for any other abnormalities. BP: 110/75 Hgb: 11 g/dl WBC: 8000 /mm3 Plt: 300000 /ml Creatinine: 0.5 mg/dl BUN: 10 mg/dl Beta hcg: negative for pregnancy",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT01434810",
+   "title": "Treatment of Neonatal Jaundice With Filtered Sunlight Phototherapy: Safety and Efficacy in African Neonates",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT03007563",
+   "title": "Evaluation of a Smartphone Based Optical Diagnostic Tool for Neonatal Jaundice",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT02594904",
+   "title": "Efficacy of Yinzhihuang Oral Liquid on Indirect Bilirubin of Neonates With Glucose-6-phosphate Dehydrogenase Deficiency",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT03866213",
+   "title": "Validation of a Jaundice Diagnostic and Monitoring Device for Low-Resource Settings",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT02625688",
+   "title": "The Risk of Hyperbilirubinemia in Term Newborns After Placental Transfusion",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT02612207",
+   "title": "Point-of-Care System for Determination of Bilirubin Capacity in Neonates",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT02807246",
+   "title": "Effects of Probiotics on Neonatal Hyperbilirubinemia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT01548313",
+   "title": "The Role of Human Milk in Development of Breast Fed Child's Intestinal Microbiota",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "healthy pregnant women",
+     "status": "met",
+     "evidence": "She was born at 38w3d of gestation, after an uncomplicated pregnancy.",
+     "reasoning": "patient text states pregnancy",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 39,
+   "trial": "NCT04099602",
+   "title": "The Effect of Massage on Bilirubin Level in Infants",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 39,
+   "trial": "NCT00288600",
+   "title": "Efficacy of High-dose Intravenous Immunoglobulin Therapy for Hyperbilirubinemia Due Rh Hemolytic Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after an uncomplicated pregnancy. The family history is unremarkable. The baby is breastfed. Vital signs are reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 3.2 kg, length is 53 cm, and head circumference 36 cm. Her sclera are yellow and her body is icteric. No murmurs or any other abnormalities are detected in the heart and lung auscultation. Her liver and spleen are normal on palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with uncomplicated neonatal jaundice that may require phototherapy.",
+   "criteria": []
+  },
+  {
+   "topic": 40,
+   "trial": "NCT03859895",
+   "title": "Zoledronate In the Prevention of Paget's Disease: Long Term Extension",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening. Examination shows bilateral swellings around the molars. The swellings have increased since his last examination. Several extraoral lesions are detected in the head and face. The swellings are non-tender and attached to the underlying bone. Further evaluation shows increased uptake of radioactive substance as well as an increase in urinary pyridinoline. His serum alkaline phosphatase is 300 IU/L (the normal range is 44- 147 IU/L). His family history is only significant for hypertension in his mother and DM type 2 in his father. The diagnosis of Paget's Disease of Bone was confirmed and Bisphosphonate will be started as first-line therapy.",
+   "criteria": []
+  },
+  {
+   "topic": 40,
+   "trial": "NCT00740129",
+   "title": "Re-treatment of Participants With Paget's Disease Using Zoledronic Acid",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60 year old man complaining of frequent headaches, generalized bone pain and difficulty chewing that started 6 years ago and is worsening. Examination shows bilateral swellings around the molars. The swellings have increased since his last examination. Several extraoral lesions are detected in the head and face. The swellings are non-tender and attached to the underlying bone. Further evaluation shows increased uptake of radioactive substance as well as an increase in urinary pyridinoline. His serum alkaline phosphatase is 300 IU/L (the normal range is 44- 147 IU/L). His family history is only significant for hypertension in his mother and DM type 2 in his father. The diagnosis of Paget's Disease of Bone was confirmed and Bisphosphonate will be started as first-line therapy.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT01580787",
+   "title": "Functional Improvement in Patients With Parkinson's Disease After Training in Real or Virtual Environment",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT00784563",
+   "title": "Effects of Aerobic Exercise in Parkinson's Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT00017979",
+   "title": "Study of Brain Control of Movement",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Volunteers who are greater than or equal to 18 years old.",
+     "status": "met",
+     "evidence": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 41,
+   "trial": "NCT00001930",
+   "title": "Treatment of Huntington's Chorea With Amantadine",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT02869945",
+   "title": "Compensation Mechanisms in Parkinson's Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT02601144",
+   "title": "Variable Frequency Stimulation of Subthalamic Nucleus for Freezing of Gait in Parkinson's Disease",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 41,
+   "trial": "NCT03004573",
+   "title": "Role of Deep Brain Stimulation on Social Cognition in Parkinsonian Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Parkinson's disease with motor fluctuations and dyskinesias receiving deep-brain stimulation",
+     "status": "met",
+     "evidence": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago.",
+     "reasoning": "patient text states parkinson's disease",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 41,
+   "trial": "NCT00018889",
+   "title": "Phenotype/Genotype Correlations in Movement Disorders",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Employees of the Parkinson's Disease Clinic, NINDS",
+     "status": "met",
+     "evidence": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago.",
+     "reasoning": "patient text states parkinson's disease",
+     "source": "rule:concept"
+    }
+   ]
+  },
+  {
+   "topic": 41,
+   "trial": "NCT04605263",
+   "title": "Deep Brain Stimulation (DBS) of the Pedunculopontine Nucleus (PPN)",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "18-75 years of age",
+     "status": "met",
+     "evidence": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 41,
+   "trial": "NCT03956979",
+   "title": "A Study in Parkinson's Disease in Patients With Moderate to Severe Dyskinesia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 57-year old farmer was diagnosed with Parkinson's disease a year ago. He experiences slowness of movement and tremors. His past medical history is significant for hypertension and hypercholesterolemia. He lives with his wife. They have three children. He used to be active with planting and taking care of their farm animals before his diagnosis. The patient complains of shaking and slow movement. He had difficulty entering through a door, as he was frozen and needed guidance to step in. His handwriting is getting smaller. He is on Levodopa and Trihexyphenidyl. He stated his medications help with shaking and slow movement. But he still has difficulty initiating movements, stiffness and slowness in general. He is an alert and cooperative man who doesn't have any signs of dementia. He doesn't smoke or use any illicit drugs.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT03765073",
+   "title": "Trial To Evaluate The Safety, Tolerability, And Immunogenicity Of A Multivalent Group B Streptococcus Vaccine In Healthy Nonpregnant Women And Pregnant Women And Their Infants",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT03552055",
+   "title": "Urine and Serum Concentrations of Pregnancy-Associated Compounds During Gestation",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT02059135",
+   "title": "Pharmacokinetics, Safety and Efficacy Study of Recombinant Antithrombin Versus Placebo in Preterm Preeclampsia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT02631226",
+   "title": "Multi-resistant Enterobacteriaceae Colonisation in Less Than 32 Weeks Pregnant Women Admitted to the Hospital.",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT02357667",
+   "title": "The Study of Cardiovascular Outcomes in Women With Preeclampsia Using Echocardiography: The SCOPE Study",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT04116645",
+   "title": "Time Frame for GBS Screening",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Women at gestational age 300/7 or less.",
+     "status": "not_met",
+     "evidence": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 42,
+   "trial": "NCT02086994",
+   "title": "Prevention of Postpartum Hemorrhage in Patients With Severe Preeclampsia Using Carbetocin Versus Misoprostol",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": []
+  },
+  {
+   "topic": 42,
+   "trial": "NCT02213094",
+   "title": "Phase I Study of Nicotinamide for Early Onset Preeclampsia",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Maternal age 18-45 years",
+     "status": "met",
+     "evidence": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 42,
+   "trial": "NCT00632606",
+   "title": "MgSO4 vs Metoclopramide for Headache in Pregnant Women",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Hypotension, SBP<85",
+     "status": "not_met",
+     "evidence": "Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 43,
+   "trial": "NCT02214771",
+   "title": "Description of the Use of fidAxomicin in Hospitalized Patients With Documented Clostridium diFficile iNfection and of the managEment of These Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT03973697",
+   "title": "Penn Microbiome Therapy for Recurrent Clostridium Difficile Infection",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age \u2265 18 years.",
+     "status": "met",
+     "evidence": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 43,
+   "trial": "NCT00000362",
+   "title": "Randomized Study of Two Interventions for Liquid Aspiration: Short-Term and Long-Term Effects",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT00807326",
+   "title": "A Comparison of Three Medications to Treat Diarrhea in Adults.",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT01639430",
+   "title": "Diagnostic Accuracy of Body Temperature Measurement in Geriatric Patients",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT02896244",
+   "title": "AssessmeNT of the Incidence of Clostridium Difficile Infections in Hospitalized Patients on Antibiotic TrEatment",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Aged \u2265 50 years old.",
+     "status": "met",
+     "evidence": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 43,
+   "trial": "NCT03988855",
+   "title": "An Exploratory, Open-Label, Oligo-Center Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of Intravenous DNV3837 in Subjects With Clostridium Difficile Infection",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT02053181",
+   "title": "Study to Investigate the Pharmacokinetics and Safety of Cadazolid in Patients With Clostridium Difficile Infection",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  },
+  {
+   "topic": 43,
+   "trial": "NCT01241552",
+   "title": "A Study of MK-3415, MK-6072, and MK-3415A in Participants Receiving Antibiotic Therapy for Clostridium Difficile Infection (MK-3415A-001)",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old woman admitted to the stroke department with a recent history of a second course of intravenous antibiotics for aspiration pneumonia. She is febrile and complained of abdominal pain and diarrhea (bowel movements eight times in 3 hours, large volumes of greenish, liquid stool each time). The patient's abdomen is generally tender and distend with hyperactive bowel sounds. She is febrile (38.4\u00b0C), tachycardic (113/min) and hypotensive (80/40 mmHg). The stool samples must were positive for Clostridium difficile toxin.",
+   "criteria": []
+  }
+ ],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 3.6,
+ "date": "2026-11-16"
+}

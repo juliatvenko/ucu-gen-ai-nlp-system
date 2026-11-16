@@ -1,0 +1,87 @@
+{
+ "metrics": {
+  "trec_query_recall_over_judged_pool": 0.474,
+  "trec_query_precision_over_judged_pool": 0.772,
+  "trec_recall_at_100_of_live_registry": 0.204,
+  "trec_topics_without_query": 1,
+  "trec_topics": 38,
+  "pool_ndcg_at_10_rerank": 0.625,
+  "pool_ndcg_at_10_random": 0.484,
+  "vignette_on_topic_precision_at_10": 0.867,
+  "vignette_results_shown": 75,
+  "hard_filter_violations": 0
+ },
+ "errors": [
+  {
+   "topic": 39,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "uncomplicated neonatal jaundice"
+  },
+  {
+   "topic": 47,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "acute infarct of the right periventricular white matter and posterior right basal ganglia"
+  },
+  {
+   "topic": 50,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "abdominal undescended testis"
+  },
+  {
+   "topic": 53,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "bones and joints pain"
+  },
+  {
+   "topic": 57,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "gall stone pancreatitis"
+  },
+  {
+   "topic": 58,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "acute perforated appendicitis"
+  },
+  {
+   "topic": 59,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "severe asthma exacerbation"
+  },
+  {
+   "topic": 60,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "acute urinary retention"
+  },
+  {
+   "topic": 62,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "severe stenosis in the left internal carotid artery"
+  },
+  {
+   "topic": 65,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "cardiomyopathy"
+  },
+  {
+   "topic": 67,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "abnormal cervical squamous intraepithelial/glandular lesion"
+  },
+  {
+   "topic": 69,
+   "problem": "no diagnosis extracted",
+   "text": "A 67-year-old healthy woman came to the clinic to have her flu shot in early October. She works at a rehab center and ha"
+  },
+  {
+   "topic": 72,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "myasthenia gravis, class IIa"
+  }
+ ],
+ "mode": "llm",
+ "split": "test",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 0.5,
+ "date": "2026-11-06"
+}

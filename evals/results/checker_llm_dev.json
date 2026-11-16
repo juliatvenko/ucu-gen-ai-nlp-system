@@ -1,0 +1,75 @@
+{
+ "metrics": {
+  "per_class": {
+   "met": {
+    "precision": 0.97,
+    "recall": 1.0,
+    "f1": 0.985,
+    "support": 32
+   },
+   "not_met": {
+    "precision": 0.889,
+    "recall": 1.0,
+    "f1": 0.941,
+    "support": 16
+   },
+   "insufficient": {
+    "precision": 1.0,
+    "recall": 0.812,
+    "f1": 0.897,
+    "support": 16
+   },
+   "macro_f1": 0.941
+  },
+  "macro_f1": 0.941,
+  "accuracy": 0.953,
+  "accuracy_95ci": [
+   0.871,
+   0.984
+  ],
+  "n_pairs": 64,
+  "guard_abstentions": 1,
+  "evidence_verbatim_rate": 1.0,
+  "evidence_matches_gold_when_correct": 1.0,
+  "flip_rate_on_definitive": 0.0,
+  "invented_decision_rate_on_insufficient": 0.188,
+  "followup_resolution_rate": 1.0,
+  "followups": 10,
+  "specific_question_rate": 0.5,
+  "verdict_agreement_with_gold_statuses": 1.0,
+  "missed_blocks_rate": 0.0,
+  "gold_blocked_patients": 5
+ },
+ "errors": [
+  {
+   "id": "d01-6",
+   "criterion": "Myocardial infarction within the last 6 months",
+   "gold": "insufficient",
+   "pred": "not_met",
+   "evidence": "She also has hypertension. She denies any history of heart failure.",
+   "source": "llm"
+  },
+  {
+   "id": "d02-0",
+   "criterion": "Histologically confirmed HER2-positive breast cancer",
+   "gold": "insufficient",
+   "pred": "met",
+   "evidence": "metastatic HER2-positive breast cancer",
+   "source": "llm"
+  },
+  {
+   "id": "d04-6",
+   "criterion": "Kidney transplant recipient",
+   "gold": "insufficient",
+   "pred": "not_met",
+   "evidence": "stage 4 chronic kidney disease",
+   "source": "llm"
+  }
+ ],
+ "mode": "llm",
+ "split": "dev",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 65.2,
+ "date": "2026-11-04"
+}

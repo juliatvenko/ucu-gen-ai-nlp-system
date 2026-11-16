@@ -1,0 +1,251 @@
+{
+ "metrics": {
+  "system": {
+   "ndcg_at_10": 0.764,
+   "eligible_recall_at_10": 0.912,
+   "trials_with_eligible_in_top_10": 0.917,
+   "trials_with_eligible_in_top_10_95ci": [
+    0.88,
+    0.943
+   ],
+   "mrr_first_eligible": 0.721,
+   "eligible_patients_ruled_out_by_filter": 7,
+   "eligible_patients": 333
+  },
+  "conditions_only": {
+   "ndcg_at_10": 0.631,
+   "eligible_recall_at_10": 0.746,
+   "trials_with_eligible_in_top_10": 0.753,
+   "trials_with_eligible_in_top_10_95ci": [
+    0.702,
+    0.799
+   ],
+   "mrr_first_eligible": 0.609,
+   "eligible_patients_ruled_out_by_filter": 7,
+   "eligible_patients": 333
+  },
+  "random": {
+   "ndcg_at_10": 0.061,
+   "eligible_recall_at_10": 0.129,
+   "trials_with_eligible_in_top_10": 0.141
+  },
+  "trials": 300,
+  "patients_ranked_per_trial": 75
+ },
+ "errors": [
+  {
+   "trial": "NCT04646252",
+   "conditions": [
+    "Endothelial Dysfunction",
+    "Arterial Stiffness"
+   ],
+   "first_eligible_rank": 40,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02476864",
+   "conditions": [
+    "Healthy Subjects"
+   ],
+   "first_eligible_rank": 29,
+   "ruled_out": "older than 45"
+  },
+  {
+   "trial": "NCT04028531",
+   "conditions": [
+    "Chronic Lymphocytic Leukemia"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00583778",
+   "conditions": [
+    "Asthma"
+   ],
+   "first_eligible_rank": 38,
+   "ruled_out": "younger than 18"
+  },
+  {
+   "trial": "NCT00760903",
+   "conditions": [
+    "Brain Trauma"
+   ],
+   "first_eligible_rank": 18,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01135849",
+   "conditions": [
+    "Carcinomas",
+    "Amyloidosis",
+    "Anal Cancer"
+   ],
+   "first_eligible_rank": 40,
+   "ruled_out": "older than 40"
+  },
+  {
+   "trial": "NCT03629613",
+   "conditions": [
+    "Cardiovascular Diseases"
+   ],
+   "first_eligible_rank": 25,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT04148612",
+   "conditions": [
+    "Depressive Disorder, Major"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01606384",
+   "conditions": [
+    "Major Depressive Disorder"
+   ],
+   "first_eligible_rank": 58,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02505282",
+   "conditions": [
+    "Orthostatic Hypotension"
+   ],
+   "first_eligible_rank": 16,
+   "ruled_out": "younger than 65"
+  },
+  {
+   "trial": "NCT00988143",
+   "conditions": [
+    "Influenza"
+   ],
+   "first_eligible_rank": 23,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01994343",
+   "conditions": [
+    "Chronic Pain"
+   ],
+   "first_eligible_rank": 15,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00926835",
+   "conditions": [
+    "Major Depressive Disorder"
+   ],
+   "first_eligible_rank": 14,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT04126902",
+   "conditions": [
+    "Preeclampsia"
+   ],
+   "first_eligible_rank": 16,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01691339",
+   "conditions": [
+    "Influenza"
+   ],
+   "first_eligible_rank": 19,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02337049",
+   "conditions": [
+    "Preeclampsia"
+   ],
+   "first_eligible_rank": 33,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT01946438",
+   "conditions": [
+    "Influenza"
+   ],
+   "first_eligible_rank": 19,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03698903",
+   "conditions": [
+    "Blood Pressure"
+   ],
+   "first_eligible_rank": 26,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00617227",
+   "conditions": [
+    "Clostridium Difficle Colitis",
+    "Clostridium Difficle Associated Disease"
+   ],
+   "first_eligible_rank": 40,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT00075205",
+   "conditions": [
+    "Healthy",
+    "Alcohol Drinking"
+   ],
+   "first_eligible_rank": 36,
+   "ruled_out": "older than 45"
+  },
+  {
+   "trial": "NCT03327974",
+   "conditions": [
+    "Current Major Depressive Disorder"
+   ],
+   "first_eligible_rank": 12,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02795234",
+   "conditions": [
+    "Vitamin D Deficiency"
+   ],
+   "first_eligible_rank": 28,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT02047279",
+   "conditions": [
+    "Atrial Fibrillation"
+   ],
+   "first_eligible_rank": 62,
+   "ruled_out": "older than 65"
+  },
+  {
+   "trial": "NCT01584141",
+   "conditions": [
+    "Lymphoma, Follicular",
+    "Lymphoma, Non-Hodgkin",
+    "Multiple Myleoma"
+   ],
+   "first_eligible_rank": 33,
+   "ruled_out": ""
+  },
+  {
+   "trial": "NCT03172507",
+   "conditions": [
+    "Atherosclerosis",
+    "Cardiovascular Diseases"
+   ],
+   "first_eligible_rank": 16,
+   "ruled_out": ""
+  }
+ ],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 1.6,
+ "date": "2026-11-16"
+}

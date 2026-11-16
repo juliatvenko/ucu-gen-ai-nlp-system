@@ -1,0 +1,152 @@
+{
+ "metrics": {
+  "trec_query_recall_over_judged_pool": 0.269,
+  "trec_query_precision_over_judged_pool": 0.469,
+  "trec_recall_at_100_of_live_registry": 0.041,
+  "trec_topics_without_query": 14,
+  "trec_topics": 38,
+  "pool_ndcg_at_10_rerank": 0.505,
+  "pool_ndcg_at_10_random": 0.484,
+  "vignette_on_topic_precision_at_10": 0.912,
+  "vignette_results_shown": 80,
+  "hard_filter_violations": 0
+ },
+ "errors": [
+  {
+   "topic": 38,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hypertension"
+  },
+  {
+   "topic": 39,
+   "problem": "no diagnosis extracted",
+   "text": "A 3-day-old Asian female infant presents with jaundice that started a day ago. She was born at 38w3d of gestation, after"
+  },
+  {
+   "topic": 40,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hypertension"
+  },
+  {
+   "topic": 42,
+   "problem": "no diagnosis extracted",
+   "text": "19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complainin"
+  },
+  {
+   "topic": 43,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "stroke"
+  },
+  {
+   "topic": 44,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition. He used to b"
+  },
+  {
+   "topic": 47,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hypertension"
+  },
+  {
+   "topic": 48,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hyperlipidemia"
+  },
+  {
+   "topic": 49,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "obesity"
+  },
+  {
+   "topic": 50,
+   "problem": "no diagnosis extracted",
+   "text": "A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The "
+  },
+  {
+   "topic": 51,
+   "problem": "no diagnosis extracted",
+   "text": "The patients is a 25-year-old G1 P1 pregnant woman who is 24W3D gestational old who developed a sudden unset of fever an"
+  },
+  {
+   "topic": 52,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "abdominal pain"
+  },
+  {
+   "topic": 53,
+   "problem": "no diagnosis extracted",
+   "text": "Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain."
+  },
+  {
+   "topic": 55,
+   "problem": "no diagnosis extracted",
+   "text": "A 22-year-old Caucasian man came to the Clinic with a history of tremors since a year ago. The tremor was first in his r"
+  },
+  {
+   "topic": 56,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He c"
+  },
+  {
+   "topic": 57,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "obesity"
+  },
+  {
+   "topic": 58,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "vomiting"
+  },
+  {
+   "topic": 60,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the"
+  },
+  {
+   "topic": 62,
+   "problem": "no diagnosis extracted",
+   "text": "A 46-year-old man presents with dizziness and frequent headaches. He has a family history of CAD, but no other cardiovas"
+  },
+  {
+   "topic": 63,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "obesity"
+  },
+  {
+   "topic": 66,
+   "problem": "no diagnosis extracted",
+   "text": "A 16-year-old girl came to the clinic complaining of weight gain and abnormal menstrual cycles. Her BMI was 24, but she "
+  },
+  {
+   "topic": 67,
+   "problem": "no diagnosis extracted",
+   "text": "A Pap smear in a 54-year-old woman revealed abnormal cervical squamous intraepithelial/glandular lesion. She tested posi"
+  },
+  {
+   "topic": 68,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "hypertension"
+  },
+  {
+   "topic": 69,
+   "problem": "no diagnosis extracted",
+   "text": "A 67-year-old healthy woman came to the clinic to have her flu shot in early October. She works at a rehab center and ha"
+  },
+  {
+   "topic": 70,
+   "problem": "query reaches under 10% of relevant trials",
+   "query": "colorectal cancer"
+  },
+  {
+   "topic": 73,
+   "problem": "no diagnosis extracted",
+   "text": "The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and ke"
+  }
+ ],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 0.3,
+ "date": "2026-11-16"
+}

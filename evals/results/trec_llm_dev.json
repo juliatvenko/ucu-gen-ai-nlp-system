@@ -1,0 +1,848 @@
+{
+ "metrics": {
+  "eligible_vs_excluded": {
+   "precision": 0.794,
+   "recall": 0.73,
+   "f1": 0.761,
+   "support": 74
+  },
+  "excluded_trials_caught": 0.811,
+  "excluded_trials_caught_95ci": [
+   0.707,
+   0.884
+  ],
+  "precision_if_always_open": 0.5,
+  "ndcg_at_10_system": 0.859,
+  "ndcg_at_10_random": 0.713,
+  "verdicts_by_gold_label": {
+   "eligible": {
+    "not_eligible": 20,
+    "likely_eligible": 4,
+    "needs_more_data": 19,
+    "insufficient_data": 31
+   },
+   "not_relevant": {
+    "not_eligible": 57,
+    "insufficient_data": 11,
+    "needs_more_data": 6
+   },
+   "excluded": {
+    "not_eligible": 60,
+    "needs_more_data": 7,
+    "insufficient_data": 7
+   }
+  },
+  "topics": 37,
+  "per_label_sample": 2
+ },
+ "errors": [
+  {
+   "topic": 1,
+   "trial": "NCT00723827",
+   "title": "Temodal (Temozolomide) Post Marketing Surveillance Protocol (Study P05557AM2)",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "participants with newly diagnosed glioblastoma multiforme;",
+     "status": "not_met",
+     "evidence": "history of anaplastic astrocytoma",
+     "reasoning": "The patient has anaplastic astrocytoma, not newly diagnosed glioblastoma multiforme.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 1,
+   "trial": "NCT01996527",
+   "title": "3T MRI Biomarkers of Glioma Treatment Response",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "WHO grade IV: glioblastoma multiforme; or neuroepithelial tumors of uncertain origin (polar spongioblastoma, astroblastoma, or gliomatosis cerebri)",
+     "status": "not_met",
+     "evidence": "anaplastic astrocytoma",
+     "reasoning": "The tumor is anaplastic astrocytoma (grade III), not grade IV or neuroepithelial tumor of uncertain origin.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 7,
+   "trial": "NCT01686698",
+   "title": "Effect of VSL#3 (Original De Simone Formulation) on Cognitive Function, Risk of Falls and Quality of Life in Patients With Cirrhosis",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "60 yo M with Hep C cirrhosis, grade II esophageal varices, recent admission for UGIB [**2-9**] NSAID gastritis, referred for admission throught the ED by hepatology clinic for new slurred speech and tangential thought process. Patient also describes new imbalance leading to a fall during which he may have hit his head on. Per last liver clinic note has been off ETOH for a year (corroborated with pt), utox was negative for alocohol. CT was within normal limits, and neuro evaluation determined this was not ischemic infart. Patient was given a presumptive diagnosis of hepatic encephalopathy and started on lactulose. Liver function tests showed a striking increase in his total and direct bilirubin since last visit. Another worrisome feature was the increase in the patient's AFP. This could be progression of cirrhosis as he failed interferon twice. He is to follow-up as an outpatient to work this up. Past Medical History: HCV Cirrhosis (tx with interferon x2 with no response) Portal Gastropathy Grade II Esophageal varices HTN Recent admission [**4-/2150**]: UGIB [**2-9**] non-steroidal induced gastritis",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Current overt acute or chronic hepatic encephalopathy.",
+     "status": "met",
+     "evidence": "presumptive diagnosis of hepatic encephalopathy",
+     "reasoning": "The patient has a diagnosis of hepatic encephalopathy.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Neurological disease.",
+     "status": "met",
+     "evidence": "new slurred speech and tangential thought process",
+     "reasoning": "The patient presents with neurological symptoms.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Treatment with non-absorbable disaccharides.",
+     "status": "met",
+     "evidence": "started on lactulose",
+     "reasoning": "The patient is treated with lactulose, which is a non-absorbable disaccharide.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 8,
+   "trial": "NCT03380299",
+   "title": "Association of CD49d and CD44 in CLL Patients and Their Role in Prognosis",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "This is a 57-year-old gentleman with CLL and large cell transformation. He presented with his disease back in [**10/2119**] with an elevated white count and LDH. He was without any splenomegaly or any cytopenias at that time. He did have some bulky lymphadenopathy. He then completed four cycles of FCR therapy, which he completed back in 09/[**2119**]. He had an excellent response to therapy and was monitored off treatment for approximately two years. He then presented in [**7-/2122**] with a rising white count, approximately 50% lymphocytes, and a mildly elevated LDH. He also had some mild worsening palpable lymphadenopathy. He then received four cycles of PCR, but did not have much in the way of response and his treatment regimen was switched to R-CVP of which he received two cycles. He did again not have a significant response, though continued to have an excellent performance status, and he was ultimately switched to Campath therapy. He did have resolution of his lymphocytosis, and his white count has come down nicely, but did not have much in the way of response in terms of reducing his bulky lymphadenopathy. He then eventually had developed an enlarging left cervical node which was biopsied and was found to have Richter's transformation.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "All patients are newly diagnosed as CLL",
+     "status": "not_met",
+     "evidence": "He presented with his disease back in [**10/2119**]",
+     "reasoning": "The patient is not newly diagnosed, as they presented back in 2119 and received multiple lines of therapy.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": ": patients with associated malignancies",
+     "status": "met",
+     "evidence": "large cell transformation",
+     "reasoning": "The patient has Richter's transformation / large cell transformation associated with their CLL.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 9,
+   "trial": "NCT01762215",
+   "title": "Policy on Optimal Epilepsy Management",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe. The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode. He was maintained on Dilantin and phenobarbital. The patient went 20 years without another seizure. He was recently tapered off Dilantin, and it was felt that perhaps this medication was necessary to maintain him seizure free. The patient had no further events during the hospital course and was back at his baseline at the time of discharge. Full EEG reports are pending at the time of dictation. Past Medical History: Epilepsy as above, CHF, depression",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Epilepsy (Seizure Disorder)",
+     "status": "met",
+     "evidence": "Epilepsy as above",
+     "reasoning": "The patient has a history of epilepsy.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": ">18 years",
+     "status": "met",
+     "evidence": "41 year old man",
+     "reasoning": "The patient is 41 years old, which is greater than 18.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 10,
+   "trial": "NCT04714086",
+   "title": "Expanded Access Program for Avapritinib",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "Pt is a 22yo F otherwise healthy with a 5 yr history of the systemic mastocytosis, with flares normally 3/year, presenting with flushing and tachycardia concerning for another flare. This is patient's 3rd flare in 2 months, while still on steroid taper which is new for her. She responded well to 125 mg IV steroids q 8 hrs and IV diphenydramine in addition to her continuing home regimen. CBC was at her baseline, w/normal differential. Serum tryptase revealed a high value at 84. The patient failed aspirin challenge due to adverse reaction. She was stabilized on IV steroids and IV benadryl and transferred back to the medical floor. She continued on her home histamine receptor blockers and was transitioned from IV to PO steroids and benadryl and observed overnight and was discharged on her home meds, prednisone taper, GI prophylaxis with PPI, Calcium and vitamin D, and SS bactrim for PCP.",
+   "criteria": []
+  },
+  {
+   "topic": 11,
+   "trial": "NCT01164176",
+   "title": "Everolimus in Treating Patients With Locally Advanced or Metastatic Thyroid Cancer",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 75 yo M w/ metastatic papillary thyroid cancer s/p XRT 19 sessions who presented with 2 days of worsening dysphagia for solids, poor oral intake, weight loss 20 pounds over last several weeks and some lethargy. Papillary thyroid cancer dx w/ right neck mass --s/p neck mass resection; unable to perform thyroidectomy --high bleed risk, proximity to trachea and recurrent laryngeal nerve and large tumor size --s/p XRT to neck --s/p RAI ablation --Metastatic to lymph nodes and adrenal glands * s/p hernia repair * s/p tonsillectomy",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Able to take oral medication",
+     "status": "not_met",
+     "evidence": "worsening dysphagia for solids, poor oral intake",
+     "reasoning": "The patient has poor oral intake and dysphagia, indicating issues with taking oral medication.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 14,
+   "trial": "NCT02329522",
+   "title": "USCOM For Assessing Patients With COPD",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L. Pt agitated then somnolent at initial presentation. Daughter reported increased agitation and altered mental status x 2-3 days with O2 sats 60s-70s at home. Daughter has also noted increased LE edema and weight gain which prompted a phone call to her PCP and increased lasix dose from 80daily to 100mg daily with some mild improvement in edema. She has had decreased appetite, PO intake, energy level at home with difficulty with ADLs. No recent history of fever, cough, chills, sputum production, CP, abd pain, or other complaints other than chronic right thigh pain last 1-2 months. Daughter also reports med compliance and compliance with BiPap at night. Past Medical History: - CAD; s/p 4 vessel CABG in [**2119**] - CHF; EF 55%, mild AS - obesity hypoventilation syndrome - obstructive sleep apnea - DM2 - ventricular tachycardia; s/p ICD in [**2127**] - hypothyroidism - schizophrenia - COPD - Pneumona treated in [**4-7**] at [**Hospital1 **]",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age >40 years;",
+     "status": "met",
+     "evidence": "70 y/o with COPD on 2.5-3.5L O2 at baseline, OSA and obesity hypoventilation syndrome, dCHF, discharged [**2132-8-24**] now presents with agitation and altered mental status with hypoxia and O2 sats 70s on BipAp with 5L.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 15,
+   "trial": "NCT04509492",
+   "title": "Role of EUS in Detection of Liver Metastasis",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**])",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "All patients diagnosed with either pancreatic or gastrointestinal tumors and have undergone a CT scan of the abdomen with contrast or MRI before being referred for EUS for staging",
+     "status": "not_met",
+     "evidence": "CT abdomen without contrast was then performed",
+     "reasoning": "The patient underwent a CT scan without contrast, not with contrast.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 15,
+   "trial": "NCT01129167",
+   "title": "Frequency of Methods of Local Invasion of Pancreatic Adenocarcinoma",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**])",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Underwent surgical resection for adenocarcinoma at the Columbia University Medical Center between 2001-2009.",
+     "status": "not_met",
+     "evidence": "Patient underwent a EUS with biopsy.",
+     "reasoning": "There is no mention of surgical resection between 2001-2009 at Columbia University Medical Center.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Did not undergo surgery.",
+     "status": "met",
+     "evidence": "Patient underwent a EUS with biopsy.",
+     "reasoning": "The patient underwent an endoscopic ultrasound with biopsy, but surgical resection is not mentioned, meaning she did not undergo surgery.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 16,
+   "trial": "NCT01399983",
+   "title": "Standardization of 6 Minute Walk Test",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "79 yo F with multifactorial chronic hypoxemia and dyspnea thought due to diastolic CHF, pulmonary hypertension thought secondary to a chronic ASD and COPD on 5L home oxygen admitted with complaints of worsening shortness of breath. Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused. Pulmonary consult recommended an empiric, compassionate sildenafil trial due to severe dyspneic symptomology preventing outpatient living, and the patient tolerated an inpatient trial without hypotension. Patient to f/u with pulmonology to start sildenifil chronically as outpatient as prior authorization is obtained. Past Medical History: - Atrial septal defect repair [**6-17**] complicated by sinus arrest with PPM placement. - Diastolic CHF, estimated dry weight of 94kg - Pulm HTN (RSVP 75 in [**11-24**]) thought secondary to longstanding ASD - COPD on home O2 (5L NC) with baseline saturation high 80's to low 90's on this therapy. - OSA, not CPAP compliant - Mild mitral regurgitation - Microcytic anemia - Hypothyroidism - S/p APPY, s/p CCY ('[**33**]) - Gallstone pancreatitis s/p ERCP, sphincterotomy - Elevated alk phos secondary to amiodarone",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "diagnosis of pulmonary hypertension or exercise-induced pulmonary hypertension by right heart catheterisation",
+     "status": "not_met",
+     "evidence": "Cardiology consult recommended a right heart cath for evaluation of response to sildenafil but the patient refused.",
+     "reasoning": "The patient refused the right heart catheterisation required to diagnose pulmonary hypertension for the study.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 17,
+   "trial": "NCT02158052",
+   "title": "Combined Bone Marrow and Renal Transplantation for Hematologic Disorders With End Stage Renal Disease",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "AL amyloidosis without significant cardiac disease",
+     "status": "not_met",
+     "evidence": "systemic amyloidosis (involvement of lungs, tongue, bladder, heart)",
+     "reasoning": "Patient has cardiac involvement of systemic amyloidosis.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Breast cancer with positive nodes",
+     "status": "not_met",
+     "evidence": "64yo woman with multiple myeloma",
+     "reasoning": "Criterion applies to patients with breast cancer, which this patient does not have.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Malignant melanoma (other than in situ)",
+     "status": "not_met",
+     "evidence": "64yo woman with multiple myeloma",
+     "reasoning": "Criterion applies to patients with malignant melanoma, which is not present.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Colorectal cancer (other than Dukes Stage A or B1)",
+     "status": "not_met",
+     "evidence": "64yo woman with multiple myeloma",
+     "reasoning": "Criterion applies to patients with colorectal cancer, which is not present.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 17,
+   "trial": "NCT00401011",
+   "title": "Safety & Efficacy Study of Perifosine + Bortezomib +/- Dexamethasone for Multiple Myeloma Patients",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Renal insufficiency (serum creatinine levels > 3 mg/dL).",
+     "status": "met",
+     "evidence": "on hemodialysis for ESRD",
+     "reasoning": "Patient has end-stage renal disease and severe renal impairment.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 18,
+   "trial": "NCT00507195",
+   "title": "Postanesthesia Cognitive Recovery and Neuropsychologic Complications",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Adult age patients undergoing general anesthesia",
+     "status": "met",
+     "evidence": "This is a 78 year-old male",
+     "reasoning": "The patient is an adult undergoing anesthesia for a surgical procedure.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Cerebral and cardiac surgery",
+     "status": "not_met",
+     "evidence": "Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed.",
+     "reasoning": "The planned surgery is for a urethral stricture, not cerebral or cardiac surgery.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 19,
+   "trial": "NCT02614235",
+   "title": "Diagnosis of Arrhythmias in Syncope by Pocket-ECG III\u00ae or Conventional Holter",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device. It was interrogated at the OSH and per report the monitor read from yesterday: 40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms. Overnight, the patient went into monomorphic VT on telemetry. The patient was found to be unresponsive. CPR was initiated, unclear if the patient had a pulse. Within one minute the patient returned to sinus rhythm. The patient does not report any symptoms prior to this episode. Currently, the patient feels presyncope and nausea, but denies chest pain. Patient is to be transferred to the CCU for catheterization and EPS.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Carrier of any cardiac implantable electronic device or internal loop recorder, as well as stablished indication for it according to current guidelines.",
+     "status": "met",
+     "evidence": "the implantation of a cardiac monitoring device",
+     "reasoning": "The patient is a carrier of an implantable cardiac monitoring device.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Aetiologic diagnosis of syncope already known.",
+     "status": "met",
+     "evidence": "40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms",
+     "reasoning": "The aetiologic diagnosis of syncope as arrhythmia is already identified.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 20,
+   "trial": "NCT02493517",
+   "title": "Efficacy and Safety of Lanreotide Autogel\u00ae 60, 90 or 120 mg With Lanreotide 40 mg Prolonged Release (PR) in Acromegaly",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Subject has active acromegaly defined as elevated GH and IGF-1 levels (measured at a central laboratory) as outlined below:",
+     "status": "met",
+     "evidence": "IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL",
+     "reasoning": "The patient has elevated levels of both GH and IGF-1.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "The subject has been treated with lanreotide Autogel, lanreotide PR, pegvisomant, cabergoline or octreotide LAR within 3 months of Screening or octreotide immediate release (IR) or bromocriptin within 2 weeks of Screening.",
+     "status": "not_met",
+     "evidence": "She is on stable doses of octreotide LAR",
+     "reasoning": "The patient is currently treated with octreotide LAR.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 20,
+   "trial": "NCT00145405",
+   "title": "Comparable Effects of Lanreotide Autogel and Octreotide LAR on GH, IGF-I Levels and Patient Satisfaction",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "New diagnosed patients with clinical and biochemical acromegaly , if medicine therapy is indicated;",
+     "status": "not_met",
+     "evidence": "She is on stable doses of octreotide LAR since her diagnosis was confirmed.",
+     "reasoning": "The patient is not newly diagnosed.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 21,
+   "trial": "NCT02305914",
+   "title": "Follow-up Study of Complications of Acute Pancreatitis",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "The patient is a 57-year-old man with abdominal pain and vomiting. The pain started gradually about 20 hours ago in the epigastric and periumbilical regions, radiating to his back. He drinks around 60 units of alcohol per week and smokes 22 cigarettes per day. He is healthy with no history of allergies or using any medications. His family history is positive for type 2 diabetes (his father and sister). He lives alone and has no children. The abdomen is tender and soft. His bowel sounds are normal. His heart rate is 115/min and blood pressure 110/75 mmHg. The lab results are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glc level of 15. Cross-sectional imaging was negative for obstructive pancreatitis.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Clinical diagnosis of acute pancreatitis from our hospital",
+     "status": "met",
+     "evidence": "high amylase (1200)",
+     "reasoning": "The patient presents with symptoms and lab findings consistent with acute pancreatitis.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 23,
+   "trial": "NCT00635271",
+   "title": "Biomarkers in Exhaled Breath From Asthmatic Patients",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Cigarette smoking within the past 3 months or a prior history of greater than 10 cumulative pack-years.",
+     "status": "not_met",
+     "evidence": "He doesn't smoke",
+     "reasoning": "The patient states he doesn't smoke.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 24,
+   "trial": "NCT04722458",
+   "title": "Turkish Validation and Reliability of LURN SI-29 Questionnaire in Patients With Lower Urinary Tract Symptoms",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months. Further evaluation revealed: IPSS score : 15 Post-void residual: 70 mL Prostate volume (TRUS): 60 mL Prostate-specific antigen (PSA) level: 3.2 ng/mL 10 mL/sec of maximum flow rate when urine volume was 130 mL He is otherwise healthy only using Vit D 1000 units daily. His recent blood chemistry (3 days ago) was normal: Hgb: 13.5 g/dl WBC: 135000 /mm3 Plt: 350000 /ml PT: 11 second PTT: 35 second INR: 0.9 Creatinine: 0.5 mg/dl BUN: 10 mg/dl U/A: Color: yellow Appearance: cloudy PH: 5.3 Specific gravity: 1.010 Glc: 100 Nitrite: negative Ketone: none Leukocyte esterase: negative RBC: negative WBC: 2 WBCs/hpf U/C: negative",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Patients above 18 years old",
+     "status": "met",
+     "evidence": "The patient is a 55 year old man visiting his primary care physician for lower urinary tract symptoms including frequency, urgency, weak stream, incomplete emptying and intermittent flow for the past 9 months.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 26,
+   "trial": "NCT00984100",
+   "title": "Natural Orifice Translumenal Endoscopic Surgery (NOTES) Transvaginal Cholecystectomy",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "A 45-year-old woman was referred to the emergency department with abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. The pain is localized to the epigastric region and radiates to the right upper quadrant. The pain is worsening after eating fatty food. The patient experienced similar pain twice in the past year. Her past medical history is remarkable for hypercholesterolemia and two C/sections. She has 2 children, and she is menopausal. She doesn't smoke, drink alcohol, or use illicit drugs. She is mildly febrile. Her BP is 150/85, HR 115, RR 15, T 38.2, SpO2 98% on RA. On palpation, she experiences epigastric tenderness and tenderness in the right upper quadrant without rebound. Bowel sounds are normal. Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift. The ultrasound revealed several gallstones and biliary sludge. The largest gallstone is 0.7cm. Surgery consultation recommends elective cholecystectomy.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Patients scheduled to undergo non-emergent surgical removal of the gallbladder",
+     "status": "met",
+     "evidence": "Surgery consultation recommends elective cholecystectomy.",
+     "reasoning": "The patient is scheduled for elective cholecystectomy.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Patients who have a history of prior pelvic surgery (excluding Caesarian sections, tubal ligations, or non-operative pelviscopy)",
+     "status": "not_met",
+     "evidence": "two C/sections",
+     "reasoning": "The patient has a history of C-sections, which are explicitly excluded from being counted as prior pelvic surgery.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Pregnancy",
+     "status": "not_met",
+     "evidence": "she is menopausal",
+     "reasoning": "The patient is menopausal and therefore not pregnant.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Male gender",
+     "status": "not_met",
+     "evidence": "A 45-year-old woman",
+     "reasoning": "The patient is a woman, not a male.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 27,
+   "trial": "NCT00727259",
+   "title": "Evaluation of Satisfaction in Patients Receiving PegIntron Pen/Rebetol for Hepatitis C (Study P04067)",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "A 53-year-old man presents with chronic HCV infection for the past 2 years. His past medical history is only significant for inguinal hernia surgery when he was 20 years old. He is on IFN (100 mg/week) plus RBV (400 mg/day) combination therapy for the past 9 months. Direct antiviral drugs were added to his treatment 6 months ago. His medical record shows previous positive HCV RNA tests as well as positive enzyme immunoassay for anti-HCV-antibodies. The recent biopsy was negative for hepatocellular carcinoma and was only remarkable for chronic inflammation compatible with a chronic viral hepatitis. There is no evidence of alcoholic liver disease, bleeding from esophageal varices, hemochromatosis, autoimmune hepatitis or metabolic liver disease. He is an alert male with no acute distress. His BP: 130/75, HR: 90/min and BMI: 27. His abdomen is soft with no ascites or tenderness. The lower extremities are normal with no edema.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Adult patients with hepatitis C",
+     "status": "met",
+     "evidence": "A 53-year-old man presents with chronic HCV infection",
+     "reasoning": "The patient is an adult with hepatitis C.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 28,
+   "trial": "NCT02892396",
+   "title": "Influence of Electronic Cigarettes in the Evaluation of the Inflammatory Response in Patients With a Diagnosis of COPD",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. The symptoms began acutely and progressively worsened. He is a known case of COPD since 2 years ago. The spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values. He smokes 20 cigarette per day. His past medical history is remarkable for BPH and he is using Flomax for that. His family history is positive for HTN in his brother. His medication includes Duo-Neb inhaled q4 hr PRN, Vit D3 1000 units per day and Flomax for his PBH. He is an obese man who is acutely ill but oriented and conscious. The vital signs are as bellow: BP: 135/80 RR: 25/min HR: 75 bpm BMI: 40 O2sat: 90%",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Regular smokers with no desire to quit their habit.",
+     "status": "met",
+     "evidence": "He smokes 20 cigarette per day.",
+     "reasoning": "The text confirms the patient smokes regularly but does not mention any desire to quit.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Treatment with corticosteroids or other antiinflammatory drugs.",
+     "status": "not_met",
+     "evidence": "Duo-Neb inhaled q4 hr PRN",
+     "reasoning": "Duo-Neb typically contains ipratropium and albuterol, and the patient is not noted to be on corticosteroids.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 29,
+   "trial": "NCT00141986",
+   "title": "Feasibility Study of 2000 IU Per Day of Vitamin D for the Primary Prevention of Type 1 Diabetes",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years. He presents to the emergency room with hyperglycemia and concern for possible diabetic ketoacidosis after not taking his insulin for 3 days. The patient reports that he is currently homeless and has lost his supply of insulin, syringes, glucometer, and glucose testing supplies. The patient states that at the time of his initial diagnosis with type 1 diabetes he was hospitalized with a glucose value >1000 mg/dL. At the time, he was experiencing polyuria, polydipsia, and polyphagia. He reports that he has been on insulin since the time of his diagnosis, and he has never been prescribed oral agents for diabetes management. Most recently, he has been using insulin glargine 55 units once daily, and insulin aspart sliding scale 3 times daily. The patient has had previous episodes of diabetic ketoacidosis, for which he was hospitalized. With this episode of hyperglycemia, he is not experiencing any nausea, vomiting, or abdominal discomfort, and he appears well. His lab studies showed: A1c: 11.3% Creatinine: 0.9 mg/dL with eGFR >60 mL/min Aspartate aminotransferase (AST): 17 U/L Alanine aminotransferase (ALT): 14 U/L Beta-hydroxybutyrate: 0.1 mmol/L Bicarbonate: 25 mEq/L Anion Gap: 14 mEq/L",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "Premature, low birthweight, or major congenital malformations or serious chronic disease",
+     "status": "not_met",
+     "evidence": "The patient is a 24-year-old man who has had type 1 diabetes for 11 years.",
+     "reasoning": "Type 1 diabetes is a serious chronic disease which serves as an exclusion criterion.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 30,
+   "trial": "NCT04249271",
+   "title": "Antithyroidal Antibodies With or Without Subclinical Hypothyroidism During Pregnancy in Infertile Women",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 33-year-old woman complained of fatigue, weight gain and abnormal spotting between menses. No hirsutism or nipple discharge was detected. Her BMI was 34. Her lab results were remarkable for high TSH level (13 mU/L) and low free T4 level (0.2 ng/dl). Her anti-TPO levels were extremely high (120 IU/ml). She was diagnosed with Hashimoto's thyroiditis. Her aunt, brother and mother have the same disease. After starting 250 mcg Levothyroxine per day, her symptoms improved significantly and her periods are normal. She is still overweight with BMI of 31. Her most recent thyroid profile revealed all results except for anti-TPO within the normal range: TSH: 2.35 mU/L Free T4: 2.7 ng/dl Anti-TPO: 75 IU/ml",
+   "criteria": []
+  },
+  {
+   "topic": 31,
+   "trial": "NCT00933140",
+   "title": "Anal HPV Infection and Abnormal Cytology in HIV-infected Women",
+   "gold": "excluded",
+   "verdict": "needs_more_data",
+   "patient": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervical cancer. The patient tested positive for HPV 16. She has three sexual partners and four children. She underwent tubal ligation. She smokes 30 packs/year and drinks alcohol frequently. She is otherwise healthy. She was offered a radical hysterectomy.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age 18-64 years",
+     "status": "met",
+     "evidence": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    },
+    {
+     "kind": "inclusion",
+     "text": "due for cervical cytologic screening",
+     "status": "met",
+     "evidence": "came to the clinic for a routine Pap smear.",
+     "reasoning": "The patient presented for a routine Pap smear, indicating she is due for cervical cytologic screening.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "On chronic anticoagulation medication",
+     "status": "not_met",
+     "evidence": "She is otherwise healthy.",
+     "reasoning": "The patient is described as otherwise healthy, implying she is not on chronic anticoagulation.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Life expectancy of the woman is less than 1 year",
+     "status": "not_met",
+     "evidence": "stage 1B of cervical cancer",
+     "reasoning": "The patient has stage 1B cervical cancer with early diagnosis and is otherwise healthy, so life expectancy is not less than 1 year.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 31,
+   "trial": "NCT02431520",
+   "title": "Patient Compliance to Self-collection for Detection of HPV-DNA",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervical cancer. The patient tested positive for HPV 16. She has three sexual partners and four children. She underwent tubal ligation. She smokes 30 packs/year and drinks alcohol frequently. She is otherwise healthy. She was offered a radical hysterectomy.",
+   "criteria": [
+    {
+     "kind": "exclusion",
+     "text": "History of cervical cancer or its precursors",
+     "status": "met",
+     "evidence": "stage 1B of cervical cancer",
+     "reasoning": "The patient has a history of cervical cancer.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 32,
+   "trial": "NCT01638039",
+   "title": "Identification of Correlates of Protection Against Shigella and Enterotoxigenic Escherichia Coli Infections",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 17 year old boy complains of vomiting, non-bloody diarrhea, abdominal pain, fever, chills and loss of appetite for the past 3 days. He ate a salad at a restaurant prior to his diarrhea onset. Physical exam was remarkable for pallor, jaundice, and diffuse abdominal tenderness. Lab results were as follows: Hemoglobin: 9.7 g/dL Platelet: 110,000 /cu.mm Creatinine: 3.6 mg/dL blood urea nitrogen (BUN): 73 mg/dL direct bilirubin: 2.4 mg/dL lactate dehydrogenase (LDH): 881 IU/L (normal: 110-265 IU/L) Peripheral blood smear showed a moderate number of schistocytes and helmet cells. Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools. He has no other underlying disease and he is not on any medications.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Lab-confirmed Shigella or ETEC",
+     "status": "not_met",
+     "evidence": "Shiga-like toxin-producing E. coli (STEC) stx1/stx2 were found in stools",
+     "reasoning": "The patient has STEC infection rather than Shigella or ETEC.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Individuals or patients without diarrheal disease",
+     "status": "not_met",
+     "evidence": "complains of vomiting, non-bloody diarrhea",
+     "reasoning": "The patient presents with diarrheal disease.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 33,
+   "trial": "NCT00375206",
+   "title": "A Safety and Immunology Study of a DNA Trivalent Influenza Vaccine",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "A 42-year-old healthy woman came to the clinic to have her flu shot in early October. She works in a rehab center and has no underlying disease. It's her first time getting the vaccine this year. She is married for 5 years and uses barrier methods of contraception. Her menstrual cycle is irregular. She does not smoke. She is not on any medications. She exercises regularly for 30 minutes a day at least 5 days a week. She has no history of allergies to any food or drugs. Her past surgical history is significant for tonsillectomy and she is otherwise healthy.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Healthy adult volunteers (women must be of non child-bearing potential)",
+     "status": "not_met",
+     "evidence": "She is married for 5 years and uses barrier methods of contraception.",
+     "reasoning": "The patient is of childbearing potential as she uses contraception rather than being surgically sterile or postmenopausal.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "No significant concomitant illness",
+     "status": "met",
+     "evidence": "has no underlying disease.",
+     "reasoning": "The patient has no significant concomitant illness.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "No immunosuppression due to disease or treatment",
+     "status": "met",
+     "evidence": "has no underlying disease.",
+     "reasoning": "There is no indication of immunosuppression.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 34,
+   "trial": "NCT02023931",
+   "title": "Broccoli Sprout Extracts in Healthy Volunteers: A Pilot Study of Nrf2 Pathway Modulation in Oral Mucosa",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy. She states that her mood is mostly depressed for the past 3 weeks. She also lost her appetite , which led to about 5kg weight loss. She complains of loss of energy and feelings of worthlessness nearly every day. She is not using any drugs and she does not smoke. She doesn't drink alcohol. She used to exercise every day for at least 30 min. But she doesn't have enough energy to do so for the past 3 weeks. She also has some digestive issues recently. She is married and has 4 children. She is menopausal. Her husband was recently diagnosed with colon cancer and he is starting his chemotherapy. There is nothing remarkable in her past medical history and her drug history is only positive for Vit D3 1000 units daily. Her family history is negative for any psychologic problems. Her HAM-D score is 20.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Potential effects of Broccoli sprout extract on the developing human fetus: The effects of Broccoli Sprout Extract on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study and for the duration of study participation",
+     "status": "not_met",
+     "evidence": "She is menopausal.",
+     "reasoning": "The patient is menopausal and not of child-bearing potential, making contraception requirements inapplicable.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 35,
+   "trial": "NCT00733382",
+   "title": "Effect of Dexamethasone on Migraine Headache",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 15 year old girl with the history of recurrent bilateral headache. The attacks come 2 times or more per week and each episode lasts around a day or a half. The pain is pulsating in quality and severe in intensity, causing trouble in her routine physical activity. The attacks are associated with nausea and photophobia. She recently noticed that that there are more attacks around her menstrual period. She is diagnosed with the migraine headache and is under treatment. She is a high-school student and living with her both parents. She is a book worm and spend her free time in a public library near her home. She is also interested in writing stories and has several short stories in English. She rarely does exercise. Her BMI is 21 with the BP of 100/60. There is nothing remarkable in her physical exam.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "One reversible aura",
+     "status": "not_met",
+     "evidence": "She is diagnosed with the migraine headache",
+     "reasoning": "Aura is not mentioned, which contradicts migraine without aura.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Aura became apparent at least in 4 minutes",
+     "status": "not_met",
+     "evidence": "She is diagnosed with the migraine headache",
+     "reasoning": "No aura is mentioned.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Aura not lasting more than 60 minutes",
+     "status": "not_met",
+     "evidence": "She is diagnosed with the migraine headache",
+     "reasoning": "No aura is mentioned.",
+     "source": "llm"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Headache develops in less than 60 minutes after aura",
+     "status": "not_met",
+     "evidence": "She is diagnosed with the migraine headache",
+     "reasoning": "No aura is mentioned.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 37,
+   "trial": "NCT01679041",
+   "title": "High Dose Chemo With Stem Cell Transplant as Treatment for Multiple Sclerosis That Failed Prior Treatment",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day. She visited her PCP and underwent brain MRI which revealed a single plaque in the brainstem. After few months, she experienced lower extremities weakness led to balance problem. The second MRI revealed another lesion in the left cerebral hemisphere. The diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed after the second MRI. Her past surgical history is significant for a C-section 2 years ago and she has a one child. She is divorced and is not currently in any sexual relationship. She smokes 10 cigarettes per day and drinks alcohol occasionally. She is working as an editor in a publisher company and she is happy that she can keep working from home most of the time. She is under the treatment of RRMS from 7 months ago.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "Age between 18-60, inclusive",
+     "status": "met",
+     "evidence": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    },
+    {
+     "kind": "inclusion",
+     "text": "Patients carry a diagnosis of multiple sclerosis, according to the McDonald's criteria for diagnosis (Polman et al, 2011).",
+     "status": "met",
+     "evidence": "The diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed",
+     "reasoning": "The patient has a confirmed diagnosis of multiple sclerosis.",
+     "source": "llm"
+    },
+    {
+     "kind": "exclusion",
+     "text": "Diagnosis of primary progressive MS.",
+     "status": "not_met",
+     "evidence": "Relapsing Remitting Multiple Sclerosis (RRMS)",
+     "reasoning": "The patient has relapsing remitting MS, not primary progressive MS.",
+     "source": "llm"
+    }
+   ]
+  },
+  {
+   "topic": 37,
+   "trial": "NCT03186664",
+   "title": "The Role of SAtivex\u00ae in Robotic-Rehabilitation",
+   "gold": "excluded",
+   "verdict": "insufficient_data",
+   "patient": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day. She visited her PCP and underwent brain MRI which revealed a single plaque in the brainstem. After few months, she experienced lower extremities weakness led to balance problem. The second MRI revealed another lesion in the left cerebral hemisphere. The diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed after the second MRI. Her past surgical history is significant for a C-section 2 years ago and she has a one child. She is divorced and is not currently in any sexual relationship. She smokes 10 cigarettes per day and drinks alcohol occasionally. She is working as an editor in a publisher company and she is happy that she can keep working from home most of the time. She is under the treatment of RRMS from 7 months ago.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "age of 18-65 years,",
+     "status": "met",
+     "evidence": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day.",
+     "reasoning": "numeric comparison in code",
+     "source": "rule:numeric"
+    }
+   ]
+  },
+  {
+   "topic": 37,
+   "trial": "NCT01424423",
+   "title": "NOGO-A in Multiple Sclerosis FTIH",
+   "gold": "eligible",
+   "verdict": "not_eligible",
+   "patient": "The patient is a 20 year old Caucasian female presents to the clinic with one-sided vision lost and facial weakness, dysarthria and numbness lasting for 1 day. She visited her PCP and underwent brain MRI which revealed a single plaque in the brainstem. After few months, she experienced lower extremities weakness led to balance problem. The second MRI revealed another lesion in the left cerebral hemisphere. The diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed after the second MRI. Her past surgical history is significant for a C-section 2 years ago and she has a one child. She is divorced and is not currently in any sexual relationship. She smokes 10 cigarettes per day and drinks alcohol occasionally. She is working as an editor in a publisher company and she is happy that she can keep working from home most of the time. She is under the treatment of RRMS from 7 months ago.",
+   "criteria": [
+    {
+     "kind": "inclusion",
+     "text": "-Secondary Progressive MS, plus any one of the following: Occurrence of at least one relapse in the previous 12 months OR at least 2 relapses in the previous 24 months OR at least one documented Gd-enhancing lesion by magnetic resonance imaging (MRI) within 12 months prior to screening.",
+     "status": "not_met",
+     "evidence": "The diagnosis of Relapsing Remitting Multiple Sclerosis (RRMS) is confirmed",
+     "reasoning": "The patient has RRMS, not Secondary Progressive MS, making this SPMS criterion not applicable.",
+     "source": "llm"
+    }
+   ]
+  }
+ ],
+ "mode": "llm",
+ "split": "dev",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 4.7,
+ "date": "2026-11-16"
+}

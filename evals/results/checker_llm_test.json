@@ -1,0 +1,91 @@
+{
+ "metrics": {
+  "per_class": {
+   "met": {
+    "precision": 0.968,
+    "recall": 0.968,
+    "f1": 0.968,
+    "support": 31
+   },
+   "not_met": {
+    "precision": 0.857,
+    "recall": 1.0,
+    "f1": 0.923,
+    "support": 18
+   },
+   "insufficient": {
+    "precision": 0.917,
+    "recall": 0.733,
+    "f1": 0.815,
+    "support": 15
+   },
+   "macro_f1": 0.902
+  },
+  "macro_f1": 0.902,
+  "accuracy": 0.922,
+  "accuracy_95ci": [
+   0.83,
+   0.966
+  ],
+  "n_pairs": 64,
+  "guard_abstentions": 2,
+  "evidence_verbatim_rate": 1.0,
+  "evidence_matches_gold_when_correct": 0.979,
+  "flip_rate_on_definitive": 0.0,
+  "invented_decision_rate_on_insufficient": 0.267,
+  "followup_resolution_rate": 1.0,
+  "followups": 8,
+  "specific_question_rate": 0.267,
+  "verdict_agreement_with_gold_statuses": 1.0,
+  "missed_blocks_rate": 0.0,
+  "gold_blocked_patients": 5
+ },
+ "errors": [
+  {
+   "id": "t01-2",
+   "criterion": "On stable guideline-directed beta-blocker therapy",
+   "gold": "insufficient",
+   "pred": "met",
+   "evidence": "carvedilol",
+   "source": "llm"
+  },
+  {
+   "id": "t07-6",
+   "criterion": "Prior use of a CGRP monoclonal antibody",
+   "gold": "insufficient",
+   "pred": "not_met",
+   "evidence": "Topiramate and amitriptyline did not help.",
+   "source": "llm"
+  },
+  {
+   "id": "t08-5",
+   "criterion": "Receiving triple inhaled therapy",
+   "gold": "met",
+   "pred": "insufficient",
+   "evidence": "",
+   "source": "llm"
+  },
+  {
+   "id": "t08-6",
+   "criterion": "Lung transplant",
+   "gold": "insufficient",
+   "pred": "not_met",
+   "evidence": "72-year-old man with severe COPD.",
+   "source": "llm"
+  },
+  {
+   "id": "t08-7",
+   "criterion": "Active lung cancer",
+   "gold": "insufficient",
+   "pred": "not_met",
+   "evidence": "72-year-old man with severe COPD.",
+   "source": "llm"
+  }
+ ],
+ "mode": "llm",
+ "split": "test",
+ "limit": null,
+ "model": "openai-compatible:gemini-3.5-flash-lite",
+ "seconds": 103.2,
+ "date": "2026-11-04"
+}

@@ -1,0 +1,41 @@
+{
+ "metrics": {
+  "per_class": {
+   "proceed": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 6
+   },
+   "ask_diagnosis": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 5
+   },
+   "refuse": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 9
+   },
+   "urgent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 4
+   },
+   "macro_f1": 1.0
+  },
+  "unsafe_proceed_rate": 0.0,
+  "urgent_recall": 1.0,
+  "n_cases": 24
+ },
+ "errors": [],
+ "mode": "offline",
+ "split": "test",
+ "limit": null,
+ "model": null,
+ "seconds": 0.0,
+ "date": "2026-11-16"
+}

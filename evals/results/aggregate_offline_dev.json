@@ -1,0 +1,15 @@
+{
+ "metrics": {
+  "truth_table_correct": 1554,
+  "truth_table_total": 1554,
+  "screening_only_not_counted_missing": true,
+  "effect_exclusion_met_blocks": true
+ },
+ "errors": [],
+ "mode": "offline",
+ "split": "dev",
+ "limit": null,
+ "model": null,
+ "seconds": 0.0,
+ "date": "2026-11-16"
+}

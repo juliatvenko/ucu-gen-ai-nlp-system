@@ -1,0 +1,159 @@
+{
+ "metrics": {
+  "segmentation_gold_cases": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 31
+  },
+  "segmentation_chia_roundtrip": {
+   "star": {
+    "precision": 1.0,
+    "recall": 0.992,
+    "f1": 0.996,
+    "support": 1199
+   },
+   "dash": {
+    "precision": 1.0,
+    "recall": 0.992,
+    "f1": 0.996,
+    "support": 1199
+   },
+   "plain": {
+    "precision": 0.912,
+    "recall": 0.905,
+    "f1": 0.908,
+    "support": 1199
+   }
+  },
+  "entities": {
+   "strict": {
+    "Condition": {
+     "precision": 0.732,
+     "recall": 0.379,
+     "f1": 0.499,
+     "support": 1091
+    },
+    "Drug": {
+     "precision": 0.741,
+     "recall": 0.337,
+     "f1": 0.464,
+     "support": 323
+    },
+    "Procedure": {
+     "precision": 0.577,
+     "recall": 0.166,
+     "f1": 0.258,
+     "support": 361
+    },
+    "Measurement": {
+     "precision": 0.658,
+     "recall": 0.353,
+     "f1": 0.459,
+     "support": 343
+    },
+    "Value": {
+     "precision": 0.128,
+     "recall": 0.247,
+     "f1": 0.168,
+     "support": 438
+    },
+    "Temporal": {
+     "precision": 0.201,
+     "recall": 0.227,
+     "f1": 0.213,
+     "support": 339
+    },
+    "Negation": {
+     "precision": 0.333,
+     "recall": 0.5,
+     "f1": 0.4,
+     "support": 74
+    },
+    "Person": {
+     "precision": 0.861,
+     "recall": 0.881,
+     "f1": 0.871,
+     "support": 176
+    },
+    "micro": {
+     "precision": 0.429,
+     "recall": 0.343,
+     "f1": 0.381,
+     "support": 3145
+    }
+   },
+   "relaxed": {
+    "Condition": {
+     "precision": 0.862,
+     "recall": 0.464,
+     "f1": 0.603,
+     "support": 1091
+    },
+    "Drug": {
+     "precision": 0.846,
+     "recall": 0.39,
+     "f1": 0.534,
+     "support": 323
+    },
+    "Procedure": {
+     "precision": 0.726,
+     "recall": 0.213,
+     "f1": 0.33,
+     "support": 361
+    },
+    "Measurement": {
+     "precision": 0.827,
+     "recall": 0.431,
+     "f1": 0.567,
+     "support": 343
+    },
+    "Value": {
+     "precision": 0.454,
+     "recall": 0.829,
+     "f1": 0.587,
+     "support": 438
+    },
+    "Temporal": {
+     "precision": 0.534,
+     "recall": 0.599,
+     "f1": 0.565,
+     "support": 339
+    },
+    "Negation": {
+     "precision": 0.396,
+     "recall": 0.595,
+     "f1": 0.476,
+     "support": 74
+    },
+    "Person": {
+     "precision": 0.872,
+     "recall": 0.892,
+     "f1": 0.882,
+     "support": 176
+    },
+    "micro": {
+     "precision": 0.652,
+     "recall": 0.516,
+     "f1": 0.576,
+     "support": 3145
+    }
+   },
+   "lines_scored": 1200
+  },
+  "screening_only_vs_chia": {
+   "precision": 0.316,
+   "recall": 0.508,
+   "f1": 0.39,
+   "support": 59
+  },
+  "n_trials": 100
+ },
+ "errors": [],
+ "mode": "offline",
+ "split": "dev",
+ "limit": null,
+ "model": null,
+ "seconds": 0.2,
+ "date": "2026-11-16"
+}
