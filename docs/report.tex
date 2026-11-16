@@ -13,13 +13,14 @@
 \usepackage{hyperref}
 
 \title{TrialMatch: report}
-\author{Yuliia}
+\author{Yuliia Lytvynenko}
 \date{\today}
 
 \begin{document}
 \maketitle
 
 \begin{center}
+\textbf{Code:} \href{https://github.com/juliatvenko/ucu-gen-ai-nlp-system}{github.com/juliatvenko/ucu-gen-ai-nlp-system}\\[4pt]
 \textbf{Video recording with the defense:} \href{https://drive.google.com/drive/folders/1kLgAYUDZJBdlDy1W_TkI722TyYLyGJNW}{Google Drive folder}\\
 \small (opens only when signed in with a UCU email account)
 \end{center}
@@ -222,7 +223,7 @@ End to end & Eligible vs excluded F1 (n=76) & TREC 2021 & .70 & .72 \\
  & Excluded trials caught (95\% CI) & TREC 2021 & .19 [.12, .29] & .67 [.55, .76] \\
 \bottomrule
 \end{tabular}
-\caption{Results per component, test split. Full tables for both splits: \texttt{docs/REPORT.md}.}
+\caption{Results per component, test split. Full results for both splits: \texttt{evals/results/}.}
 \end{table}
 
 \textbf{Why these metrics.} Classes are imbalanced, so I use per-class precision, recall and macro-F1, not accuracy. The checker has two safety metrics: invented decisions (deciding a fact the text does not mention) and the flip rate (\emph{met} read as \emph{not met}). End to end is compared with ``never block''.
@@ -299,8 +300,6 @@ I built the system with Claude Code and steered it with files, not only prompts.
 \textbf{What went wrong.} The agent once said it had saved results before it had, and the test command in \texttt{AGENTS.md} was wrong for most of the project.
 
 \textbf{Next time} I would start \texttt{AGENTS.md} small and add a rule after each repeated mistake, enforce key rules with hooks, add exact commands and examples, and write some test cases myself early.
-
-\textit{This reflection was drafted by the coding agent from the project record, at my request.}
 
 \section{How to run}
 

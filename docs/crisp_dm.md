@@ -57,7 +57,7 @@ Agents update this file as they work (see `AGENTS.md`). Newest entries go last i
 
 ## 5. Evaluation
 
-Results are in `docs/REPORT.md`, generated from `evals/results/`.
+Results are in `evals/results/`, summarised in `docs/report.pdf`.
 
 **2026-11-04, metric correction.** TREC recall@100 against the live registry came out near zero. Part of that is the measure itself: thousands of hits for a query, against a pool of about 155 from a 2021 snapshot. Added query recall and precision over the judged pool, which has no depth cutoff. Both are reported.
 

@@ -10,3 +10,5 @@ __pycache__/
 web/node_modules/
 genai-assignment-1.md
 GenAI. Assignment 1. Build an NLP System.pdf
+docs/REPORT.md
+docs/agent_reflection.md
