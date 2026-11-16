@@ -28,11 +28,11 @@
 % Brief: "Define the Task".
 \section{Task and scope}
 
-Finding a clinical trial means reading the eligibility criteria of many trials and comparing each with the patient. This is slow. TrialMatch helps clinicians and trial coordinators do it. For each criterion it returns \emph{met}, \emph{not met} or \emph{insufficient data}, with a quote from the patient text as evidence. Plain code turns these into a verdict, and the system asks for the missing facts that matter most.
+Finding a clinical trial means reading the eligibility criteria of many trials and comparing each with the patient. This takes a lot of time. TrialMatch helps clinicians and trial coordinators do it. For each criterion it returns \emph{met}, \emph{not met} or \emph{insufficient data}, with a quote from the patient text as evidence. Plain code turns these into a verdict, and the system asks for the missing facts that matter most.
 
-It has two modes on one engine. \textbf{Matcher:} one patient, ranked trials. \textbf{Cohort:} one trial, a set of patients, who could qualify. This is not vanilla RAG: retrieval only finds candidates, and the core is extraction, a decision per criterion with a required quote, and rule-based verdicts.
+It has two modes on one engine. \textbf{Matcher:} one patient, ranked trials. \textbf{Cohort:} one trial, a set of patients, who could qualify. The system is more than RAG: retrieval only finds candidates, and the core is extraction, a decision per criterion with a required quote, and rule-based verdicts.
 
-\textbf{Success} means catching patients who fail a criterion, showing the reason for every decision, and saying ``insufficient data'' instead of guessing. \textbf{The worst errors} are a guess shown as a fact, then telling an excluded patient they qualify, then hiding a trial they could join.
+\textbf{Success} means catching patients who fail a criterion, showing the reason for every decision, and saying ``insufficient data'' when the text does not settle a criterion. \textbf{The most costly errors}, in order: a status without evidence, an excluded patient shown as eligible, and an eligible trial not shown.
 
 \textbf{In scope:} age and sex filters; a status for every criterion; verdicts by code; follow-up questions; cohort search over 1,620 case reports; stopping on urgent, off-topic and advice-only input; a labelled rule fallback in the app. \textbf{Out of scope:} trial location, hosted deployment, real patient data.
 
@@ -214,7 +214,7 @@ Component & Metric & Data & Rules & Model \\
  & Entity F1, strict / relaxed & Chia & .36 / .55 & .47 / .74 \\
 4 Checker & Macro-F1 (n=64) & Vignettes & .61 & .90 \\
  & Quotes verbatim / flip rate & Vignettes & 1.0 / .04 & 1.0 / 0 \\
- & Invented decision on \emph{insufficient} & Vignettes & .07 & .27 \\
+ & Decided where gold is \emph{insufficient} & Vignettes & .07 & .27 \\
 5 Aggregation & Truth table / missed blocks & All combinations / vignettes & 100\% / .2 & 100\% / 0 \\
 6a Safety & Macro-F1, authored cases & \texttt{safety\_cases} & 1.0 & 1.0 \\
 6b Follow-up & Settled correctly after an answer & Vignettes & 0 & 1.0 \\
@@ -226,13 +226,13 @@ End to end & Eligible vs excluded F1 (n=76) & TREC 2021 & .70 & .72 \\
 \caption{Results per component, test split. Full results for both splits: \texttt{evals/results/}.}
 \end{table}
 
-\textbf{Why these metrics.} Classes are imbalanced, so I use per-class precision, recall and macro-F1, not accuracy. The checker has two safety metrics: invented decisions (deciding a fact the text does not mention) and the flip rate (\emph{met} read as \emph{not met}). End to end is compared with ``never block''.
+\textbf{Why these metrics.} Classes are imbalanced, so I use per-class precision, recall and macro-F1, not accuracy. The checker has two safety metrics: unsupported decisions (the text does not mention the fact, but the checker still says \emph{met} or \emph{not met} instead of \emph{insufficient}) and the flip rate (\emph{met} read as \emph{not met}). End to end is compared with ``never block''.
 
-\textbf{Reading the results.} The model helps most where language varies: drug classes, abbreviations, negation, and follow-up answers. End-to-end F1 is similar (.70 and .72), but the errors are opposite: the rules almost never block, and the model catches far more excluded trials but blocks some eligible ones. The main open risk is invented decisions (27\%): the quote is real but irrelevant, so the quote guard can't catch it.
+\textbf{Reading the results.} The model helps most where language varies: drug classes, abbreviations, negation, and follow-up answers. End-to-end F1 is similar (.70 and .72), but the errors are opposite: the rules rarely block, and the model catches more excluded trials but also blocks some eligible ones. The main remaining issue is unsupported decisions: on 27\% of criteria the text does not mention, the model still answers \emph{met} or \emph{not met}. It quotes real text that is not about the criterion, so the quote guard can't catch it.
 
-\textbf{Error analysis.} I read all 39 dev errors. Of 25 wrong blocks, 11 came from parsing losing the trial's structure, 12 from TREC labels that say ``eligible'' when the trial text excludes the patient, and 2 from over-reading. I fixed the parsing group: dev F1 .715 $\to$ .761, test .705 $\to$ .722, with no new errors.
+\textbf{Error analysis.} I read all 39 dev errors. Of 25 wrong blocks, 11 came from parsing losing the trial's structure, 12 from TREC labels that say ``eligible'' when the trial text excludes the patient, and 2 from the model reading more into the text than it says. I fixed the parsing group: dev F1 .715 $\to$ .761, test .705 $\to$ .722, with no new errors.
 
-\textbf{Trust.} Verbatim quotes, the truth table and filter violations are true by design. Vignette scores are likely too high, because the texts are short and clear. Safety 1.0 is a regression test. TREC is the most credible test, but small.
+\textbf{Trust.} Verbatim quotes, the truth table and filter violations are true by design. Vignette scores are likely higher than on real text, because the texts are short and clear. Safety 1.0 is a regression test. TREC is the most credible test, but small.
 
 % Brief: "it should be reflected in your report how you applied it".
 \section{CRISP-DM}
@@ -269,7 +269,7 @@ Deployment & Local FastAPI and React app, checked in a browser. Rule fallback in
 
 \section{Limitations}
 
-Small gold sets, so intervals are wide. One free model, which may change. Invented decisions. Statuses can change after a small edit to the patient text (not measured). TREC labels are from 2021, but trial text is current. Prompt injection is not measured. Cohort search was tuned on TREC notes, not on the case reports it searches. No location logic.
+Small gold sets, so intervals are wide. One free model, which may change. Unsupported decisions on facts the text does not mention. Statuses can change after a small edit to the patient text (not measured). TREC labels are from 2021, but trial text is current. Prompt injection is not measured. Cohort search was tuned on TREC notes, not on the case reports it searches. No location logic.
 
 % Criterion: Use of the AI coding assistant, 4 pts.
 \section{AI coding assistant}
@@ -286,7 +286,7 @@ I built the system with Claude Code and steered it with files, not only prompts.
 
 \textbf{What I left out of context.} My work data and code (NDA), even though my job is close to this topic. Private and restricted data: I dropped n2c2 and used open data only. Other people's code: the agent got the idea of TrialGPT, not its repositories. Also the API keys and the test errors.
 
-\textbf{What worked.} The eval rules mattered most: ``dev only'' kept the test score honest, and ``a decision needs a verbatim quote'' made answers checkable. Real runs found bugs that tests missed.
+\textbf{What worked.} The eval rules mattered most: ``dev only'' kept the test score independent of tuning, and ``a decision needs a verbatim quote'' made answers checkable. Real runs found bugs that tests missed.
 
 \textbf{Corrections I made.} Many, mostly in the interface. The agent also did not start improvement cycles by itself, so I led the error analysis and fixes.
 \begin{itemize}
@@ -294,10 +294,10 @@ I built the system with Claude Code and steered it with files, not only prompts.
   \item A better error message replaced by a labelled rule fallback.
   \item AI-generated demo patients replaced by published case reports.
   \item A trial picker added, and a case report search built only after its eval.
-  \item Gold labels reviewed; only the parsing errors fixed; overbroad claims in this report corrected.
+  \item Gold labels reviewed; only the parsing errors fixed; claims in this report made more precise.
 \end{itemize}
 
-\textbf{What went wrong.} The agent once said it had saved results before it had, and the test command in \texttt{AGENTS.md} was wrong for most of the project.
+\textbf{Problems.} The agent once reported results as saved before saving them, and the test command in \texttt{AGENTS.md} was wrong for most of the project.
 
 \textbf{Next time} I would start \texttt{AGENTS.md} small and add a rule after each repeated mistake, enforce key rules with hooks, add exact commands and examples, and write some test cases myself early.
 
