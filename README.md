@@ -4,7 +4,7 @@ Compares a patient description with clinical-trial eligibility criteria. Each cr
 
 **Use synthetic or published data only.** Free LLM endpoints may train on what you send.
 
-- Report: [docs/report.pdf](docs/report.pdf), results in `evals/results/`
+- Report: [docs/GenAI_NLP_Assignment1_Lytvynenko.pdf](docs/GenAI_NLP_Assignment1_Lytvynenko.pdf), results in `evals/results/`
 - Diagrams and components: [docs/architecture.md](docs/architecture.md)
 - CRISP-DM log: [docs/crisp_dm.md](docs/crisp_dm.md)
 - Agent instructions: [AGENTS.md](AGENTS.md)
