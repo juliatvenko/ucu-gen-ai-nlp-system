@@ -38,7 +38,7 @@ It has two modes on one engine. \textbf{Matcher:} one patient, ranked trials. \t
 
 \textbf{Ethics.} The tool is assistive: it quotes its basis, and clinicians make the final decision. Unmentioned facts count as missing, not as evidence. Only synthetic and published data are used, because free model endpoints may train on their inputs.
 
-\textbf{Related work.} Checking each criterion separately follows TrialGPT (Jin et al., 2024). No code was reused. TrialMatch adds two modes on one engine, a parsing eval on Chia, and abstention measured as a safety property.
+\textbf{Related work.} Checking each criterion separately follows TrialGPT (Jin et al., 2024). No code was reused. TrialMatch adds two modes on one engine, a parsing eval on Chia, and a safety metric for how often the system says ``insufficient data'' when it should.
 
 % Brief: "Prepare the Data (check existing datasets before generating synthetic)".
 \section{Data}
@@ -52,7 +52,7 @@ I checked existing datasets first. Real, human-labelled data is used where it ex
 \toprule
 Dataset & Size & Used for & Labels \\
 \midrule
-Chia (CC BY 4.0) & 1,000 trials & Parsing eval, entity gazetteer & Human entity annotations \\
+Chia (CC BY 4.0) & 1,000 trials & Parsing eval, list of medical phrases & Human entity annotations \\
 TREC Clinical Trials 2021 & 75 patients, 35,832 judgements & Retrieval, cohort search, end-to-end evals & Human: not relevant, excluded, eligible \\
 ClinicalTrials.gov API v2 & Live registry & Trials in the app & None \\
 PMC-Patients (CC BY-NC-SA 4.0) & 1,620 case reports & Demo examples, cohort search & None, so not in evals \\
@@ -64,9 +64,9 @@ PMC-Patients (CC BY-NC-SA 4.0) & 1,620 case reports & Demo examples, cohort sear
 \caption{Datasets and their use.}
 \end{table}
 
-TREC is the main end-to-end test, because its labels come from people. n2c2 2018 was rejected because it needs a data use agreement. The coding agent wrote the synthetic sets, and I reviewed the vignette labels. The safety cases were used to fix the rules, so they are a regression test, not a held-out test.
+TREC is the main end-to-end test, because its labels come from people. n2c2 2018 was rejected because it needs a data use agreement. The coding agent wrote the synthetic sets, and I reviewed the vignette labels. The safety cases were used to fix the rules, so they only check that fixed cases stay fixed (a regression test), not how the rules handle new input.
 
-\textbf{Splits.} Chia by trial (800/100/100), TREC by topic (1--37 dev, 38--75 test, 2 trials per label in model runs), vignettes by patient (8/8). I tuned on dev only and did not read test errors. All preparation is scripted, and raw data is never edited.
+\textbf{Splits.} Chia by trial (800/100/100), TREC by topic (1--37 dev, 38--75 test, 2 trials per label in model runs), vignettes by patient (8/8). Dev is for tuning and test is for reporting: I tuned on dev only and did not read test errors. All preparation is scripted, and raw data is never edited.
 
 % Brief: "Describe the Components". Criterion: System understanding, 7 pts.
 \section{System}
@@ -157,7 +157,7 @@ Component & Purpose & Input & Output \\
 \caption{Components.}
 \end{table}
 
-A trial is \textbf{not eligible} if an inclusion is not met or an exclusion is met. Otherwise it is \textbf{likely eligible}, \textbf{needs more data} or \textbf{insufficient data}, by how many criteria are unknown. Parsing keeps the trial's structure: an option list counts as one criterion, a subgroup criterion cannot block alone, and donor sections are skipped. Cohort search uses BM25, with no model.
+A trial is \textbf{not eligible} if an inclusion is not met or an exclusion is met. Otherwise it is \textbf{likely eligible}, \textbf{needs more data} or \textbf{insufficient data}, by how many criteria are unknown. Parsing keeps the trial's structure: a list of options (``one of the following'') counts as one criterion, a criterion for one group only (``for women of child-bearing potential'') cannot block alone, and sections about a donor or relative are skipped. Cohort search ranks case reports by keyword match (BM25), with no model.
 
 \textbf{Model calls.} The model is \texttt{gemini-3.5-flash-lite} (Google AI Studio, free tier), used in two places. Everything else is code. The only external tool is the ClinicalTrials.gov API v2.
 
@@ -177,14 +177,14 @@ Step & Model gets & Model returns & Code then & Why a model \\
 
 Consent criteria and simple numbers never reach the model, and it never decides eligibility. All calls go through \texttt{llm.py}, which validates JSON, caches answers and logs a trace. Each model step has a rule version, used as the baseline and the fallback.
 
-\textbf{Why this design.} The model judges language; code decides, checks and counts. Polarity, numbers and the verdict stay in code, so they are predictable and auditable. The quote guard is code, because a prompt cannot prove a quote is real. \emph{Insufficient} makes abstaining a real output and drives the follow-up questions.
+\textbf{Why this design.} The model judges language; code decides, checks and counts. Inclusion versus exclusion, numbers and the verdict stay in code, so they are predictable and auditable. The quote guard is code, because a prompt cannot prove a quote is real. \emph{Insufficient} lets the system say ``not enough information'' and drives the follow-up questions.
 
 \textbf{One input through the system} (vignette \texttt{d01}, \texttt{scripts/trace\_input.py}):
 \begin{enumerate}
   \item \textbf{Input:} ``58-year-old woman with type 2 diabetes\ldots{} HbA1c 8.4\%\ldots{} She denies any history of heart failure.''
   \item \textbf{Profile:} age 58, female, \emph{type 2 diabetes}, \emph{HbA1c = 8.4}, absent \emph{heart failure}.
   \item \textbf{Safety:} a diagnosis, nothing urgent, so proceed.
-  \item \textbf{Retrieval:} recruiting trials for ``type 2 diabetes'', filtered by age and sex, top 5 after reranking.
+  \item \textbf{Retrieval:} recruiting trials for ``type 2 diabetes'', filtered by age and sex, top 5 after ranking by keyword match.
   \item \textbf{Parsing:} criteria per trial; ``Signed informed consent'' is left to study staff.
   \item \textbf{Checks:} ``HbA1c 7.0--9.0\%'' is \emph{met} in code. ``History of heart failure'' is \emph{not met}, quote ``denies any history of heart failure''. ``Myocardial infarction within 6 months'' is \emph{insufficient}.
   \item \textbf{Aggregation:} no blockers, some unknown: \emph{needs more data}.
@@ -206,16 +206,16 @@ Each component has an eval in \texttt{evals/}, run with rules (baseline) and wit
 Component & Metric & Data & Rules & Model \\
 \midrule
 1 Profile & F1: diagnoses / medications / absent facts & Vignettes & .86 / .35 / .57 & .91 / .96 / 1.0 \\
-2 Retrieval & Query recall / precision over judged pool & TREC 2021 & .27 / .47 & .47 / .77 \\
- & nDCG@10 (random .48) & TREC 2021 & .51 & .63 \\
- & Hard-filter violations & Vignettes, live & 0 & 0 \\
+2 Retrieval & Search query recall / precision & TREC 2021 & .27 / .47 & .47 / .77 \\
+ & Ranking quality, nDCG@10 (random .48) & TREC 2021 & .51 & .63 \\
+ & Trials outside age/sex limits & Vignettes, live & 0 & 0 \\
 2b Cohort search & Eligible patient in top 10 (random .14) & TREC, reversed & .92 & -- \\
-3 Parsing & Segmentation F1, bullets / plain & Chia & 1.0 / .87 & same \\
- & Entity F1, strict / relaxed & Chia & .36 / .55 & .47 / .74 \\
+3 Parsing & Splitting into criteria F1, bulleted / plain & Chia & 1.0 / .87 & same \\
+ & Entity F1, exact / overlapping span & Chia & .36 / .55 & .47 / .74 \\
 4 Checker & Macro-F1 (n=64) & Vignettes & .61 & .90 \\
  & Quotes verbatim / flip rate & Vignettes & 1.0 / .04 & 1.0 / 0 \\
  & Decided where gold is \emph{insufficient} & Vignettes & .07 & .27 \\
-5 Aggregation & Truth table / missed blocks & All combinations / vignettes & 100\% / .2 & 100\% / 0 \\
+5 Aggregation & All status combinations / missed blocks & All combinations / vignettes & 100\% / .2 & 100\% / 0 \\
 6a Safety & Macro-F1, authored cases & \texttt{safety\_cases} & 1.0 & 1.0 \\
 6b Follow-up & Settled correctly after an answer & Vignettes & 0 & 1.0 \\
 \midrule
@@ -226,13 +226,13 @@ End to end & Eligible vs excluded F1 (n=76) & TREC 2021 & .70 & .72 \\
 \caption{Results per component, test split. Full results for both splits: \texttt{evals/results/}.}
 \end{table}
 
-\textbf{Why these metrics.} Classes are imbalanced, so I use per-class precision, recall and macro-F1, not accuracy. The checker has two safety metrics: unsupported decisions (the text does not mention the fact, but the checker still says \emph{met} or \emph{not met} instead of \emph{insufficient}) and the flip rate (\emph{met} read as \emph{not met}). End to end is compared with ``never block''.
+\textbf{Why these metrics.} Classes are imbalanced, so I use per-class precision, recall and macro-F1, not accuracy. The checker has two safety metrics: unsupported decisions (the text does not mention the fact, but the checker still says \emph{met} or \emph{not met} instead of \emph{insufficient}) and the flip rate (\emph{met} read as \emph{not met}). Search query recall and precision count the human-judged trials the query finds. nDCG@10 scores the order of the top 10. End to end is compared with a baseline that never marks a trial \emph{not eligible}.
 
 \textbf{Reading the results.} The model helps most where language varies: drug classes, abbreviations, negation, and follow-up answers. End-to-end F1 is similar (.70 and .72), but the errors are opposite: the rules rarely block, and the model catches more excluded trials but also blocks some eligible ones. The main remaining issue is unsupported decisions: on 27\% of criteria the text does not mention, the model still answers \emph{met} or \emph{not met}. It quotes real text that is not about the criterion, so the quote guard can't catch it.
 
-\textbf{Error analysis.} I read all 39 dev errors. Of 25 wrong blocks, 11 came from parsing losing the trial's structure, 12 from TREC labels that say ``eligible'' when the trial text excludes the patient, and 2 from the model reading more into the text than it says. I fixed the parsing group: dev F1 .715 $\to$ .761, test .705 $\to$ .722, with no new errors.
+\textbf{Error analysis.} I read all 39 dev errors. Of 25 eligible trials marked \emph{not eligible}, 11 came from parsing losing the trial's structure, 12 from TREC labels that say ``eligible'' when the trial text excludes the patient, and 2 from the model reading more into the text than it says. I fixed the parsing group: dev F1 .715 $\to$ .761, test .705 $\to$ .722, with no new errors.
 
-\textbf{Trust.} Verbatim quotes, the truth table and filter violations are true by design. Vignette scores are likely higher than on real text, because the texts are short and clear. Safety 1.0 is a regression test. TREC is the most credible test, but small.
+\textbf{Trust.} Verbatim quotes, the status combinations and the age/sex limits are correct by design: the code enforces them. Vignette scores are likely higher than on real text, because the texts are short and clear. Safety 1.0 is a regression test. TREC is the most credible test, but small.
 
 % Brief: "it should be reflected in your report how you applied it".
 \section{CRISP-DM}
@@ -259,7 +259,7 @@ Deployment & Local FastAPI and React app, checked in a browser. Rule fallback in
 
 \textbf{Going back a phase} happened six times:
 \begin{itemize}
-  \item \textbf{Evaluation $\to$ Data preparation:} low Chia scores revealed shifted offsets; files are now read in raw mode.
+  \item \textbf{Evaluation $\to$ Data preparation:} low Chia scores showed that line-ending conversion shifted text positions; files are now read without conversion.
   \item \textbf{Deployment $\to$ Modeling:} live trials showed rule bugs, for example only one bound checked in ``Age $\geq$ 21 and $\leq$ 65''.
   \item \textbf{Evaluation $\to$ Modeling:} the model decided on 44\% of unmentioned dev criteria; a stricter prompt lowered this to 19\%.
   \item \textbf{Evaluation $\to$ Modeling:} ``no known allergies'' was read as a diagnosis; the rules now check negation.
@@ -276,7 +276,7 @@ Small gold sets, so intervals are wide. One free model, which may change. Unsupp
 
 I built the system with Claude Code and steered it with files, not only prompts.
 
-\textbf{AGENTS.md} (62 lines; \texttt{CLAUDE.md} only imports it) has five parts: the CRISP-DM process; eval integrity (dev only, no hand-written metrics, never change a gold label); system rules (the model never decides, decisions need a verbatim quote, silence is not evidence, evals never fall back); project limits (no work data, no private data, no copied code); and code conventions with the test command.
+\textbf{AGENTS.md} (62 lines; \texttt{CLAUDE.md} only imports it) has five parts: the CRISP-DM process; eval integrity (dev only, no hand-written metrics, never change a gold label); system rules (the model never decides, decisions need a verbatim quote, an unmentioned fact is not evidence, evals never switch to rules when the model fails); project limits (no work data, no private data, no copied code); and code conventions with the test command.
 
 \textbf{Skills:} \texttt{run-evals} (before and after scores), \texttt{crisp-dm-checkpoint} (log a phase decision), \texttt{trace-input} (one input through every component).
 
